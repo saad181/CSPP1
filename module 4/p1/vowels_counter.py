@@ -17,6 +17,6 @@ def main():
         for i in vovels:
             if string == i:
                 vovelscount += 1
-    print('the vovel count is %s' %(vovelscount))
+    print(vovelscount)
 if __name__ == "__main__":
     main()
