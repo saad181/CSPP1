@@ -8,5 +8,5 @@ elif varA<varB:
     print("smaller")
 else:
     print("equal")
-    
-      
+
+
