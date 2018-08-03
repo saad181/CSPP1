@@ -1,4 +1,5 @@
-# Write a python program to find the square root of the given number
+# Write a p_numthon program to find the square root of the given number
+'''writing newton rapson method to find square'''
 # using approximation method
 # testcase 1
 # input: 25
@@ -10,12 +11,12 @@ def main():
     '''using newton raphson method'''
     # epsilon and step are initialized
     # don't change these values
-    # your code starts here
-    y = int(input())
+    # _numour code starts here
+    _num = int(input())
     epsilon = 0.01
-    guess = y/2.0
-    while  (guess**2-y) >= epsilon:
-       guess = guess - (((guess**2)-y)/(2*guess))
+    guess = _num/2.0
+    while  (guess**2-_num) >= epsilon:
+        guess = guess - (((guess**2)-_num)/(2*guess))
     print(guess)
 if __name__ == "__main__":
     main()
