@@ -10,17 +10,18 @@ def main():
     '''
     num = int(input())
     for num in range(1,num+1,1):
-       if (num%3 == 0):
-       	num += 1
-        print("Fizz")
-
-       elif (num%5 ==0):
-        print("Buzz")
-        num += 1
-       elif (num%3 == 0 and i%5 == 0):
-        print("Fizz")
-        print("Buzz")
-       else: 
-        print (num)
+       
+       
+        if (num%3 == 0 and num%5 == 0):
+            print("Fizz")
+            print("Buzz")
+        elif (num%3 == 0):
+            print("Fizz")
+            num +=1
+        elif (num%5 ==0):
+            print("Buzz")
+            num += 1    
+        else: 
+            print(num)
 if __name__ == "__main__":
     main()
