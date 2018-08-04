@@ -18,8 +18,8 @@ def main():
         print("Buzz")
         num += 1
        elif (num%3 == 0 and i%5 == 0):
-        print("FizzBuzz")
-        #print("Buzz")
+        print("Fizz")
+        print("Buzz")
        else: 
         print (num)
 if __name__ == "__main__":
