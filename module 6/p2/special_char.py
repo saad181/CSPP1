@@ -16,7 +16,7 @@ def main():
         #print(" ")
         else:
             string2 = string2 + char
-    print(string2) 
+    print(string2)
         #string3 = string1 + string2
 if __name__ == "__main__":
     main()
