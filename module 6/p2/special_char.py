@@ -10,6 +10,7 @@ def main():
     '''
     string1 = input()
     string2 = " "
+    string3 = 0
     for char in string1:
         if char in '!,@,#,$,%,^,&,*,':
             string1 = string2
