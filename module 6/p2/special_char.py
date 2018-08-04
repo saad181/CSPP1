@@ -9,16 +9,14 @@ def main():
     Read string from the input, store it in variable str_input.
     '''
     string1 = input()
-    string2 = " "
-    string3 = 0
+    string2 = ""
     for char in string1:
-        if char in '!,@,#,$,%,^,&,*,':
-            string1 = string2
-            print(" ")
+        if char in '!@#$%^&*':
+            string2 = string2 + " "
+        #print(" ")
         else:
             string2 = string2 + char
-            print(string2)
+    print(string2) 
         #string3 = string1 + string2
-        #print(string3)
 if __name__ == "__main__":
     main()
