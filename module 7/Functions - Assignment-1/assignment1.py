@@ -29,7 +29,7 @@ def payingdebt(balance, annual_intrest_rate, monthly_payment_rate):
         minimum_monthly_payment = (monthly_payment_rate)*(balance)
         monthly_unpaid_balance = (balance)-(minimum_monthly_payment)
         balance = (monthly_unpaid_balance) + (monthly_intrest_rate*monthly_unpaid_balance)
-    return round(balance, 2)
+    return "Remaining balance: "+str(round(balance, 2))
 def main():
     '''this function is to input the data'''
     data = input()
