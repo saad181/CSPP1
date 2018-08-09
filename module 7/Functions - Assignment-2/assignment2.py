@@ -32,14 +32,14 @@ def calculate(month, bal, minimumpay, monthly_intrest_rate):
 def paying_debt(bal, annual_int_rate):
     '''paying the debt'''
     initial_balance = bal
-    monthly_intrest_rate = annual_int_rate/12.0
+    monthly_intrest_rate = annual_int_rate/12
     month = 0
     minimumpay = 10
     while calculate(month, bal, minimumpay, monthly_intrest_rate) > 0:
         bal = initial_balance
         minimumpay += 10
         month = 0
-    print('Lowest Payment:' ,minimumpay)
+    print('Lowest Payment: ',minimumpay)
 def main():
     ''' main function'''
     data = input()
