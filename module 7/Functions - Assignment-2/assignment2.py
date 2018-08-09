@@ -28,7 +28,7 @@ def calculate(month, bal, minimumpay, monthly_intrest_rate):
         unpaid_bal = bal - minimumpay
         bal = unpaid_bal + (monthly_intrest_rate * unpaid_bal)
         month += 1
-    return bal
+    #return bal
 def paying_debt(bal, annual_int_rate):
     '''paying the debt'''
     initial_balance = bal
