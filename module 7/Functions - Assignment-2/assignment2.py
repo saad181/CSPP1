@@ -1,5 +1,6 @@
 # Assignment-2 - Paying Debt off in a Year
-# Now write a program that calculates the minimum fixed monthly payment 
+# Now write a program that calculates the minimum fixed monthly payment
+''' writing a program for calculate the minimum fixed monthly payment'''
 #needed in order pay off a credit card balance within 12 months.
 # By a fixed monthly payment, we mean a single number which does not change each month
 # but instead is a constant amount that will be
@@ -19,32 +20,31 @@
 # negative using this payment scheme, which is okay. A summary of the required math is found below:
 # Monthly interest rate = (Annual interest rate) / 12.0
 # Monthly unpaid balance = (Previous balance) - (Minimum fixed monthly payment)
-# Updated balance each month = (Monthly unpaid balance) + (Monthly interest rate x Monthly unpaid balance)
-
-def calculate(month,bal,minimumpay,monthly_intrest_rate):
-    while month<12:
-    	unpaid_bal = bal - minimumpay
-    	bal = unpaid_bal + (monthly_intrest_rate * unpaid_bal)
-    	month +=1
-    return bal	    
-
-
-def payingDebtOffInAYear(bal, annualInterestRate):
-	initial_balance = bal
-	monthly_intrest_rate = annualInterestRate/12
-	month = 0
-	minimumpay = 10
-	while calculate (month, bal, minimumpay, monthly_intrest_rate) > 0:
-		bal = initial_balance
-		minimumpay += 10
-		month = 0
-	print('lowestpayment:' , minimumpay)
-
+# Updated balance each month = (Monthly unpaid balance) +
+# (Monthly interest rate x Monthly unpaid balance)
+def calculate(month, bal, minimumpay, monthly_intrest_rate):
+    '''calculate the remaining balance'''
+    while month < 12:
+        unpaid_bal = bal - minimumpay
+        bal = unpaid_bal + (monthly_intrest_rate * unpaid_bal)
+        month += 1
+    return bal
+def paying_debt(bal, annual_int_rate):
+    '''paying the debt'''
+    initial_balance = bal
+    monthly_intrest_rate = annual_int_rate/12
+    month = 0
+    minimumpay = 10
+    while calculate(month, bal, minimumpay, monthly_intrest_rate) > 0:
+        bal = initial_balance
+        minimumpay += 10
+        month = 0
+    print('lowestpayment:', minimumpay)
 def main():
-	data = input()
-	data = data.split(' ')
-	data = list(map(float, data))
-	print(payingDebtOffInAYear(data[0],data[1]))
-	
+    ''' main function'''
+    data = input()
+    data = data.split(' ')
+    data = list(map(float, data))
+    print(paying_debt(data[0], data[1]))
 if __name__ == "__main__":
-	main()
+    main()
