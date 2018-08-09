@@ -39,7 +39,7 @@ def paying_debt(bal, annual_int_rate):
         bal = initial_balance
         minimumpay += 10
         month = 0
-    print('Lowest Payment:', minimumpay)
+    print('Lowest Payment:' ,minimumpay)
 def main():
     ''' main function'''
     data = input()
