@@ -21,10 +21,24 @@
 # Monthly unpaid balance = (Previous balance) - (Minimum fixed monthly payment)
 # Updated balance each month = (Monthly unpaid balance) + (Monthly interest rate x Monthly unpaid balance)
 
+def calculate(month,bal,minimumpay,monthly_intrest_rate):
+    while month<12:
+    	unpaid_bal = bal - minimumpay
+    	bal = unpaid_bal + (monthly_intrest_rate * unpaid_bal)
+    	month +=1
+    return bal	    
 
 
-def payingDebtOffInAYear(balance, annualInterestRate):
-	
+def payingDebtOffInAYear(bal, annualInterestRate):
+	initial_balance = bal
+	monthly_intrest_rate = annualInterestRate/12
+	month = 0
+	minimumpay = 10
+	while calculate (month, bal, minimumpay, monthly_intrest_rate) > 0:
+		bal = initial_balance
+		minimumpay += 10
+		month = 0
+	print('lowestpayment:' , minimumpay)
 
 def main():
 	data = input()
