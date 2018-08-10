@@ -34,11 +34,36 @@
 # the smallest monthly payment to the cent (no more multiples of $10) such that we can pay off the debt within a year. Try it out with
 # large inputs, and notice how fast it is (try the same large inputs in your solution to Problem 2 to compare!). Produce the same return
 # value as you did in Assignment 2.
+def calculate(month, bal, minimumpay, monthly_intrest_rate):
+    '''calculate the remaining balance'''
+    while month < 12:
+        unpaid_bal = bal - minimumpay
+        bal = unpaid_bal + (monthly_intrest_rate * unpaid_bal)
+        month += 1
+    return bal
 
 
-
-def payingDebtOffInAYear(balance, annualInterestRate):
-
+def payingDebtOffInAYear(balance, annual_int_rate):
+    initial_balance = bal
+    monthly_intrest_rate = annual_int_rate/12
+    low = bal/12
+    high = (bal * ((1 + monthly_intrest_rate)**12))/12
+    epsilon = 0.01
+    minimumpay = (high + low)/2
+    month = 0
+    while abs(bal) >= epsilon:
+    	bal = initial_balance
+    	month = 0
+    	bal = calculate(month, bal, minimumpay, monthly_intrest_rate)
+    	if bal > 0:
+    		low = minimumpay
+    	else:
+    	    high = minimumpay
+    	minimumpay = (high + low)/2    
+    	minimumpay = round(minimumpay, 2)
+    	print(' Lowest Payment: ' + str(minimumpay))    	
+    	pass
+    
 
 def main():
     data = input()
