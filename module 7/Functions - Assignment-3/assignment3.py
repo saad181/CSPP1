@@ -41,8 +41,6 @@ def calculate(month, bal, minimumpay, monthly_intrest_rate):
         bal = unpaid_bal + (monthly_intrest_rate * unpaid_bal)
         month += 1
     return bal
-
-
 def payingDebtOffInAYear(balance, annual_int_rate):
     initial_balance = bal
     monthly_intrest_rate = annual_int_rate/12
@@ -62,15 +60,12 @@ def payingDebtOffInAYear(balance, annual_int_rate):
     	minimumpay = (high + low)/2    
     	minimumpay = round(minimumpay, 2)
     	print(' Lowest Payment: ' + str(minimumpay))    	
-    	pass
-    
-
 def main():
     data = input()
     # data = "4773 0.2"
     data = data.split(' ')
     data = list(map(float, data))
-    print(payingDebtOffInAYear(data[0],data[1]))
+    return payingDebtOffInAYear(data[0],data[1])
     
 if __name__== "__main__":
     main()
