@@ -68,7 +68,6 @@ def payingdebtoffinayear(bal, annual_int_rate):
 def main():
     '''a3'''
     data = input()
-    # data = "4773 0.2"
     data = data.split(' ')
     data = list(map(float, data))
     return payingdebtoffinayear(data[0], data[1])
