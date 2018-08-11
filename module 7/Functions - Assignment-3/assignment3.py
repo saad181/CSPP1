@@ -51,7 +51,7 @@ def payingdebtoffinayear(bal, annual_int_rate):
     initial_balance = bal
     monthly_intrest_rate = annual_int_rate/12.0
     low = bal/12.0
-    high = (bal * ((1 + monthly_intrest_rate)**12))/12.0
+    high = (bal * ((1.0 + monthly_intrest_rate)**12))/12.0
     epsilon = 0.01
     minimumpay = (high + low)/2.0
     month = 0
