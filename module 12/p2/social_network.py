@@ -40,7 +40,6 @@ def delete_person(network, arg1):
     '''
     # remove the pass below and start writing your code
     pass
-
 def main():
     '''
         handling testcase input and printing output
@@ -59,6 +58,5 @@ def main():
             network = delete_person(network, output[1])
 
     print(network)
-
 if __name__ == "__main__":
     main()
