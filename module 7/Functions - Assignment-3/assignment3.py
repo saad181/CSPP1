@@ -50,10 +50,10 @@ def payingdebtoffinayear(bal, annual_int_rate):
     '''fun'''
     initial_balance = bal
     monthly_intrest_rate = annual_int_rate/12.0
-    low = bal/12
-    high = (bal * ((1 + monthly_intrest_rate)**12))/12
+    low = bal/12.0
+    high = (bal * ((1 + monthly_intrest_rate)**12))/12.0
     epsilon = 0.01
-    minimumpay = (high + low)/2
+    minimumpay = (high + low)/2.0
     month = 0
     while abs(bal) >= epsilon:
         bal = initial_balance
@@ -63,7 +63,7 @@ def payingdebtoffinayear(bal, annual_int_rate):
             low = minimumpay
         else:
             high = minimumpay
-        minimumpay = (high + low)/2
+        minimumpay = (high + low)/2.0
     minimumpay = round(minimumpay, 2)
     print('Lowest Payment: ' + str(minimumpay))
 def main():
