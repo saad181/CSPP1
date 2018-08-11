@@ -19,7 +19,7 @@ def get_guessed_word(secret_word, letters_guessed):
         if secret_word[index] in letters_guessed:
             newword = newword + secret_word[index]
         else:
-            newword += '_______'
+            newword += '___'
     return newword
 def main():
     '''
