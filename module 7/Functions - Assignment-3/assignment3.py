@@ -47,7 +47,6 @@ def calculate(month, bal, minimumpay, monthly_intrest_rate):
         month += 1
     return bal
 def payingdebtoffinayear(bal, annual_int_rate):
-    '''fun'''
     initial_balance = bal
     monthly_intrest_rate = annual_int_rate/12.0
     low = bal/12.0
