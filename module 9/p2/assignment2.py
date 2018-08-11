@@ -13,8 +13,14 @@ def get_guessed_word(secret_word, letters_guessed):
       what letters in secret_word have been guessed so far.
     '''
     # FILL IN YOUR CODE HERE...
-    pass
-
+    newword = ""
+    len_l = len(secret_word)
+    for index in range(len_l):
+        if secret_word[index] in letters_guessed:
+            newword = newword + secret_word[index]
+        else:
+            newword += '_______'    
+    return newword        
 def main():
     '''
     Main function for current assignment
