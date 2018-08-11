@@ -63,7 +63,7 @@ def payingdebtoffinayear(bal, annual_int_rate):
         else:
             high = minimumpay
         minimumpay = (high + low)/2.0
-    minimumpay = round(minimumpay, 2)
+    minimumpay = round(minimumpay, 2.0)
     print('Lowest Payment: ' + str(minimumpay))
 def main():
     '''a3'''
