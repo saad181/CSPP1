@@ -22,6 +22,7 @@
 '''
 
 # helper function to load the stop words from a file
+import re
 def load_stopwords(filename):
     '''
         loads stop words from a file and returns a dictionary
@@ -39,13 +40,12 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
+    text1 = 0
+    text2 = 0
     text1 = text.lower()
-    text2 = split.text().strip(text)
-    z = re.sub(['^a-z,0123456789',"", ])
-    return z
-
-
-
+    text2 = split.text1()
+    z_z = re.sub(["^a-z,0123456789", "",])
+    return z_z
 def build_search_index(docs):
     '''
         Process the docs step by step as given below
@@ -64,12 +64,12 @@ def build_search_index(docs):
     # return search index
     dict1 = {}
     word1 = []
-    for d in dict1:
-        if d not in z:
-            text1 += d
+    for d_d in dict1:
+        if d_d not in word1:
+            text1 += d_d
         else:
-            return d
-    for ele in enumerate(dict1):
+            return d_d
+    for word1 in enumerate(dict1):
         count += i
 
 # helper function to print the search index
