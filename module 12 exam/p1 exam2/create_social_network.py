@@ -43,7 +43,7 @@ def create_social_network(data):
         list1.append(line.lstrip())
 
     return list1'''
-    mydict = {}
+    '''mydict = {}
     listKey = []
     list_Value = []
     for line in mydict.split(""):
@@ -56,7 +56,9 @@ def create_social_network(data):
 
     print(mydict)
     print(listKey)
-    print(list_Value)
+    print(list_Value)'''
+    data_1 =data.split('\n')
+    
 def main():
     '''
         handling testcase input and printing output
