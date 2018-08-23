@@ -34,7 +34,7 @@ def add_matrix(m_1, m_2):
     len_1 = len(m_1)
     len_2 = len(m_2)
     if len_1 != len_2:
-        print("Error : Matrix shapes invalid for addition ")
+        print("Error: Matrix shapes invalid for addition ")
         return None
     add = copy.deepcopy(m_1)
     for itemp in range(0, len_2, 1):
