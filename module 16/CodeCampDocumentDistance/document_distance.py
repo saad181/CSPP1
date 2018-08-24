@@ -3,7 +3,7 @@
 '''
 
 import math
-filename="stopwords.txt"
+filename = "stopwords.txt"
 
 def similarity(dict1, dict2):
     '''
@@ -13,15 +13,15 @@ def similarity(dict1, dict2):
     list2 = ""
     for i in dict1:
         if i not in '!@#$%^&*()_+,.=1234567890':
-            if i not in "":
+            if i not in "'":
                 list1 = list1+i
     for i in dict2:
         if i not in '!@#$%^&*()_+=1234567890':
-            if i not in "":
+            if i not in "'":
                 list2 = list2+i
     list1 = list1.split()
     list2 = list2.split()
-    list3 = list1+list2 
+    list3 = list1 + list2 
     adict = {}
     for word in list3:
        if word not in load_stopwords(filename).keys():
@@ -33,7 +33,7 @@ def similarity(dict1, dict2):
         num = num+adict[a_check][0]*adict[a_check][1]
         add1 += adict[a_check][0]**2
         add2 += adict[a_check][1]**2
-        den = math.sqrt(add1)*math.sqrt(add2)
+        den = math.sqrt(add1) * math.sqrt(add2)
     sum1 = num/den
     return sum1                                    
 
