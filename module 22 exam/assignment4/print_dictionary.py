@@ -5,11 +5,16 @@ the key and frequency with a SPACE - SPACE.
 '''
 
 def print_dictionary(dictionary):
-    pass
-
+    ''' this is used for the sorting of words and values'''
+    for key, value in sorted(dictionary.items()):
+        num = print(str(key)+" - "+str(value))
+    return num
 def main():
+    ''' to check the dictionary'''
     dictionary = eval(input())
     print_dictionary(dictionary)
 
 if __name__ == '__main__':
     main()
+#https://www.saltycrane.com/blog/2007/09/how-to-sort-python-dictionary-by-keys/
+ 
