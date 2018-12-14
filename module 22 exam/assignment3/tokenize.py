@@ -4,7 +4,7 @@ each word
 '''
 
 def tokenize(string):
-    pass
+    
             
 def main():
     pass
