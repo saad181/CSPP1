@@ -1,0 +1,7 @@
+1.variable
+2.conditins
+3.loops
+4.functions(recurtions)
+5.exceptions
+6.list,tuples,dict
+7.classes
