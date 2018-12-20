@@ -18,5 +18,5 @@ def main():
     '''takes input forward to sumofdigits()'''
     num = input()
     print(sumofdigits(int(num)))
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
