@@ -8,7 +8,7 @@ def create_set(g, row, col):
             #print("Given sudoku is solved")
     return lis
 
-def possibilities(g):
+def valid(g):
     for i in range(9):
         for j in range(9):
             res = ""
@@ -26,8 +26,6 @@ if __name__=="__main__":
       
     # creating a 2D array for the grid 
     grid=[['0' for x in range(9)]for y in range(9)] 
-    
-      
     given_input = input()
     k = 0
     for i in range(9):
@@ -35,4 +33,4 @@ if __name__=="__main__":
             if given_input[k] != '.':
                 grid[i][j] = given_input[k]
             k += 1
-    possibilities(grid)
+    valid(grid)
