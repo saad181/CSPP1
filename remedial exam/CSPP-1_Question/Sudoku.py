@@ -6,6 +6,7 @@ def create(g, row, col):
         if g[i][col] != '0':
             lis.add(g[i][col])
     return lis
+    print("Given sudoku is solved")
 
 def valid(g):
     for i in range(9):
