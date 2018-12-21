@@ -1,39 +1,35 @@
 ************* Module Sudoku
-Sudoku.py:1:20: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:3:39: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:4:21: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:7:7: C0326: Exactly one space required before assignment
+Sudoku.py:2:7: C0326: Exactly one space required before assignment
     lis= set()
        ^ (bad-whitespace)
-Sudoku.py:30:24: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:30:11: C0326: Exactly one space required around comparison
+Sudoku.py:25:24: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:25:11: C0326: Exactly one space required around comparison
 if __name__=="__main__": 
            ^^ (bad-whitespace)
-Sudoku.py:31:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:32:38: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:33:51: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:33:8: C0326: Exactly one space required around assignment
+Sudoku.py:26:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:27:38: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:28:51: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:28:8: C0326: Exactly one space required around assignment
     grid=[['0' for x in range(9)]for y in range(9)] 
         ^ (bad-whitespace)
-Sudoku.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:44:0: C0304: Final newline missing (missing-final-newline)
+Sudoku.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:38:0: C0304: Final newline missing (missing-final-newline)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
+Sudoku.py:1:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:2:8: W0621: Redefining name 'i' from outer scope (line 38) (redefined-outer-name)
-Sudoku.py:6:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:6:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:8:8: W0621: Redefining name 'i' from outer scope (line 38) (redefined-outer-name)
-Sudoku.py:16:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:16:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:17:8: W0621: Redefining name 'i' from outer scope (line 38) (redefined-outer-name)
-Sudoku.py:18:12: W0621: Redefining name 'j' from outer scope (line 39) (redefined-outer-name)
-Sudoku.py:20:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:22:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:24:15: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-Sudoku.py:33:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
-Sudoku.py:36:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
+Sudoku.py:3:8: W0621: Redefining name 'i' from outer scope (line 33) (redefined-outer-name)
+Sudoku.py:11:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:12:8: W0621: Redefining name 'i' from outer scope (line 33) (redefined-outer-name)
+Sudoku.py:13:12: W0621: Redefining name 'j' from outer scope (line 34) (redefined-outer-name)
+Sudoku.py:15:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:17:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:19:15: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
+Sudoku.py:28:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
+Sudoku.py:31:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 1.76/10 (previous run: 1.76/10, +0.00)
+Your code has been rated at 2.00/10 (previous run: 1.76/10, +0.24)
 
