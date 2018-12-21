@@ -1,4 +1,4 @@
-def create_set(g, row, col):
+def create(g, row, col):
     lis= set()
     for i in range(9):
         if g[row][i] != '0':
@@ -14,7 +14,7 @@ def valid(g):
             res = ""
             s = set()
             if g[i][j] == '0':
-                s = create_set(g, i, j)
+                s = create(g, i, j)
                 # print(s)
             if len(s) != 0:
                 for each in "123456789":
@@ -23,8 +23,7 @@ def valid(g):
                 print(res)
 
 if __name__=="__main__": 
-      
-    # creating a 2D array for the grid 
+      #for 2D array
     grid=[['0' for x in range(9)]for y in range(9)] 
     given_input = input()
     k = 0

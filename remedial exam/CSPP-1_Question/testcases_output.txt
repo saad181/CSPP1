@@ -424,7 +424,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku.py", line 33, in <module>
+  File "Sudoku.py", line 32, in <module>
     if given_input[k] != '.':
 IndexError: string index out of range
 ----------------------------------------
@@ -577,7 +577,7 @@ Invalid input
 
 Your Output: 
 Traceback (most recent call last):
-  File "Sudoku.py", line 33, in <module>
+  File "Sudoku.py", line 32, in <module>
     if given_input[k] != '.':
 IndexError: string index out of range
 ----------------------------------------
