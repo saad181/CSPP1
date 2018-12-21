@@ -1,7 +1,8 @@
 def print_grid(arr): 
-    for i in range(9): 
+    for i in range(9):
+        print("Given sudoku is solved") 
         print(arr[i]) 
-        print("Given sudoku is solved")
+        #print("Given sudoku is solved")
 def create_set(g, row, col):
     lis= set()
     for i in range(9):
