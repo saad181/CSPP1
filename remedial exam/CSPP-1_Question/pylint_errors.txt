@@ -1,96 +1,2 @@
 ************* Module Sudoku
-Sudoku.py:2:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:2:28: C0326: Exactly one space required after comma
-            for x in range(i,9):
-                            ^ (bad-whitespace)
-Sudoku.py:3:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-Sudoku.py:3:36: C0326: Exactly one space required after comma
-                    for y in range(j,9):
-                                    ^ (bad-whitespace)
-Sudoku.py:4:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:5:0: W0311: Bad indentation. Found 36 spaces, expected 16 (bad-indentation)
-Sudoku.py:5:44: C0326: Exactly one space required after comma
-                                    return x,y
-                                            ^ (bad-whitespace)
-Sudoku.py:6:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:6:28: C0326: Exactly one space required after comma
-            for x in range(0,9):
-                            ^ (bad-whitespace)
-Sudoku.py:7:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-Sudoku.py:7:36: C0326: Exactly one space required after comma
-                    for y in range(0,9):
-                                    ^ (bad-whitespace)
-Sudoku.py:8:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:9:0: W0311: Bad indentation. Found 36 spaces, expected 16 (bad-indentation)
-Sudoku.py:9:44: C0326: Exactly one space required after comma
-                                    return x,y
-                                            ^ (bad-whitespace)
-Sudoku.py:10:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:10:21: C0326: Exactly one space required after comma
-            return -1,-1
-                     ^ (bad-whitespace)
-Sudoku.py:13:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:14:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:15:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-Sudoku.py:16:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-Sudoku.py:17:0: C0301: Line too long (106/100) (line-too-long)
-Sudoku.py:18:106: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:18:0: C0301: Line too long (106/100) (line-too-long)
-Sudoku.py:18:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:19:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:20:0: W0311: Bad indentation. Found 36 spaces, expected 16 (bad-indentation)
-Sudoku.py:21:0: W0311: Bad indentation. Found 44 spaces, expected 20 (bad-indentation)
-Sudoku.py:22:0: W0311: Bad indentation. Found 52 spaces, expected 24 (bad-indentation)
-Sudoku.py:23:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:24:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:26:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:26:13: C0326: Exactly one space required after comma
-            i,j = findNextCellToFill(grid, i, j)
-             ^ (bad-whitespace)
-Sudoku.py:27:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:28:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-Sudoku.py:29:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:29:28: C0326: Exactly one space required after comma
-            for e in range(1,10):
-                            ^ (bad-whitespace)
-Sudoku.py:30:0: W0311: Bad indentation. Found 20 spaces, expected 8 (bad-indentation)
-Sudoku.py:30:35: C0326: Exactly one space required after comma
-                    if isValid(grid,i,j,e):
-                                   ^ (bad-whitespace)
-Sudoku.py:30:37: C0326: Exactly one space required after comma
-                    if isValid(grid,i,j,e):
-                                     ^ (bad-whitespace)
-Sudoku.py:30:39: C0326: Exactly one space required after comma
-                    if isValid(grid,i,j,e):
-                                       ^ (bad-whitespace)
-Sudoku.py:31:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:32:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:33:0: W0311: Bad indentation. Found 36 spaces, expected 16 (bad-indentation)
-Sudoku.py:35:0: W0311: Bad indentation. Found 28 spaces, expected 12 (bad-indentation)
-Sudoku.py:36:0: W0311: Bad indentation. Found 12 spaces, expected 4 (bad-indentation)
-Sudoku.py:39:0: C0304: Final newline missing (missing-final-newline)
-Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
-Sudoku.py:1:0: C0103: Function name "findNextCellToFill" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:2:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:3:24: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:6:16: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:7:24: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:12:0: C0103: Function name "isValid" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:12:0: C0103: Argument name "e" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:12:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:13:12: C0103: Variable name "rowOk" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:15:20: C0103: Variable name "columnOk" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:18:28: C0103: Variable name "secTopX" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:18:37: C0103: Variable name "secTopY" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:19:32: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:20:40: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:25:0: C0103: Function name "solveSudoku" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:25:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:29:16: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:37:0: C0111: Missing function docstring (missing-docstring)
-
---------------------------------------------------------------------
-Your code has been rated at -8.61/10 (previous run: -8.61/10, +0.00)
-
+Sudoku.py:15:0: E0001: Missing parentheses in call to 'print'. Did you mean print('trial cell', i)? (<unknown>, line 15) (syntax-error)
