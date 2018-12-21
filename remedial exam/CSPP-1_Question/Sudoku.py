@@ -8,6 +8,7 @@ def create_set(g, row, col):
             lis.add(g[row][i])
         if g[i][col] != '0':
             lis.add(g[i][col])
+            print("Given sudoku is solved")
     return lis
 
 def possibilities(g):
