@@ -5,10 +5,10 @@ Sudoku.py:3:21: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:5:7: C0326: Exactly one space required before assignment
     lis= set()
        ^ (bad-whitespace)
-Sudoku.py:27:22: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:27:10: C0326: Exactly one space required around comparison
-if _name__=="__main_": 
-          ^^ (bad-whitespace)
+Sudoku.py:27:24: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:27:11: C0326: Exactly one space required around comparison
+if __name__=="__main__": 
+           ^^ (bad-whitespace)
 Sudoku.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:29:38: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:30:51: C0303: Trailing whitespace (trailing-whitespace)
@@ -31,10 +31,9 @@ Sudoku.py:15:12: W0621: Redefining name 'j' from outer scope (line 36) (redefine
 Sudoku.py:17:12: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:19:16: C0103: Variable name "s" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:21:15: C1801: Do not use `len(SEQUENCE)` to determine if a sequence is empty (len-as-condition)
-Sudoku.py:27:3: E0602: Undefined variable '_name__' (undefined-variable)
 Sudoku.py:30:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming style (invalid-name)
 Sudoku.py:33:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 0.57/10 (previous run: 2.00/10, -1.43)
+Your code has been rated at 2.00/10 (previous run: 0.57/10, +1.43)
 
