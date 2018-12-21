@@ -35,5 +35,5 @@ Sudoku.py:31:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming
 Sudoku.py:34:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 1.76/10 (previous run: 1.52/10, +0.25)
+Your code has been rated at 1.52/10 (previous run: 1.76/10, -0.25)
 

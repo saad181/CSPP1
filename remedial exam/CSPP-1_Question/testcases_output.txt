@@ -6,7 +6,7 @@ Your Output:
 
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 7
 7
@@ -19,90 +19,18 @@ Expected Output:
 7
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 1
 2
@@ -115,142 +43,38 @@ Expected Output:
 9
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 5
 6
 2
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 4
 6
 9
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
 ----------------------------------------
 
@@ -267,86 +91,14 @@ Expected Output:
 15
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
 ----------------------------------------
 
@@ -374,7 +126,7 @@ Your Output:
 3
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 7
 2
@@ -387,72 +139,18 @@ Expected Output:
 9
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
 ----------------------------------------
 
-########## Testcase 8: Failed ##########
+########## Testcase 8: Passed ##########
 Expected Output: 
 1
 5
@@ -465,86 +163,14 @@ Expected Output:
 6
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
 ----------------------------------------
 
@@ -561,86 +187,14 @@ Expected Output:
 469
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
 ----------------------------------------
 
@@ -692,7 +246,7 @@ Your Output:
 4
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 1
 5
@@ -705,68 +259,14 @@ Expected Output:
 8
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
 ----------------------------------------
 
@@ -783,68 +283,14 @@ Expected Output:
 469
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
 ----------------------------------------
 
@@ -870,131 +316,23 @@ Expected Output:
 469
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
 ----------------------------------------
 
@@ -1034,61 +372,12 @@ Expected Output:
 23689
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 57
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 16
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 46
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 57
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 89
 34
 34
@@ -1104,61 +393,12 @@ Given sudoku is solved
 68
 36
 36
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 57
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 16
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 46
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 57
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 89
 ----------------------------------------
 
@@ -1167,86 +407,14 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23456789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13456789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12456789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12356789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12346789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12345789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12345689
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12345679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12345678
 ----------------------------------------
 
@@ -1266,14 +434,6 @@ Expected Output:
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
 ----------------------------------------
 
@@ -1345,185 +505,69 @@ Expected Output:
 235689
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
 1679
-Given sudoku is solved
 123679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 139
-Given sudoku is solved
-Given sudoku is solved
 23679
-Given sudoku is solved
 12679
-Given sudoku is solved
-Given sudoku is solved
 1239
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 26789
-Given sudoku is solved
 1256789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 14589
-Given sudoku is solved
-Given sudoku is solved
 245679
-Given sudoku is solved
 12456789
-Given sudoku is solved
-Given sudoku is solved
 125679
-Given sudoku is solved
-Given sudoku is solved
 124589
-Given sudoku is solved
 1246789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23689
-Given sudoku is solved
-Given sudoku is solved
 145689
-Given sudoku is solved
 1235689
-Given sudoku is solved
-Given sudoku is solved
 234569
-Given sudoku is solved
 1245689
-Given sudoku is solved
-Given sudoku is solved
 123569
-Given sudoku is solved
-Given sudoku is solved
 1234589
-Given sudoku is solved
 1234689
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3789
-Given sudoku is solved
 135789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 134589
-Given sudoku is solved
-Given sudoku is solved
 34579
-Given sudoku is solved
 145789
-Given sudoku is solved
-Given sudoku is solved
 13579
-Given sudoku is solved
 134789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23679
-Given sudoku is solved
-Given sudoku is solved
 15679
-Given sudoku is solved
 1235679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1359
-Given sudoku is solved
 125679
-Given sudoku is solved
-Given sudoku is solved
 12359
-Given sudoku is solved
 123679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 236789
-Given sudoku is solved
-Given sudoku is solved
 456789
-Given sudoku is solved
 2356789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 34589
-Given sudoku is solved
 2456789
-Given sudoku is solved
-Given sudoku is solved
 235679
-Given sudoku is solved
-Given sudoku is solved
 234589
-Given sudoku is solved
 2346789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 289
-Given sudoku is solved
-Given sudoku is solved
 14589
-Given sudoku is solved
 12589
-Given sudoku is solved
-Given sudoku is solved
 2459
-Given sudoku is solved
-Given sudoku is solved
 1259
-Given sudoku is solved
 12489
-Given sudoku is solved
-Given sudoku is solved
 146789
-Given sudoku is solved
 136789
-Given sudoku is solved
-Given sudoku is solved
 34679
-Given sudoku is solved
 146789
-Given sudoku is solved
-Given sudoku is solved
 13679
-Given sudoku is solved
-Given sudoku is solved
 13489
-Given sudoku is solved
 1346789
-Given sudoku is solved
-Given sudoku is solved
 56789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3589
-Given sudoku is solved
-Given sudoku is solved
 235679
-Given sudoku is solved
 256789
-Given sudoku is solved
-Given sudoku is solved
 235679
-Given sudoku is solved
-Given sudoku is solved
 23589
-Given sudoku is solved
 236789
 ----------------------------------------
 
@@ -1593,202 +637,56 @@ Expected Output:
 1346
 
 Your Output: 
-Given sudoku is solved
 12469
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 269
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12468
-Given sudoku is solved
 14689
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1249
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 248
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2478
-Given sudoku is solved
 2347
-Given sudoku is solved
 3478
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 234
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2478
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 123
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2357
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 345
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1247
-Given sudoku is solved
 13457
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 247
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12457
-Given sudoku is solved
 124579
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2579
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1247
-Given sudoku is solved
 14579
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12459
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 257
-Given sudoku is solved
 25679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
 5679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 259
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1458
-Given sudoku is solved
 13459
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 359
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 148
-Given sudoku is solved
 134589
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13459
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 139
-Given sudoku is solved
 134579
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3579
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 345
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 147
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 47
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 278
-Given sudoku is solved
 2367
-Given sudoku is solved
 3678
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 123
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1245
-Given sudoku is solved
 123456
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2356
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1246
-Given sudoku is solved
 13456
 ----------------------------------------
 
@@ -1854,207 +752,63 @@ Expected Output:
 4567
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
 23469
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23467
-Given sudoku is solved
 124679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23467
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13469
-Given sudoku is solved
-Given sudoku is solved
 23467
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12479
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4679
-Given sudoku is solved
-Given sudoku is solved
 245689
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 24567
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4569
-Given sudoku is solved
-Given sudoku is solved
 245678
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 24789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1367
-Given sudoku is solved
-Given sudoku is solved
 2368
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2367
-Given sudoku is solved
 12678
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2367
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 136
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1367
-Given sudoku is solved
-Given sudoku is solved
 3456
-Given sudoku is solved
 14567
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13456
-Given sudoku is solved
-Given sudoku is solved
 34567
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 147
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23467
-Given sudoku is solved
 24679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23467
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3469
-Given sudoku is solved
-Given sudoku is solved
 23467
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2479
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1239
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1349
-Given sudoku is solved
-Given sudoku is solved
 234589
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2345
-Given sudoku is solved
 124589
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2345
-Given sudoku is solved
-Given sudoku is solved
 23458
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2369
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 3469
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23456
-Given sudoku is solved
 24569
-Given sudoku is solved
-Given sudoku is solved
 23456
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 249
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 12367
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13467
-Given sudoku is solved
-Given sudoku is solved
 23456
-Given sudoku is solved
 124567
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13456
-Given sudoku is solved
-Given sudoku is solved
 234567
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1247
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 679
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4679
-Given sudoku is solved
-Given sudoku is solved
 45689
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4567
-Given sudoku is solved
 456789
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4567
 ----------------------------------------
 
@@ -2086,171 +840,29 @@ Expected Output:
 6
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 58
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 68
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 67
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 5
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 69
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 45
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 469
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 78
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 34
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 7
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 469
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 26
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 6
 ----------------------------------------
 
@@ -2295,210 +907,42 @@ Expected Output:
 19
 
 Your Output: 
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 24
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 346
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 2346
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 123
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1234
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 458
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 589
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 9
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 4
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 36
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 138
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 34
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 36
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 38
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 35
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 235
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 248
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 234
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 238
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 38
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 347
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 134
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1347
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 37
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 23
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 13
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 39
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 139
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 128
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 8
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 1289
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
-Given sudoku is solved
 189
 ----------------------------------------
 
