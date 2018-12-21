@@ -1,4 +1,4 @@
-def set(g, row, col):
+def givenset(g, row, col):
     lis= set()
     for i in range(9):
         if g[row][i] != '0':
@@ -12,9 +12,9 @@ def possibilities(g):
     for i in range(9):
         for j in range(9):
             res = ""
-            s = set()
+            s = givenset()
             if g[i][j] == '0':
-                s = set(g, i, j)
+                s = givenset(g, i, j)
                 # print(s)
             if len(s) != 0:
                 for each in "123456789":

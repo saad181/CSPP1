@@ -7,8 +7,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -28,8 +28,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -49,8 +49,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -64,8 +64,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -79,8 +79,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -100,8 +100,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -121,8 +121,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -142,8 +142,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -163,8 +163,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -184,8 +184,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -205,8 +205,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -226,8 +226,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -247,8 +247,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -268,8 +268,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -298,8 +298,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -342,8 +342,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -355,8 +355,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -379,8 +379,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -455,8 +455,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -529,8 +529,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -599,8 +599,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -635,8 +635,8 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -684,7 +684,7 @@ Traceback (most recent call last):
   File "Sudoku.py", line 38, in <module>
     possibilities(grid)
   File "Sudoku.py", line 15, in possibilities
-    s = set()
-TypeError: set() missing 3 required positional arguments: 'g', 'row', and 'col'
+    s = givenset()
+TypeError: givenset() missing 3 required positional arguments: 'g', 'row', and 'col'
 ----------------------------------------
 
