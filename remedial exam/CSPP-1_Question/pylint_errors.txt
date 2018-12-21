@@ -1,11 +1,5 @@
 ************* Module Sudoku
-Sudoku.py:2:7: C0326: Exactly one space required before assignment
-    lis= set()
-       ^ (bad-whitespace)
-Sudoku.py:25:24: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:25:11: C0326: Exactly one space required around comparison
-if __name__=="__main__": 
-           ^^ (bad-whitespace)
+Sudoku.py:25:26: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:27:51: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:27:8: C0326: Exactly one space required around assignment
     grid=[['0' for x in range(9)]for y in range(9)] 
@@ -13,11 +7,9 @@ Sudoku.py:27:8: C0326: Exactly one space required around assignment
 Sudoku.py:35:0: C0304: Final newline missing (missing-final-newline)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
-Sudoku.py:1:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:3:8: W0621: Redefining name 'i' from outer scope (line 30) (redefined-outer-name)
 Sudoku.py:9:4: W0101: Unreachable code (unreachable)
-Sudoku.py:11:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:12:8: W0621: Redefining name 'i' from outer scope (line 30) (redefined-outer-name)
 Sudoku.py:13:12: W0621: Redefining name 'j' from outer scope (line 31) (redefined-outer-name)
@@ -28,5 +20,5 @@ Sudoku.py:27:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming
 Sudoku.py:28:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.23/10 (previous run: 3.23/10, +0.00)
+Your code has been rated at 4.52/10 (previous run: 3.23/10, +1.29)
 

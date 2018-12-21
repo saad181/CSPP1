@@ -1,20 +1,20 @@
-def create(g, row, col):
-    lis= set()
+def create(graph, row, col):
+    lis = set()
     for i in range(9):
-        if g[row][i] != '0':
-            lis.add(g[row][i])
-        if g[i][col] != '0':
-            lis.add(g[i][col])
+        if graph[row][i] != '0':
+            lis.add(graph[row][i])
+        if graph[i][col] != '0':
+            lis.add(graph[i][col])
     return lis
     print("Given sudoku is solved")
 
-def valid(g):
+def valid(graph):
     for i in range(9):
         for j in range(9):
             res = ""
             s = set()
-            if g[i][j] == '0':
-                s = create(g, i, j)
+            if graph[i][j] == '0':
+                s = create(graph, i, j)
                 # print(s)
             if len(s) != 0:
                 for each in "123456789":
@@ -22,7 +22,7 @@ def valid(g):
                         res += each
                 print(res)
 
-if __name__=="__main__": 
+if __name__ == "__main__": 
       #for 2D array
     grid=[['0' for x in range(9)]for y in range(9)] 
     given_input = input()
