@@ -22,7 +22,7 @@ def isValid(grid, i, j, e):
                                                     return False
                             return True
             return False
-def solveSudoku(grid, i=0, j=0):
+def solveSudoku(grid, i=3, j=3):
             i,j = findNextCellToFill(grid, i, j)
             if i == -1:
                     return True
