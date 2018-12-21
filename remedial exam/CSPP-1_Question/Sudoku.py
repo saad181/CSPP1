@@ -24,7 +24,7 @@ def possibilities(g):
                         res += each
                 print(res)
 
-if name__=="__main": 
+if __name__=="__main__": 
       
     # creating a 2D array for the grid 
     grid=[['0' for x in range(9)]for y in range(9)] 
