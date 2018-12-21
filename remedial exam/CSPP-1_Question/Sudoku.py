@@ -38,4 +38,4 @@ if name__=="__main":
                 grid[i][j] = given_input[k]
             k += 1
     print_grid(grid)
-    possibilities(grid
+    possibilities(grid)
