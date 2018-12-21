@@ -1,6 +1,6 @@
 ************* Module Sudoku
 Sudoku.py:2:7: C0326: Exactly one space required before assignment
-    lis= set()
+    lis= givenset()
        ^ (bad-whitespace)
 Sudoku.py:25:24: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:25:11: C0326: Exactly one space required around comparison
@@ -20,6 +20,9 @@ Sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku.py:1:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:3:8: W0621: Redefining name 'i' from outer scope (line 33) (redefined-outer-name)
+Sudoku.py:2:9: E1120: No value for argument 'g' in function call (no-value-for-parameter)
+Sudoku.py:2:9: E1120: No value for argument 'row' in function call (no-value-for-parameter)
+Sudoku.py:2:9: E1120: No value for argument 'col' in function call (no-value-for-parameter)
 Sudoku.py:11:0: C0103: Argument name "g" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:12:8: W0621: Redefining name 'i' from outer scope (line 33) (redefined-outer-name)
@@ -34,5 +37,5 @@ Sudoku.py:28:4: C0103: Constant name "grid" doesn't conform to UPPER_CASE naming
 Sudoku.py:31:4: C0103: Constant name "given_input" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.58/10 (previous run: -7.74/10, +5.16)
+Your code has been rated at -7.42/10 (previous run: -2.58/10, -4.84)
 

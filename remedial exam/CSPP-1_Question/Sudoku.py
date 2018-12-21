@@ -1,5 +1,5 @@
 def givenset(g, row, col):
-    lis= set()
+    lis= givenset()
     for i in range(9):
         if g[row][i] != '0':
             lis.add(g[row][i])
