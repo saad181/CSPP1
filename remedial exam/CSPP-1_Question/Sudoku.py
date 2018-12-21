@@ -37,5 +37,5 @@ if __name__=="__main__":
             if given_input[k] != '.':
                 grid[i][j] = given_input[k]
             k += 1
-    print_grid(grid)
+    #print_grid(grid)
     possibilities(grid)
