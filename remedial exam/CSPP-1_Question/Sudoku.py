@@ -1,20 +1,20 @@
-def givenset(g, row, col):
-    lis= givenset()
+def create_set(g, row, col):
+    lis= set()
     for i in range(9):
         if g[row][i] != '0':
             lis.add(g[row][i])
         if g[i][col] != '0':
             lis.add(g[i][col])
-            print("Given sudoku is solved")
+            #print("Given sudoku is solved")
     return lis
 
 def possibilities(g):
     for i in range(9):
         for j in range(9):
             res = ""
-            s = givenset()
+            s = set()
             if g[i][j] == '0':
-                s = givenset(g, i, j)
+                s = create_set(g, i, j)
                 # print(s)
             if len(s) != 0:
                 for each in "123456789":
