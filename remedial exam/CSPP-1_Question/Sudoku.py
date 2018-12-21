@@ -1,4 +1,4 @@
-def create_set(g, row, col):
+def set(g, row, col):
     lis= set()
     for i in range(9):
         if g[row][i] != '0':
@@ -14,7 +14,7 @@ def possibilities(g):
             res = ""
             s = set()
             if g[i][j] == '0':
-                s = create_set(g, i, j)
+                s = set(g, i, j)
                 # print(s)
             if len(s) != 0:
                 for each in "123456789":
