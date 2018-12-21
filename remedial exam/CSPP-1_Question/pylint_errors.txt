@@ -1,2 +1,2 @@
 ************* Module Sudoku
-Sudoku.py:18:0: E0001: invalid syntax (<unknown>, line 18) (syntax-error)
+Sudoku.py:12:0: E0001: unindent does not match any outer indentation level (<unknown>, line 12) (syntax-error)

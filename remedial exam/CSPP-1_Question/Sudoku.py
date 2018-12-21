@@ -1,32 +1,37 @@
-def assign(values, s, d):
-    """Eliminate all the other values (except d) from values[s] and propagate.
-    Return values, except return False if a contradiction is detected."""
-    other_values = values[s].replace(d, '')
-    if all(eliminate(values, s, d2) for d2 in other_values):
-        return values
-    else:
-        return False
+def findNextCellToFill(grid, i, j):
+            for x in range(i,9):
+                    for y in range(j,9):
+                            if grid[x][y] == 0:
+                                    return x,y
+            for x in range(0,9):
+                    for y in range(0,9):
+                            if grid[x][y] == 0:
+                                    return x,y
+            return -1,-1
 
-def eliminate(values, s, d):
-    """Eliminate d from values[s]; propagate when values or places <= 2.
-    Return values, except return False if a contradiction is detected."""
-    if d not in values[s]:
-        return values ## Already eliminated
-    values[s] = values[s].replace(d,'')
-    ## (1) If a square s is reduced to one value d2, then eliminate d2 from the peers.
-    if len(values[s]) == 0:
-    return False ## Contradiction: removed last value
-    elif len(values[s]) == 1:
-        d2 = values[s]
-        if not all(eliminate(values, s2, d2) for s2 in peers[s]):
+    def isValid(grid, i, j, e):
+            rowOk = all([e != grid[i][x] for x in range(9)])
+            if rowOk:
+                    columnOk = all([e != grid[x][j] for x in range(9)])
+                    if columnOk:
+                            # finding the top left x,y co-ordinates of the section containing the i,j cell
+                            secTopX, secTopY = 3 *(i//3), 3 *(j//3) #floored quotient should be used here. 
+                            for x in range(secTopX, secTopX+3):
+                                    for y in range(secTopY, secTopY+3):
+                                            if grid[x][y] == e:
+                                                    return False
+                            return True
             return False
-    ## (2) If a unit u is reduced to only one place for a value d, then put it there.
-    for u in units[s]:
-    dplaces = [s for s in u if d in values[s]]
-    if len(dplaces) == 0:
-        return False ## Contradiction: no place for this value
-    elif len(dplaces) == 1:
-        # d can only be in one place in unit; assign it there
-            if not assign(values, dplaces[0], d):
-                return False
-    return values
+
+    def solveSudoku(grid, i=0, j=0):
+            i,j = findNextCellToFill(grid, i, j)
+            if i == -1:
+                    return True
+            for e in range(1,10):
+                    if isValid(grid,i,j,e):
+                            grid[i][j] = e
+                            if solveSudoku(grid, i, j):
+                                    return True
+                            # Undo the current cell for backtracking
+                            grid[i][j] = 0
+            return False
