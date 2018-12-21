@@ -1,119 +1,32 @@
-import re
-import random
-import os
-
-# GLOBAL VARIABLES
-grid_size = 81
-
-def isFull (grid):
-    return grid.count('.') == 0
-  
-# can be used more purposefully
-def getTrialCelli(grid):
-  for i in range(grid_size):
-    if grid[i] == '.':
-      print 'trial cell', i
-      return i
-      
-def isLegal(trialVal, trialCelli, grid):
-
-  cols = 0
-  for eachSq in range(9):
-    trialSq = [ x+cols for x in range(3) ] + [ x+9+cols for x in range(3) ] + [ x+18+cols for x in range(3) ]
-    cols +=3
-    if cols in [9, 36]:
-      cols +=18
-    if trialCelli in trialSq:
-      for i in trialSq:
-        if grid[i] != '.':
-          if trialVal == int(grid[i]):
-            print 'SQU',
-            return False
-  
-  for eachRow in range(9):
-    trialRow = [ x+(9*eachRow) for x in range (9) ]
-    if trialCelli in trialRow:
-      for i in trialRow:
-        if grid[i] != '.':
-          if trialVal == int(grid[i]):
-            print 'ROW',
-            return False
-  
-  for eachCol in range(9):
-    trialCol = [ (9*x)+eachCol for x in range (9) ]
-    if trialCelli in trialCol:
-      for i in trialCol:
-        if grid[i] != '.':
-          if trialVal == int(grid[i]):
-            print 'COL',
-            return False
-  print 'is legal', 'cell',trialCelli, 'set to ', trialVal
-  return True
-
-def setCell(trialVal, trialCelli, grid):
-  grid[trialCelli] = trialVal
-  return grid
-
-def clearCell( trialCelli, grid ):
-  grid[trialCelli] = '.'
-  print 'clear cell', trialCelli
-  return grid
-
-
-def hasSolution (grid):
-  if isFull(grid):
-    print '\nSOLVED'
-    return True
-  else:
-    trialCelli = getTrialCelli(grid)
-    trialVal = 1
-    solution_found = False
-    while ( solution_found != True) and (trialVal < 10):
-      print 'trial valu',trialVal,
-      if isLegal(trialVal, trialCelli, grid):
-        grid = setCell(trialVal, trialCelli, grid)
-        if hasSolution (grid) == True:
-          solution_found = True
-          return True
-        else:
-          clearCell( trialCelli, grid )
-      print '++'
-      trialVal += 1
-  return solution_found
-
-def main ():
-  #sampleGrid = ['2', '1', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '3', '1', '.', '.', '.', '.', '9', '4', '.', '.', '.', '.', '7', '8', '2', '5', '.', '.', '4', '.', '.', '.', '.', '.', '.', '6', '.', '.', '.', '.', '.', '1', '.', '.', '.', '.', '8', '2', '.', '.', '.', '7', '.', '.', '9', '.', '.', '.', '.', '.', '.', '.', '.', '3', '1', '.', '4', '.', '.', '.', '.', '.', '.', '.', '3', '8', '.']
-  #sampleGrid = ['.', '.', '3', '.', '2', '.', '6', '.', '.', '9', '.', '.', '3', '.', '5', '.', '.', '1', '.', '.', '1', '8', '.', '6', '4', '.', '.', '.', '.', '8', '1', '.', '2', '9', '.', '.', '7', '.', '.', '.', '.', '.', '.', '.', '8', '.', '.', '6', '7', '.', '8', '2', '.', '.', '.', '.', '2', '6', '.', '9', '5', '.', '.', '8', '.', '.', '2', '.', '3', '.', '.', '9', '.', '.', '5', '.', '1', '.', '3', '.', '.']
-  sampleGrid = ['.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '4', '6', '2', '9', '5', '1', '8', '1', '9', '6', '3', '5', '8', '2', '7', '4', '4', '7', '3', '8', '9', '2', '6', '5', '1', '6', '8', '.', '.', '3', '1', '.', '4', '.', '.', '.', '.', '.', '.', '.', '3', '8', '.']
-  printGrid(sampleGrid, 0)
-  if hasSolution (sampleGrid):
-    printGrid(sampleGrid, 0)
-  else: print 'NO SOLUTION'
-
-  
-if __name__ == "__main__":
-    main()
-
-def printGrid (grid, add_zeros):
-  i = 0
-  for val in grid:
-    if add_zeros == 1:
-      if int(val) < 10: 
-        print '0'+str(val),
-      else:
-        print val,
+def assign(values, s, d):
+    """Eliminate all the other values (except d) from values[s] and propagate.
+    Return values, except return False if a contradiction is detected."""
+    other_values = values[s].replace(d, '')
+    if all(eliminate(values, s, d2) for d2 in other_values):
+        return values
     else:
-        print val,
-    i +=1
-    if i in [ (x*9)+3 for x in range(81)] +[ (x*9)+6 for x in range(81)] +[ (x*9)+9 for x in range(81)] :
-        print '|',
-    if add_zeros == 1:
-      if i in [ 27, 54, 81]:
-        print '\n---------+----------+----------+'
-      elif i in [ (x*9) for x in range(81)]:
-        print '\n'
-    else:
-      if i in [ 27, 54, 81]:
-        print '\n------+-------+-------+'
-      elif i in [ (x*9) for x in range(81)]:
-        print '\n'
+        return False
+
+def eliminate(values, s, d):
+    """Eliminate d from values[s]; propagate when values or places <= 2.
+    Return values, except return False if a contradiction is detected."""
+    if d not in values[s]:
+        return values ## Already eliminated
+    values[s] = values[s].replace(d,'')
+    ## (1) If a square s is reduced to one value d2, then eliminate d2 from the peers.
+    if len(values[s]) == 0:
+    return False ## Contradiction: removed last value
+    elif len(values[s]) == 1:
+        d2 = values[s]
+        if not all(eliminate(values, s2, d2) for s2 in peers[s]):
+            return False
+    ## (2) If a unit u is reduced to only one place for a value d, then put it there.
+    for u in units[s]:
+    dplaces = [s for s in u if d in values[s]]
+    if len(dplaces) == 0:
+        return False ## Contradiction: no place for this value
+    elif len(dplaces) == 1:
+        # d can only be in one place in unit; assign it there
+            if not assign(values, dplaces[0], d):
+                return False
+    return values

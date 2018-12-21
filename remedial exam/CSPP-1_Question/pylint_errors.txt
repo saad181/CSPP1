@@ -1,2 +1,2 @@
 ************* Module Sudoku
-Sudoku.py:15:0: E0001: Missing parentheses in call to 'print'. Did you mean print('trial cell', i)? (<unknown>, line 15) (syntax-error)
+Sudoku.py:18:0: E0001: invalid syntax (<unknown>, line 18) (syntax-error)
