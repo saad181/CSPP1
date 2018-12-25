@@ -1,35 +1,65 @@
-def create(graph, row, col):
-    lis = set()
-    for i in range(9):
-        if graph[row][i] != '0':
-            lis.add(graph[row][i])
-        if graph[i][col] != '0':
-            lis.add(graph[i][col])
-    return lis
-    print("Given sudoku is solved")
+"""
+In this method :
+ * Check there are only 81 values
+ * iterate through each row in the sudoku and if you find any duplicate values
+    raise an exception
+ * iterate through each column in the sudoku and if you find any duplicate values
+    raise an exception
+ * iterate through each subgrid(3x3) in the sudoku and if you find any duplicate values
+    raise an exception
+"""
+def validateSudoku(sudoku,i=0,j=0):
+    for i in range(i,9):
+        for j in range(j,9):
+            if sudoku[i][j]==0:
+                return[i][j]
+    
 
-def valid(graph):
+    pass
+"""
+This  method should retunn all the values present in the ith row
+"""
+def getRowValues():
+    num='123456789'
+    for i in range(9):
+        if num != row:
+            return num
+    pass
+"""
+This  method should retunn all the values present in the ith column
+"""
+def getColumnValues():
+    num='123456789'
+    for i in range(9):
+        if num != column:
+            return num
+    pass
+
+"""
+This  method should retunn all the values present in the i,j th subgrid
+"""
+def getGridValues():
+    pass
+"""
+This method should collect all the available values present for a "."
+You should get the values present in row,column,grid.
+Then you should return the values that doesnot exist in the previous values.
+"""
+def possibleValues():
+    pass
+"""
+Read the input and store the values in an appropriate data sturcture.
+Then travese through each value, if you get a "." then collect the possible values
+"""
+def main():
+    inp = input()
     for i in range(9):
         for j in range(9):
-            res = ""
-            s = set()
-            if graph[i][j] == '0':
-                s = create(graph, i, j)
-                # print(s)
-            if len(s) != 0:
-                for each in "123456789":
-                    if each not in s:
-                        res += each
-                print(res)
+            if '.' not in inp:
+                print("Given sudoku is checekd")
+            elif len(inp) != 81:
+                print("invalid")
 
-if __name__ == "__main__": 
-      #for 2D array
-    grid=[['0' for x in range(9)]for y in range(9)] 
-    given_input = input()
-    k = 0
-    for i in range(9):
-        for j in range(9):
-            if given_input[k] != '.':
-                grid[i][j] = given_input[k]
-            k += 1
-    valid(grid)
+
+if __name__ == '__main__':
+        main()
