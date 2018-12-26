@@ -54,7 +54,7 @@ Then travese through each value, if you get a "." then collect the possible valu
 def main():
     inp = input()
     if "." not in inp:
-        print("Given sudoko is solved")
+        print("Given sudoku is solved")
     else:
         suduko = []
         k = 0
