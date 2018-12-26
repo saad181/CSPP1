@@ -62,7 +62,7 @@ def main():
             row = []
             for j in range(9):
                 row.append(inp[k])
-                j = j + 1
+                k = k + 1
             suduko.append(row)
             print(suduko)
 
