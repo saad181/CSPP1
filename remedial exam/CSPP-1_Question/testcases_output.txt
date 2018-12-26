@@ -3,87 +3,7 @@ Expected Output:
 Given sudoku is solved
 
 Your Output: 
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
-Given sudoku is checekd
+Given suduko is solved
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -359,87 +279,12 @@ Expected Output:
 Invalid input
 
 Your Output: 
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
+Traceback (most recent call last):
+  File "Sudoku.py", line 69, in <module>
+    main()
+  File "Sudoku.py", line 64, in main
+    row.append(inp[k])
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -526,87 +371,12 @@ Expected Output:
 Invalid input
 
 Your Output: 
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
-invalid
+Traceback (most recent call last):
+  File "Sudoku.py", line 69, in <module>
+    main()
+  File "Sudoku.py", line 64, in main
+    row.append(inp[k])
+IndexError: string index out of range
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########

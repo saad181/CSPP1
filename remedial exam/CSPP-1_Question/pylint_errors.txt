@@ -21,7 +21,7 @@ Sudoku.py:23:7: C0326: Exactly one space required around assignment
 Sudoku.py:32:7: C0326: Exactly one space required around assignment
     num='123456789'
        ^ (bad-whitespace)
-Sudoku.py:65:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
+Sudoku.py:69:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
@@ -51,9 +51,9 @@ Sudoku.py:48:0: C0103: Function name "possibleValues" doesn't conform to snake_c
 Sudoku.py:48:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:53:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:54:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:56:8: W0612: Unused variable 'i' (unused-variable)
-Sudoku.py:57:12: W0612: Unused variable 'j' (unused-variable)
+Sudoku.py:61:12: W0612: Unused variable 'i' (unused-variable)
+Sudoku.py:63:16: W0612: Unused variable 'j' (unused-variable)
 
--------------------------------------------------------------------
-Your code has been rated at -2.97/10 (previous run: 4.52/10, -7.49)
+--------------------------------------------------------------------
+Your code has been rated at -1.71/10 (previous run: -2.97/10, +1.27)
 

@@ -53,13 +53,17 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def main():
     inp = input()
-    for i in range(9):
-        for j in range(9):
-            if '.' not in inp:
-                print("Given sudoku is checekd")
-            elif len(inp) != 81:
-                print("invalid")
-
+    if "." not in inp:
+        print("Given suduko is solved")
+    else:
+        suduko = []
+        k = 0
+        for i in range(9):
+            row = []
+            for j in range(9):
+                row.append(inp[k])
+                k = k + 1
+            suduko.append(row)
 
 if __name__ == '__main__':
         main()
