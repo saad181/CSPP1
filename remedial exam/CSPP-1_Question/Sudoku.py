@@ -58,9 +58,9 @@ def main():
     else:
         suduko = []
         count = 0
-        for i in range(9):
+        for i in range(10):
             row = []
-            for j in range(9):
+            for j in range(10):
                 row.append(inp[count])
                 count = count + 1
             suduko.append(row)
