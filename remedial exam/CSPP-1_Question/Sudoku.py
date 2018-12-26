@@ -64,7 +64,7 @@ def main():
                 row.append(inp[k])
                 k = k + 1
             suduko.append(row)
-            
+            print(suduko)
 
 if __name__ == '__main__':
         main()
