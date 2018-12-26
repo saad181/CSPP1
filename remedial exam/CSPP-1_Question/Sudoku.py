@@ -57,14 +57,14 @@ def main():
         print("Given sudoku is solved")
     else:
         suduko = []
-        k = 0
+        count = 0
         for i in range(9):
             row = []
             for j in range(9):
                 row.append(inp[k])
-                k = k + 1
+                count = count + 1
             suduko.append(row)
-            print(suduko)
+        print(suduko)
 
 if __name__ == '__main__':
         main()

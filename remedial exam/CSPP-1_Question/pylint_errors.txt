@@ -51,9 +51,10 @@ Sudoku.py:48:0: C0103: Function name "possibleValues" doesn't conform to snake_c
 Sudoku.py:48:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:53:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:54:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:64:31: E0602: Undefined variable 'k' (undefined-variable)
 Sudoku.py:61:12: W0612: Unused variable 'i' (unused-variable)
 Sudoku.py:63:16: W0612: Unused variable 'j' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.43/10 (previous run: -1.19/10, -0.24)
+Your code has been rated at -2.62/10 (previous run: -1.43/10, -1.19)
 
