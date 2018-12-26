@@ -29,6 +29,6 @@ Sudoku.py:54:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:61:12: W0612: Unused variable 'i' (unused-variable)
 Sudoku.py:63:16: W0612: Unused variable 'j' (unused-variable)
 
--------------------------------------------------------------------
-Your code has been rated at 2.50/10 (previous run: -1.43/10, +3.93)
+------------------------------------------------------------------
+Your code has been rated at 2.50/10 (previous run: 2.50/10, +0.00)
 
