@@ -8,9 +8,9 @@ In this method :
  * iterate through each subgrid(3x3) in the sudoku and if you find any duplicate values
     raise an exception
 """
-def validateSudoku(sudoku,i=0,j=0):
-    for i in range(i,9):
-        for j in range(j,9):
+def validateSudoku(sudoku):
+    for i in range(9):
+        for j in range(9):
             if sudoku[i][j]==0:
                 return[i][j]
     
@@ -20,20 +20,20 @@ def validateSudoku(sudoku,i=0,j=0):
 This  method should retunn all the values present in the ith row
 """
 def getRowValues():
-    num='123456789'
+    #num='123456789'
     for i in range(9):
-        if num != row:
-            return num
-    pass
+        
+            return i
+    #pass
 """
 This  method should retunn all the values present in the ith column
 """
 def getColumnValues():
-    num='123456789'
+    #num='123456789'
     for i in range(9):
-        if num != column:
-            return num
-    pass
+        #if num != column:
+            return i
+    #pass
 
 """
 This  method should retunn all the values present in the i,j th subgrid
