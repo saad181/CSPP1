@@ -145,9 +145,9 @@ def duplicate(st):
                 raise Exception("Invalid Sudoku:Duplicate values")
                 return        
 def main():
-    sudoku = str(input())
+    inp = str(input())
     try:
-        validateSudoku(sudoku)
+        validateSudoku(inp)
     except Exception as e:
         print(e)
 
