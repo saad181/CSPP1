@@ -86,16 +86,16 @@ def value(i , j, list_t):
     row_val = maptointegers(getRowValues(i, list_t))
     col_val = maptointegers(getColumnValues(j, list_t))
     grid_val = maptointegers(getGridValues(i, j, list_t))
-    finalanswer = ""
+    ans = ""
     for i in num:
-        if i not in r:
-            if i not in c:
-                if i not in g:
-                    new.append(each)
-    finalanswer = list(map(str, new))
-    finalanswer = ''.join(finalanswer)
-    print(finalanswer)
-    return finalanswer
+        if i not in row_val:
+            if i not in col_val:
+                if i not in grid_val:
+                    new.append(i)
+    ans = list(map(str, new))
+    ans = ''.join(ans)
+    print(ans)
+    return ans
 def maptointegers(integerlist):
     row = ''.join(integerlist)
     row = row.replace(".", "")

@@ -69,18 +69,11 @@ Sudoku.py:75:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:76:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Sudoku.py:83:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:90:8: R1704: Redefining argument with the local name 'i' (redefined-argument-from-local)
-Sudoku.py:91:20: E0602: Undefined variable 'r' (undefined-variable)
-Sudoku.py:92:24: E0602: Undefined variable 'c' (undefined-variable)
-Sudoku.py:93:28: E0602: Undefined variable 'g' (undefined-variable)
-Sudoku.py:94:31: E0602: Undefined variable 'each' (undefined-variable)
-Sudoku.py:86:4: W0612: Unused variable 'row_val' (unused-variable)
-Sudoku.py:87:4: W0612: Unused variable 'col_val' (unused-variable)
-Sudoku.py:88:4: W0612: Unused variable 'grid_val' (unused-variable)
 Sudoku.py:99:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:106:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:110:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:110:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.74/10 (previous run: 4.72/10, -1.98)
+Your code has been rated at 4.91/10 (previous run: 2.74/10, +2.17)
 
