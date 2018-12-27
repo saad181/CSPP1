@@ -24,15 +24,15 @@ def duplicate(st):
                 raise Exception("Invalid Sudoku:Duplicate values")
                 return
 
-def validRow(i, list_t):
+def getRowValues(i, list_t):
     return list_t[i]
 
-def validCol(i, list_t):
+def getColumnValues(i, list_t):
     column = []
     for row in list_t:
         column.append(row[i])
     return column
-def validGrid(i, j, list_t):
+def getGridValues(i, j, list_t):
     SubGrid = list()
     if (i >= 0 and i < 3) and (j >= 0 and j < 3):
         for subrow in range(0, 3):
@@ -75,16 +75,16 @@ def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t[0])):
             if list_t[i][j] == ".":
-                duplicate(validRow(i, list_t))
-                duplicate(validCol(i, list_t))
-                duplicate(validGrid(i, j, list_t))
+                duplicate(getRowValues(i, list_t))
+                duplicate(getColumnValues(i, list_t))
+                duplicate(getGridValues(i, j, list_t))
                 possibilities(i, j, list_t)
 def possibilities(i , j, list_t):
     newstring = [1,2,3,4,5,6,7,8,9]
     newlist = []
-    r = maptointegers(validRow(i, list_t))
-    c = maptointegers(validCol(j, list_t))
-    g = maptointegers(validGrid(i, j, list_t))
+    r = maptointegers(getRowValues(i, list_t))
+    c = maptointegers(getColumnValues(j, list_t))
+    g = maptointegers(getGridValues(i, j, list_t))
     finalanswer = ""
     for each in newstring:
         if each not in r:
