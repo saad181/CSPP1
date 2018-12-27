@@ -201,7 +201,7 @@ Sudoku.py:87:36: C0326: Exactly one space required after comma
                                     ^ (bad-whitespace)
 Sudoku.py:89:14: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:101:27: C0326: Exactly one space required around comparison
-            if list_t[i][j]=='.':
+            if list_t[i][j]==".":
                            ^^ (bad-whitespace)
 Sudoku.py:102:40: C0326: Exactly one space required after comma
                 duplicate(getRowValues(i,list_t))

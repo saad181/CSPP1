@@ -98,7 +98,7 @@ Then you should return the values that doesnot exist in the previous values.
 def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t[0])):
-            if list_t[i][j]=='.':
+            if list_t[i][j]==".":
                 duplicate(getRowValues(i,list_t))
                 duplicate(getColumnValues(i,list_t))
                 duplicate(getGridValues(i,j,list_t))
