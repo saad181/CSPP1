@@ -1,134 +1,108 @@
-def validateSudoku(sudoku):
-    list_t = []
-    sublist =[]
+def check(sudoku):
+    construct = []
+    sublist = []
     if len(sudoku) == 81:
         for i in range(len(sudoku)):
-            if i %9==0 and i!=0:
-                list_t.append(sublist)
-                sublist=[]
+            if i % 9 == 0 and i!=0:
+                construct.append(sublist)
+                sublist = []
             sublist.append(sudoku[i])
-        list_t.append(sublist)
+        construct.append(sublist)
     else:
         raise Exception("Invalid input")
     if (sudoku.count('.') == 0):
         raise Exception("Given sudoku is solved")
-    possibleValues(list_t)
-
-def duplicate(st):
-    suduko1 = list()
-    for i in st:
+    possibleValues(construct)
+def eliminatedups(string):
+    listt = list()
+    for i in string:
         if i != ".":
-            if i not in suduko1:
-                suduko1.append(i)
+            if i not in listt:
+                listt.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
                 return
-
-def getRowValues(i,list_t):
-    return list_t[i]
-
-def getColumnValues(i,list_t):
-    col=[]
-    for r in list_t:
-        col.append(r[i])
-    return col    
-
-def getGridValues(i,j,list_t):
-    sub=list()
-    if (i>=0 and i<3) and (j>=0 and j<3):
-        for subrow in range(0,3):
-            for subcolumn in range(0,3):
-                sub.append(list_t[subrow][subcolumn])  # for 1 subgrid
-    if (i>=0 and i<3) and (j>=3 and j<6):
-        for subrow in range(0,3):
-            for subcolumn in range(3,6):
-                sub.append(list_t[subrow][subcolumn])  #for 2 subgrid
-    if (i>=0 and i<3) and (j>=6 and j<9):
-        for subrow in range(0,3):
-            for subcolumn in range(6,9):
-                sub.append(list_t[subrow][subcolumn])   #for 3 subgrid
-    if (i>=3 and i<6) and (j>=0 and j<3):
-        for subrow in range(3,6):
-            for subcolumn in range(0,3):
-                sub.append(list_t[subrow][subcolumn]) # for 4 subgrid
-    if (i>=3 and i<6) and (j>=3 and j<6):
-        for subrow in range(3,6):
-            for subcolumn in range(3,6):
-                sub.append(list_t[subrow][subcolumn])   #for 5 subgrid
-    if (i>=3 and i<6) and (j>=6 and j<9):
-        for subrow in range(3,6):
-            for subcolumn in range(6,9):
-                sub.append(list_t[subrow][subcolumn])   #for 6 subgrid                                                
-    if (i>=6 and i<9) and (j>=0 and j<3):
-        for subrow in range(6,9):
-            for subcolumn in range(0,3):
-                sub.append(list_t[subrow][subcolumn])  #for 7 subgrid
-    if (i>=6 and i<9) and (j>=3 and j<6):
-        for subrow in range(6,9):
-            for subcolumn in range(3,6):
-                sub.append(list_t[subrow][subcolumn])   #for 8 subgrid
-    if (i>=6 and i<9) and (j>=6 and j<9):
-        for subrow in range(6,9):
-            for subcolumn in range(6,9):
-                sub.append(list_t[subrow][subcolumn])  #for 9 subgrid
-    return sub            
-
-
-    #pass
-"""
-This method should collect all the available values present for a "."
-You should get the values present in row,column,grid.
-Then you should return the values that doesnot exist in the previous values.
-"""
-def possibleValues(list_t):
-    for i in range(len(list_t)):
-        for j in range(len(list_t[0])):
-            if list_t[i][j]==".":
-                duplicate(getRowValues(i,list_t))
-                duplicate(getColumnValues(i,list_t))
-                duplicate(getGridValues(i,j,list_t))
-                value(i,j,list_t)
-                
-def value(i,j,list_t):
-    num=[1,2,3,4,5,6,7,8,9]
-    new=[]
-    row_val = converttointegers(getRowValues(i,list_t))
-    col_val = converttointegers(getColumnValues(i,list_t))
-    grid_val = converttointegers(getGridValues(i,j,list_t))
-    ans = ""
-    for i in num:
-        if i not in row_val:
-            if i not in col_val:
-                if i not in grid_val:
-                    new.append(i)
-    ans=list(map(str,new))
-    ans=''.join(ans)                
-    print(ans)
-    return ans                
-
-
-def converttointegers(integer):
-    row = ''.join(integer)
-    row = row.replace(".","")
+def validRow(i, construct):
+    return construct[i]
+def validCol(i, construct):
+    column = []
+    for row in construct:
+        column.append(row[i])
+    return column
+def validGrid(i, j, construct):
+    SubGrid = list()
+    if (i >= 0 and i < 3) and (j >= 0 and j < 3):
+        for subrow in range(0, 3):
+            for subcol in range(0, 3):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 0 and i < 3) and (j >= 3 and j < 6):
+        for subrow in range(0, 3):
+            for subcol in range(3, 6):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 0 and i < 3) and (j >= 6 and j < 9):
+        for subrow in range(0, 3):
+            for subcol in range(6, 9):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 3 and i < 6) and (j >= 0 and j < 3):
+        for subrow in range(3, 6):
+            for subcol in range(0, 3):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 3 and i < 6) and (j >= 3 and j < 6):
+        for subrow in range(3, 6):
+            for subcol in range(3, 6):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 3 and i < 6) and (j >= 6 and j < 9):
+        for subrow in range(3, 6):
+            for subcol in range(6, 9):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 6 and i < 9) and (j >= 0 and j < 3):
+        for subrow in range(6, 9):
+            for subcol in range(0, 3):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 6 and i < 9) and (j >= 3 and j < 6):
+        for subrow in range(6, 9):
+            for subcol in range(3, 6):
+                SubGrid.append(construct[subrow][subcol])
+    if (i >= 6 and i < 9) and (j >= 6 and j < 9):
+        for subrow in range(6, 9):
+            for subcol in range(6, 9):
+                SubGrid.append(construct[subrow][subcol])
+    return SubGrid
+def possibleValues(construct):
+    for i in range(len(construct)):
+        for j in range(len(construct[0])):
+            if construct[i][j] == ".":
+                eliminatedups(validRow(i, construct))
+                eliminatedups(validCol(i, construct))
+                eliminatedups(validGrid(i, j, construct))
+                possibilities(i, j, construct)
+def possibilities(i , j, construct):
+    newstring = [1,2,3,4,5,6,7,8,9]
+    newlist = []
+    r = maptointegers(validRow(i, construct))
+    c = maptointegers(validCol(j, construct))
+    g = maptointegers(validGrid(i, j, construct))
+    finalanswer = ""
+    for each in newstring:
+        if each not in r:
+            if each not in c:
+                if each not in g:
+                    newlist.append(each)
+    finalanswer = list(map(str, newlist))
+    finalanswer = ''.join(finalanswer)
+    print(finalanswer)
+    return finalanswer
+def maptointegers(integerlist):
+    row = ''.join(integerlist)
+    row = row.replace(".", "")
     row = list(row)
-    mapped = list(map(int,row))
-    return mapped
-
-
-
-    #pass
-"""
-Read the input and store the values in an appropriate data sturcture.
-Then travese through each value, if you get a "." then collect the possible values
-"""
-        
+    finalmappedint = list(map(int, row))
+    return finalmappedint 
 def main():
-    inp = str(input())
+    inputstring = str(input())
     try:
-        validateSudoku(inp)
+        check(inputstring)
     except Exception as e:
         print(e)
-
-
 if __name__ == "__main__":
     main()
