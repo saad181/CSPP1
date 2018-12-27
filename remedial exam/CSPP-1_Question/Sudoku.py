@@ -117,7 +117,7 @@ def value(i,j,list_t):
                     new.append(i)
     ans=list(map(str,new))
     ans=''.join(ans)                
-    print(ans)
+        print(ans)
     return ans                
 
 
@@ -143,7 +143,7 @@ def duplicate(st):
                 suduko1.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
-    return        
+                return        
 def main():
     inp = str(input())
     try:
