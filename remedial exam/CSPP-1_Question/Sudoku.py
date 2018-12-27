@@ -38,40 +38,46 @@ def getGridValues(i, j, list_t):
     if (i >= 0 and i < 3) and (j >= 0 and j < 3):
         for subrow in range(0, 3):
             for subcolumn in range(0, 3):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])   #for 1 subgrid
     if (i >= 0 and i < 3) and (j >= 3 and j < 6):
         for subrow in range(0, 3):
             for subcolumn in range(3, 6):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])    #for 2 subgrid
     if (i >= 0 and i < 3) and (j >= 6 and j < 9):
         for subrow in range(0, 3):
             for subcolumn in range(6, 9):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])   #for 3 subgrid
     if (i >= 3 and i < 6) and (j >= 0 and j < 3):
         for subrow in range(3, 6):
             for subcolumn in range(0, 3):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])   #for 4 subgrid
     if (i >= 3 and i < 6) and (j >= 3 and j < 6):
         for subrow in range(3, 6):
             for subcolumn in range(3, 6):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])    #for 5 subgrid
     if (i >= 3 and i < 6) and (j >= 6 and j < 9):
         for subrow in range(3, 6):
             for subcolumn in range(6, 9):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])    #for 6 subgrid
     if (i >= 6 and i < 9) and (j >= 0 and j < 3):
         for subrow in range(6, 9):
             for subcolumn in range(0, 3):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])    #for 7 subgrid
     if (i >= 6 and i < 9) and (j >= 3 and j < 6):
         for subrow in range(6, 9):
             for subcolumn in range(3, 6):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])    #for 8 subgrid
     if (i >= 6 and i < 9) and (j >= 6 and j < 9):
         for subrow in range(6, 9):
             for subcolumn in range(6, 9):
-                sub.append(list_t[subrow][subcolumn])
+                sub.append(list_t[subrow][subcolumn])     #for 9 subgrid
     return sub
+"""
+This method should collect all the available values present for a "."
+You should get the values present in row,column,grid.
+Then you should return the values that doesnot exist in the previous values.
+"""   
+
 def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t[0])):
@@ -80,6 +86,7 @@ def possibleValues(list_t):
                 duplicate(getColumnValues(i, list_t))
                 duplicate(getGridValues(i, j, list_t))
                 value(i, j, list_t)
+
 def value(i , j, list_t):
     num = [1,2,3,4,5,6,7,8,9]
     new = []
@@ -101,6 +108,10 @@ def converttointegers(interger):
     row = list(row)
     mapped = list(map(int, row))
     return mapped
+"""
+Read the input and store the values in an appropriate data sturcture.
+Then travese through each value, if you get a "." then collect the possible values
+"""
 
 def main():
     inp = str(input())
@@ -108,5 +119,6 @@ def main():
         validateSudoku(inp)
     except Exception as e:
         print(e)
+
 if __name__ == "__main__":
     main()
