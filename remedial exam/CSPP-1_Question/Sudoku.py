@@ -21,7 +21,7 @@ def validateSudoku(sudoku):
                 raise Exception("Invalid input")
             if (list_t.count(".")==0):
                 raise Exception("Given sudoku is solved")
-
+            possibleValues(list_t)
 
 
 
