@@ -303,7 +303,6 @@ Sudoku.py:33:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:39:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:40:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:40:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:40:20: W0613: Unused argument 'i' (unused-argument)
 Sudoku.py:50:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:51:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:51:0: C0111: Missing function docstring (missing-docstring)
@@ -338,12 +337,12 @@ Sudoku.py:123:22: W0613: Unused argument 'integer' (unused-argument)
 Sudoku.py:135:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:136:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:136:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:139:11: R1714: Consider merging these comparisons with "in" to "i not in ('.', suduko1)" (consider-using-in)
+Sudoku.py:143:12: W0101: Unreachable code (unreachable)
 Sudoku.py:145:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:149:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:148:8: E0602: Undefined variable 'check' (undefined-variable)
 Sudoku.py:149:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.33/10 (previous run: -5.33/10, +0.00)
+Your code has been rated at -5.23/10 (previous run: -5.33/10, +0.09)
 

@@ -40,7 +40,7 @@ This  method should retunn all the values present in the ith column
 def getColumnValues(i,list_t):
     col=[]
     for row in list_t:
-        col.append(row)
+        col.append(row[i])
     return col    
     
     #pass
@@ -136,11 +136,11 @@ Then travese through each value, if you get a "." then collect the possible valu
 def duplicate(st):
     suduko1 = list()
     for i in st:
-        if i != "." and  i != suduko1:
+        if i != "." and  i not in suduko1:
             suduko1.append(i)
         else:
             raise Exception("Invalid Sudoku:Duplicate found")
-        return
+            return
           
 def main():
     inp = input()
