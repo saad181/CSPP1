@@ -117,7 +117,7 @@ def value(i,j,list_t):
                     new.append(i)
     ans=list(map(str,new))
     ans=''.join(ans)                
-        print(ans)
+    print(ans)
     return ans                
 
 
