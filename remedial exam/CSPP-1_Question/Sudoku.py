@@ -137,14 +137,14 @@ Then travese through each value, if you get a "." then collect the possible valu
 def duplicate(st):
     suduko1 = list()
     for i in st:
-        if i != "." and  i not in suduko1:
+        if i != "." and i not in suduko1:
             suduko1.append(i)
         else:
-            raise Exception("Invalid Sudoku:Duplicate found")
+            raise Exception("Invalid Sudoku:Duplicate values")
             return
           
 def main():
-    inp = str(input())
+    inp = input()
     try:
         validateSudoku(inp)
     except Exception as e:
