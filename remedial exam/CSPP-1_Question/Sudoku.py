@@ -146,7 +146,7 @@ def duplicate(st):
 def main():
     inp = str(input())
     try:
-        check(inp)
+        validateSudoku(inp)
     except Exception as e:
         print(e) 
 
