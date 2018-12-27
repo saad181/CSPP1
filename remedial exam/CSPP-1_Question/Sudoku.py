@@ -134,14 +134,14 @@ def converttointegers(integer):
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
-def duplicate(string):
+def duplicate(st):
     suduko1 = list()
-    for i in string:
+    for i in st:
         if i != "." and i not in suduko1:
             suduko1.append(i)
         else:
             raise Exception("Invalid Sudoku:Duplicate values")
-            return
+        return
           
 def main():
     inp = str(input())
