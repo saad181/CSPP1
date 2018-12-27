@@ -13,7 +13,7 @@ Sudoku.py:18:23: C0326: Exactly one space required around assignment
                        ^ (bad-whitespace)
 Sudoku.py:23:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
 Sudoku.py:23:25: C0326: Exactly one space required around comparison
-    if (sudoku.count(".")==0):
+    if (sudoku.count('.')==0):
                          ^^ (bad-whitespace)
 Sudoku.py:33:18: C0326: Exactly one space required after comma
 def getRowValues(i,list_t):
@@ -337,5 +337,5 @@ Sudoku.py:150:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:150:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.76/10 (previous run: -3.89/10, +0.13)
+Your code has been rated at -3.76/10 (previous run: -3.76/10, +0.00)
 

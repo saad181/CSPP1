@@ -20,7 +20,7 @@ def validateSudoku(sudoku):
         list_t.append(sublist)
     else:
         raise Exception("Invalid input")
-    if (sudoku.count(".")==0):
+    if (sudoku.count('.')==0):
         raise Exception("Given sudoku is solved")
     possibleValues(list_t)
 
