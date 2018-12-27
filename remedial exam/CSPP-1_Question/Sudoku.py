@@ -17,11 +17,12 @@ def validateSudoku(sudoku):
 def duplicate(st):
     suduko1 = list()
     for i in st:
-        if i != "." and i not in suduko1:
-            suduko1.append(i)
-        else:
-            raise Exception("Invalid Sudoku:Duplicate values")
-            return
+        if i != ".":
+            if i not in suduko1:
+                suduko1.append(i)
+            else:
+                raise Exception("Invalid Sudoku:Duplicate values")
+                return
 
 def getRowValues(i, list_t):
     return list_t[i]
