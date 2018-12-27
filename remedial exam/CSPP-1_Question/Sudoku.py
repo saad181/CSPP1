@@ -32,6 +32,7 @@ def getColumnValues(i, list_t):
     for row in list_t:
         column.append(row[i])
     return column
+
 def getGridValues(i, j, list_t):
     sub = list()
     if (i >= 0 and i < 3) and (j >= 0 and j < 3):
@@ -78,8 +79,8 @@ def possibleValues(list_t):
                 duplicate(getRowValues(i, list_t))
                 duplicate(getColumnValues(i, list_t))
                 duplicate(getGridValues(i, j, list_t))
-                possibilities(i, j, list_t)
-def possibilities(i , j, list_t):
+                value(i, j, list_t)
+def value(i , j, list_t):
     newstring = [1,2,3,4,5,6,7,8,9]
     newlist = []
     r = maptointegers(getRowValues(i, list_t))
