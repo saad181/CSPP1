@@ -297,6 +297,7 @@ Sudoku.py:33:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:39:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:40:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:40:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:42:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:50:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:51:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:51:0: C0111: Missing function docstring (missing-docstring)
@@ -335,5 +336,5 @@ Sudoku.py:151:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:151:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.33/10 (previous run: -3.42/10, +0.09)
+Your code has been rated at -3.42/10 (previous run: -3.33/10, -0.09)
 

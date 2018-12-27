@@ -39,8 +39,8 @@ This  method should retunn all the values present in the ith column
 """
 def getColumnValues(i,list_t):
     col=[]
-    for row in list_t:
-        col.append(row[i])
+    for r in list_t:
+        col.append(r[i])
     return col    
     
     #pass
