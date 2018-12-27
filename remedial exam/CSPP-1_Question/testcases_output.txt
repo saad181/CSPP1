@@ -35,14 +35,6 @@ Expected Output:
 9
 
 Your Output: 
-
-
-
-
-
-
-
-
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
@@ -53,7 +45,7 @@ Expected Output:
 2
 
 Your Output: 
-
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -63,9 +55,7 @@ Expected Output:
 9
 
 Your Output: 
-
-
-9
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -97,7 +87,6 @@ Expected Output:
 3
 
 Your Output: 
-
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
@@ -178,14 +167,6 @@ Expected Output:
 4
 
 Your Output: 
-
-
-
-
-
-
-
-
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
@@ -301,12 +282,12 @@ Your Output:
 Invalid input
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -377,8 +358,6 @@ Expected Output:
 23689
 
 Your Output: 
-2679
-2679
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
@@ -445,7 +424,6 @@ Expected Output:
 1346
 
 Your Output: 
-12
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
@@ -511,7 +489,6 @@ Expected Output:
 4567
 
 Your Output: 
-123679
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
@@ -543,8 +520,6 @@ Expected Output:
 6
 
 Your Output: 
-2
-
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 
@@ -589,8 +564,6 @@ Expected Output:
 19
 
 Your Output: 
-2
-2
 Invalid Sudoku:Duplicate values
 ----------------------------------------
 

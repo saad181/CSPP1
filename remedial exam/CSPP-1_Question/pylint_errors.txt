@@ -331,10 +331,11 @@ Sudoku.py:123:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:136:-1: W0105: String statement has no effect (pointless-string-statement)
 Sudoku.py:137:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:137:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:137:0: R1711: Useless return at end of function or method (useless-return)
 Sudoku.py:146:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:150:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:150:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.80/10 (previous run: -3.80/10, +0.00)
+Your code has been rated at -3.89/10 (previous run: -3.80/10, -0.09)
 
