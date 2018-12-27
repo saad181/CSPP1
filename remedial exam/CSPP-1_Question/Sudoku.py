@@ -138,7 +138,7 @@ def duplicate(st):
     suduko1 = list()
     for i in st:
         if i != ".":
-            if i not in suduko1
+            if i not in suduko1:
                 suduko1.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
