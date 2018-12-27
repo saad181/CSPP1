@@ -1,12 +1,15 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-Given sudoku is solved
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 7
 7
@@ -19,15 +22,10 @@ Expected Output:
 7
 
 Your Output: 
-7
-7
-7
-7
-7
-7
-7
-7
-7
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -43,15 +41,10 @@ Expected Output:
 9
 
 Your Output: 
-
-
-
-
-
-
-
-
-9
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -61,7 +54,10 @@ Expected Output:
 2
 
 Your Output: 
-
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -71,9 +67,10 @@ Expected Output:
 9
 
 Your Output: 
-
-
-9
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -89,12 +86,10 @@ Expected Output:
 5
 
 Your Output: 
-
-
-
-8
-8
-8
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -110,8 +105,10 @@ Expected Output:
 3
 
 Your Output: 
-
-1
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -127,15 +124,10 @@ Expected Output:
 9
 
 Your Output: 
-7
-7
-7
-1
-1
-1
-9
-9
-9
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -151,9 +143,10 @@ Expected Output:
 6
 
 Your Output: 
-1
-1
-1
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -169,15 +162,10 @@ Expected Output:
 4
 
 Your Output: 
-
-
-
-
-
-
-4
-4
-4
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -193,7 +181,10 @@ Expected Output:
 8
 
 Your Output: 
-1
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -209,15 +200,10 @@ Expected Output:
 4
 
 Your Output: 
-
-
-
-
-
-
-
-
-4
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -233,15 +219,10 @@ Expected Output:
 8
 
 Your Output: 
-1
-1
-1
-3
-3
-3
-8
-8
-8
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -257,15 +238,10 @@ Expected Output:
 4
 
 Your Output: 
-5
-5
-5
-3
-3
-3
-4
-4
-4
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -290,24 +266,10 @@ Expected Output:
 4
 
 Your Output: 
-1
-1
-1
-3
-3
-3
-8
-8
-8
-5
-5
-5
-3
-3
-3
-4
-4
-4
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -346,62 +308,43 @@ Expected Output:
 23689
 
 Your Output: 
-12357
-12357
-12357
-467
-467
-467
-23489
-23489
-23489
-3
-3
-7
-
-1
-1
-
-
-5
-5
-
-
-
-
-34678
-34678
-34678
-156
-156
-156
-23689
-23689
-23689
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
-########## Testcase 16: Passed ##########
+########## Testcase 16: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
-########## Testcase 17: Passed ##########
+########## Testcase 17: Failed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Invalid input
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
-########## Testcase 18: Passed ##########
+########## Testcase 18: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -472,78 +415,21 @@ Expected Output:
 23689
 
 Your Output: 
-2679
-2679
-2369
-2369
-2369
-23679
-156789
-156789
-145689
-145689
-145689
-14679
-14679
-14679
-125689
-125689
-125689
-1235689
-1235689
-12369
-12369
-12369
-134589
-134589
-3459
-3459
-3459
-13589
-13589
-35679
-35679
-35679
-235679
-235679
-23579
-23579
-456789
-456789
-456789
-245679
-245679
-25789
-25789
-25789
-29
-29
-29
-159
-1259
-1259
-389
-389
-1489
-1489
-13489
-13489
-13489
-236789
-789
-789
-789
-23689
-23689
-23689
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
-########## Testcase 20: Passed ##########
+########## Testcase 20: Failed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Invalid input
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -601,57 +487,10 @@ Expected Output:
 1346
 
 Your Output: 
-12
-2
-2
-129
-129
-129
-247
-247
-2478
-2478
-2478
-1247
-234
-234
-234
-123457
-123457
-259
-259
-579
-579
-2579
-2579
-5
-5
-5
-5
-5
-1
-1
-14
-14
-48
-48
-134579
-134579
-357
-357
-357
-134
-23
-23
-23
-3
-3
-24
-24
-24
-2
-2
-4
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -716,64 +555,10 @@ Expected Output:
 4567
 
 Your Output: 
-123679
-2679
-2679
-2679
-12367
-12367
-12367
-679
-679
-679
-4679
-467
-467
-467
-236
-236
-268
-268
-268
-2368
-3467
-3467
-34567
-345
-345
-345
-2467
-2467
-2467
-249
-249
-249
-34
-34
-34
-2345
-2345
-2345
-2345
-34569
-34569
-3456
-3456
-4569
-4569
-23456
-23456
-23456
-234567
-4567
-4567
-4567
-489
-489
-489
-47
-47
-47
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -804,30 +589,10 @@ Expected Output:
 6
 
 Your Output: 
-2
-
-5
-6
-6
-
-
-
-
-
-4
-4
-4
-
-8
-8
-
-
-7
-6
-
-6
-6
-6
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -871,42 +636,9 @@ Expected Output:
 19
 
 Your Output: 
-2
-2
-1
-1
-1
-8
-48
-4
-4
-68
-368
-368
-3
-34
-34
-36
-36
-3
-3
-3
-38
-23
-23
-238
-
-
-3
-3
-127
-123
-123
-137
-137
-18
-18
-19
-19
+  File "Sudoku.py", line 140
+    for i in st:
+               ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 

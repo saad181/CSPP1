@@ -136,14 +136,14 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def duplicate(st):
-    suduko1 = list()
+     l = list()
     for i in st:
         if i != ".":
-            if i not in suduko1:
-                suduko1.append(i)
+            if i not in l:
+                listt.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
-                return        
+                return   
 def main():
     inp = str(input())
     try:
