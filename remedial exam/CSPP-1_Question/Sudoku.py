@@ -134,9 +134,9 @@ def converttointegers(integer):
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
-def duplicate(st):
+def duplicate(string):
     suduko1 = list()
-    for i in st:
+    for i in string:
         if i != "." and i not in suduko1:
             suduko1.append(i)
         else:
@@ -148,7 +148,7 @@ def main():
     try:
         validateSudoku(inp)
     except Exception as e:
-        print(e) 
+        print(e)
 
 
 if __name__ == '__main__':
