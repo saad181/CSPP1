@@ -1,4 +1,4 @@
-def check(sudoku):
+def validateSudoku(sudoku):
     construct = []
     sublist = []
     if len(sudoku) == 81:
@@ -97,11 +97,12 @@ def maptointegers(integerlist):
     row = row.replace(".", "")
     row = list(row)
     finalmappedint = list(map(int, row))
-    return finalmappedint 
+    return finalmappedint
+
 def main():
-    inputstring = str(input())
+    inp = str(input())
     try:
-        check(inputstring)
+        validateSudoku(inp)
     except Exception as e:
         print(e)
 if __name__ == "__main__":
