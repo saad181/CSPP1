@@ -15,13 +15,14 @@ def validateSudoku(sudoku):
         for i in range(len(sudoku)):
             if i %9==0 and i!=0:
                 list_t.append(sublist)
-                sublist.append(sudoku)
-                list_t.append(sublist)
-            else:
-                raise Exception("Invalid input")
-            if (list_t.count(".")==0):
-                raise Exception("Given sudoku is solved")
-            possibleValues(list_t)
+                sublist=[]
+            sublist.append(sudoku[i])
+        list_t.append(sublist)
+    else:
+        raise Exception("Invalid input")
+    if (list_t.count(".")==0):
+        raise Exception("Given sudoku is solved")
+    possibleValues(list_t)
 
 
 
