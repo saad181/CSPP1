@@ -127,14 +127,15 @@ def value(i,j,list_t):
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
-def duplicate():
+def duplicate(st):
     suduko1=[]
-    for i in suduko1:
-        if "." != suduko1:
-            if suduko != suduko1:
+    for i in st:
+        if i != ".":
+            if i != suduko1:
                 suduko1.append(i)
             else:
-                raise Exception("invalid sudoku:found duplicate")
+                raise Exception("Invalid Sudoku:Duplicate found")
+                return
     return       
 def main():
    
