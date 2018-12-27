@@ -96,5 +96,5 @@ Sudoku.py:120:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:120:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.75/10 (previous run: 4.33/10, -0.58)
+Your code has been rated at 3.75/10 (previous run: 3.75/10, +0.00)
 
