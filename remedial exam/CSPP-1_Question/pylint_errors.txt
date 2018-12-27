@@ -345,5 +345,5 @@ Sudoku.py:148:8: E0602: Undefined variable 'check' (undefined-variable)
 Sudoku.py:149:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.33/10 (previous run: -5.28/10, -0.04)
+Your code has been rated at -5.33/10 (previous run: -5.33/10, +0.00)
 
