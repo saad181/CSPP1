@@ -1,18 +1,18 @@
 def validateSudoku(sudoku):
-    construct = []
+    list_t = []
     sublist = []
     if len(sudoku) == 81:
         for i in range(len(sudoku)):
             if i % 9 == 0 and i!=0:
-                construct.append(sublist)
+                list_t.append(sublist)
                 sublist = []
             sublist.append(sudoku[i])
-        construct.append(sublist)
+        list_t.append(sublist)
     else:
         raise Exception("Invalid input")
     if (sudoku.count('.') == 0):
         raise Exception("Given sudoku is solved")
-    possibleValues(construct)
+    possibleValues(list_t)
 def eliminatedups(string):
     listt = list()
     for i in string:
@@ -22,66 +22,66 @@ def eliminatedups(string):
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
                 return
-def validRow(i, construct):
-    return construct[i]
-def validCol(i, construct):
+def validRow(i, list_t):
+    return list_t[i]
+def validCol(i, list_t):
     column = []
-    for row in construct:
+    for row in list_t:
         column.append(row[i])
     return column
-def validGrid(i, j, construct):
+def validGrid(i, j, list_t):
     SubGrid = list()
     if (i >= 0 and i < 3) and (j >= 0 and j < 3):
         for subrow in range(0, 3):
             for subcol in range(0, 3):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 0 and i < 3) and (j >= 3 and j < 6):
         for subrow in range(0, 3):
             for subcol in range(3, 6):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 0 and i < 3) and (j >= 6 and j < 9):
         for subrow in range(0, 3):
             for subcol in range(6, 9):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 3 and i < 6) and (j >= 0 and j < 3):
         for subrow in range(3, 6):
             for subcol in range(0, 3):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 3 and i < 6) and (j >= 3 and j < 6):
         for subrow in range(3, 6):
             for subcol in range(3, 6):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 3 and i < 6) and (j >= 6 and j < 9):
         for subrow in range(3, 6):
             for subcol in range(6, 9):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 6 and i < 9) and (j >= 0 and j < 3):
         for subrow in range(6, 9):
             for subcol in range(0, 3):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 6 and i < 9) and (j >= 3 and j < 6):
         for subrow in range(6, 9):
             for subcol in range(3, 6):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     if (i >= 6 and i < 9) and (j >= 6 and j < 9):
         for subrow in range(6, 9):
             for subcol in range(6, 9):
-                SubGrid.append(construct[subrow][subcol])
+                SubGrid.append(list_t[subrow][subcol])
     return SubGrid
-def possibleValues(construct):
-    for i in range(len(construct)):
-        for j in range(len(construct[0])):
-            if construct[i][j] == ".":
-                eliminatedups(validRow(i, construct))
-                eliminatedups(validCol(i, construct))
-                eliminatedups(validGrid(i, j, construct))
-                possibilities(i, j, construct)
-def possibilities(i , j, construct):
+def possibleValues(list_t):
+    for i in range(len(list_t)):
+        for j in range(len(list_t[0])):
+            if list_t[i][j] == ".":
+                eliminatedups(validRow(i, list_t))
+                eliminatedups(validCol(i, list_t))
+                eliminatedups(validGrid(i, j, list_t))
+                possibilities(i, j, list_t)
+def possibilities(i , j, list_t):
     newstring = [1,2,3,4,5,6,7,8,9]
     newlist = []
-    r = maptointegers(validRow(i, construct))
-    c = maptointegers(validCol(j, construct))
-    g = maptointegers(validGrid(i, j, construct))
+    r = maptointegers(validRow(i, list_t))
+    c = maptointegers(validCol(j, list_t))
+    g = maptointegers(validGrid(i, j, list_t))
     finalanswer = ""
     for each in newstring:
         if each not in r:

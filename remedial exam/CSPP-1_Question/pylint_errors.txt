@@ -4,7 +4,7 @@ Sudoku.py:6:31: C0326: Exactly one space required around comparison
                                ^^ (bad-whitespace)
 Sudoku.py:13:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
 Sudoku.py:79:20: C0326: No space allowed before comma
-def possibilities(i , j, construct):
+def possibilities(i , j, list_t):
                     ^ (bad-whitespace)
 Sudoku.py:80:18: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
