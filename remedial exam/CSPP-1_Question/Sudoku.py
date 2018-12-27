@@ -98,10 +98,10 @@ def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t)):
             if list_t[i][j]=='.':
-                getRowValues(i,list_t)
-                getColumnValues(i,list_t)
-                getGridValues(i,j,list_t)
-
+                # getRowValues(i,list_t)
+                # getColumnValues(i,list_t)
+                # getGridValues(i,j,list_t)
+                value(i,j,list_t)
 def value(i,j,list_t):
     num=[1,2,3,4,5,6,7,8,9]
     new=[]
@@ -110,15 +110,18 @@ def value(i,j,list_t):
     grid_val = getGridValues(i,j,list_t)
     ans = ""
     for i in num:
-        if i not in row_val:
-            if i not in col_val:
-                if i not in grid_val:
+        if i not in row_val and i not in col_val and i not in grid_val:
                     new.append(i)
+                   
     print(ans)
     return ans                
 
 
-
+def converttointegers(integer):
+    row = row.replace(".","")
+    row = list(row)
+    mapped = list(map(int,row))
+    return mapped
 
 
 
@@ -130,12 +133,11 @@ Then travese through each value, if you get a "." then collect the possible valu
 def duplicate(st):
     suduko1=[]
     for i in st:
-        if i != ".":
-            if i != suduko1:
-                suduko1.append(i)
-            else:
-                raise Exception("Invalid Sudoku:Duplicate found")
-                return
+        if i != "." and  i != suduko1:
+            suduko1.append(i)
+        else:
+            raise Exception("Invalid Sudoku:Duplicate found")
+        return
     return       
 def main():
     inp = input()
