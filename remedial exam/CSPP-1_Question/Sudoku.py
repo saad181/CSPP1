@@ -14,15 +14,6 @@ def validateSudoku(sudoku):
         raise Exception("Given sudoku is solved")
     possibleValues(list_t)
 
-# def duplicate(st):
-#     suduko1 = list()
-#     for i in st:
-#         if i != ".":
-#             if i not in suduko1:
-#                 suduko1.append(i)
-#             else:
-#                 raise Exception("Invalid Sudoku:Duplicate values")
-#                 return
 
 def getRowValues(i, list_t):
     return list_t[i]
@@ -97,13 +88,13 @@ def value(i , j, list_t):
     for i in num:
         if i not in row_val and i not in col_val and i not in grid_val:
                     new.append(i)
-    ans = list(map(str, new))
-    ans = ''.join(ans)
+    ans = ''.join(list(map(str, new)))
+    #ans = ''.join(ans)
     print(ans)
     return ans
 
-def converttointegers(interger):
-    row = ''.join(interger)
+def converttointegers(integer):
+    row = ''.join(integer)
     row = row.replace(".", "")
     row = list(row)
     mapped = list(map(int, row))
