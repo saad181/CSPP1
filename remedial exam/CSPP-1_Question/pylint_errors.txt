@@ -279,15 +279,14 @@ Sudoku.py:119:20: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:119:7: C0326: Exactly one space required around assignment
     ans=''.join(ans)                
        ^ (bad-whitespace)
-Sudoku.py:120:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:122:14: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:127:25: C0326: Exactly one space required after comma
+Sudoku.py:121:14: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:126:25: C0326: Exactly one space required after comma
     row = row.replace(".","")
                          ^ (bad-whitespace)
-Sudoku.py:129:25: C0326: Exactly one space required after comma
+Sudoku.py:128:25: C0326: Exactly one space required after comma
     mapped = list(map(int,row))
                          ^ (bad-whitespace)
-Sudoku.py:147:22: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:146:22: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
@@ -326,15 +325,15 @@ Sudoku.py:98:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:99:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Sudoku.py:106:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:113:8: R1704: Redefining argument with the local name 'i' (redefined-argument-from-local)
-Sudoku.py:125:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:138:-1: W0105: String statement has no effect (pointless-string-statement)
-Sudoku.py:139:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:139:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:147:16: W0101: Unreachable code (unreachable)
-Sudoku.py:148:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:152:11: W0703: Catching too general exception Exception (broad-except)
-Sudoku.py:152:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:124:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:137:-1: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:138:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:138:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:146:16: W0101: Unreachable code (unreachable)
+Sudoku.py:147:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:151:11: W0703: Catching too general exception Exception (broad-except)
+Sudoku.py:151:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.42/10 (previous run: -3.42/10, +0.00)
+Your code has been rated at -3.33/10 (previous run: -3.42/10, +0.09)
 
