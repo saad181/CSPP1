@@ -138,7 +138,11 @@ def duplicate(st):
                 return
     return       
 def main():
-   
+    inp = input()
+    try:
+        check(inp)
+    except Exception as e:
+        print(e) 
 
 
     if __name__ == '__main__':
