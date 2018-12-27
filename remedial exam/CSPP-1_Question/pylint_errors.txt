@@ -12,294 +12,292 @@ Sudoku.py:8:23: C0326: Exactly one space required around assignment
                 sublist=[]
                        ^ (bad-whitespace)
 Sudoku.py:13:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-Sudoku.py:24:22: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:25:18: C0326: Exactly one space required after comma
+Sudoku.py:27:18: C0326: Exactly one space required after comma
 def getRowValues(i,list_t):
                   ^ (bad-whitespace)
-Sudoku.py:27:21: C0326: Exactly one space required after comma
+Sudoku.py:30:21: C0326: Exactly one space required after comma
 def getColumnValues(i,list_t):
                      ^ (bad-whitespace)
-Sudoku.py:28:7: C0326: Exactly one space required around assignment
+Sudoku.py:31:7: C0326: Exactly one space required around assignment
     col=[]
        ^ (bad-whitespace)
-Sudoku.py:31:14: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:32:19: C0326: Exactly one space required after comma
+Sudoku.py:34:14: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:36:19: C0326: Exactly one space required after comma
 def getGridValues(i,j,list_t):
                    ^ (bad-whitespace)
-Sudoku.py:32:21: C0326: Exactly one space required after comma
+Sudoku.py:36:21: C0326: Exactly one space required after comma
 def getGridValues(i,j,list_t):
                      ^ (bad-whitespace)
-Sudoku.py:33:7: C0326: Exactly one space required around assignment
+Sudoku.py:37:7: C0326: Exactly one space required around assignment
     sub=list()
        ^ (bad-whitespace)
-Sudoku.py:34:9: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=0 and j<3):
-         ^^ (bad-whitespace)
-Sudoku.py:34:18: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=0 and j<3):
-                  ^ (bad-whitespace)
-Sudoku.py:34:28: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=0 and j<3):
-                            ^^ (bad-whitespace)
-Sudoku.py:34:37: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=0 and j<3):
-                                     ^ (bad-whitespace)
-Sudoku.py:35:29: C0326: Exactly one space required after comma
-        for subrow in range(0,3):
-                             ^ (bad-whitespace)
-Sudoku.py:36:36: C0326: Exactly one space required after comma
-            for subcolumn in range(0,3):
-                                    ^ (bad-whitespace)
 Sudoku.py:38:9: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=3 and j<6):
+    if (i>=0 and i<3) and (j>=0 and j<3):
          ^^ (bad-whitespace)
 Sudoku.py:38:18: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=3 and j<6):
+    if (i>=0 and i<3) and (j>=0 and j<3):
                   ^ (bad-whitespace)
 Sudoku.py:38:28: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=3 and j<6):
+    if (i>=0 and i<3) and (j>=0 and j<3):
                             ^^ (bad-whitespace)
 Sudoku.py:38:37: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=3 and j<6):
+    if (i>=0 and i<3) and (j>=0 and j<3):
                                      ^ (bad-whitespace)
 Sudoku.py:39:29: C0326: Exactly one space required after comma
         for subrow in range(0,3):
                              ^ (bad-whitespace)
 Sudoku.py:40:36: C0326: Exactly one space required after comma
-            for subcolumn in range(3,6):
+            for subcolumn in range(0,3):
                                     ^ (bad-whitespace)
 Sudoku.py:42:9: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=6 and j<9):
+    if (i>=0 and i<3) and (j>=3 and j<6):
          ^^ (bad-whitespace)
 Sudoku.py:42:18: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=6 and j<9):
+    if (i>=0 and i<3) and (j>=3 and j<6):
                   ^ (bad-whitespace)
 Sudoku.py:42:28: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=6 and j<9):
+    if (i>=0 and i<3) and (j>=3 and j<6):
                             ^^ (bad-whitespace)
 Sudoku.py:42:37: C0326: Exactly one space required around comparison
-    if (i>=0 and i<3) and (j>=6 and j<9):
+    if (i>=0 and i<3) and (j>=3 and j<6):
                                      ^ (bad-whitespace)
 Sudoku.py:43:29: C0326: Exactly one space required after comma
         for subrow in range(0,3):
                              ^ (bad-whitespace)
 Sudoku.py:44:36: C0326: Exactly one space required after comma
-            for subcolumn in range(6,9):
+            for subcolumn in range(3,6):
                                     ^ (bad-whitespace)
 Sudoku.py:46:9: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=0 and j<3):
+    if (i>=0 and i<3) and (j>=6 and j<9):
          ^^ (bad-whitespace)
 Sudoku.py:46:18: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=0 and j<3):
+    if (i>=0 and i<3) and (j>=6 and j<9):
                   ^ (bad-whitespace)
 Sudoku.py:46:28: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=0 and j<3):
+    if (i>=0 and i<3) and (j>=6 and j<9):
                             ^^ (bad-whitespace)
 Sudoku.py:46:37: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=0 and j<3):
+    if (i>=0 and i<3) and (j>=6 and j<9):
                                      ^ (bad-whitespace)
 Sudoku.py:47:29: C0326: Exactly one space required after comma
-        for subrow in range(3,6):
+        for subrow in range(0,3):
                              ^ (bad-whitespace)
 Sudoku.py:48:36: C0326: Exactly one space required after comma
-            for subcolumn in range(0,3):
+            for subcolumn in range(6,9):
                                     ^ (bad-whitespace)
 Sudoku.py:50:9: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=3 and j<6):
+    if (i>=3 and i<6) and (j>=0 and j<3):
          ^^ (bad-whitespace)
 Sudoku.py:50:18: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=3 and j<6):
+    if (i>=3 and i<6) and (j>=0 and j<3):
                   ^ (bad-whitespace)
 Sudoku.py:50:28: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=3 and j<6):
+    if (i>=3 and i<6) and (j>=0 and j<3):
                             ^^ (bad-whitespace)
 Sudoku.py:50:37: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=3 and j<6):
+    if (i>=3 and i<6) and (j>=0 and j<3):
                                      ^ (bad-whitespace)
 Sudoku.py:51:29: C0326: Exactly one space required after comma
         for subrow in range(3,6):
                              ^ (bad-whitespace)
 Sudoku.py:52:36: C0326: Exactly one space required after comma
-            for subcolumn in range(3,6):
+            for subcolumn in range(0,3):
                                     ^ (bad-whitespace)
 Sudoku.py:54:9: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=6 and j<9):
+    if (i>=3 and i<6) and (j>=3 and j<6):
          ^^ (bad-whitespace)
 Sudoku.py:54:18: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=6 and j<9):
+    if (i>=3 and i<6) and (j>=3 and j<6):
                   ^ (bad-whitespace)
 Sudoku.py:54:28: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=6 and j<9):
+    if (i>=3 and i<6) and (j>=3 and j<6):
                             ^^ (bad-whitespace)
 Sudoku.py:54:37: C0326: Exactly one space required around comparison
-    if (i>=3 and i<6) and (j>=6 and j<9):
+    if (i>=3 and i<6) and (j>=3 and j<6):
                                      ^ (bad-whitespace)
 Sudoku.py:55:29: C0326: Exactly one space required after comma
         for subrow in range(3,6):
                              ^ (bad-whitespace)
 Sudoku.py:56:36: C0326: Exactly one space required after comma
-            for subcolumn in range(6,9):
+            for subcolumn in range(3,6):
                                     ^ (bad-whitespace)
-Sudoku.py:57:70: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:58:9: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=0 and j<3):
+    if (i>=3 and i<6) and (j>=6 and j<9):
          ^^ (bad-whitespace)
 Sudoku.py:58:18: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=0 and j<3):
+    if (i>=3 and i<6) and (j>=6 and j<9):
                   ^ (bad-whitespace)
 Sudoku.py:58:28: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=0 and j<3):
+    if (i>=3 and i<6) and (j>=6 and j<9):
                             ^^ (bad-whitespace)
 Sudoku.py:58:37: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=0 and j<3):
+    if (i>=3 and i<6) and (j>=6 and j<9):
                                      ^ (bad-whitespace)
 Sudoku.py:59:29: C0326: Exactly one space required after comma
-        for subrow in range(6,9):
+        for subrow in range(3,6):
                              ^ (bad-whitespace)
 Sudoku.py:60:36: C0326: Exactly one space required after comma
-            for subcolumn in range(0,3):
+            for subcolumn in range(6,9):
                                     ^ (bad-whitespace)
+Sudoku.py:61:70: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:62:9: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=3 and j<6):
+    if (i>=6 and i<9) and (j>=0 and j<3):
          ^^ (bad-whitespace)
 Sudoku.py:62:18: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=3 and j<6):
+    if (i>=6 and i<9) and (j>=0 and j<3):
                   ^ (bad-whitespace)
 Sudoku.py:62:28: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=3 and j<6):
+    if (i>=6 and i<9) and (j>=0 and j<3):
                             ^^ (bad-whitespace)
 Sudoku.py:62:37: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=3 and j<6):
+    if (i>=6 and i<9) and (j>=0 and j<3):
                                      ^ (bad-whitespace)
 Sudoku.py:63:29: C0326: Exactly one space required after comma
         for subrow in range(6,9):
                              ^ (bad-whitespace)
 Sudoku.py:64:36: C0326: Exactly one space required after comma
-            for subcolumn in range(3,6):
+            for subcolumn in range(0,3):
                                     ^ (bad-whitespace)
 Sudoku.py:66:9: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=6 and j<9):
+    if (i>=6 and i<9) and (j>=3 and j<6):
          ^^ (bad-whitespace)
 Sudoku.py:66:18: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=6 and j<9):
+    if (i>=6 and i<9) and (j>=3 and j<6):
                   ^ (bad-whitespace)
 Sudoku.py:66:28: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=6 and j<9):
+    if (i>=6 and i<9) and (j>=3 and j<6):
                             ^^ (bad-whitespace)
 Sudoku.py:66:37: C0326: Exactly one space required around comparison
-    if (i>=6 and i<9) and (j>=6 and j<9):
+    if (i>=6 and i<9) and (j>=3 and j<6):
                                      ^ (bad-whitespace)
 Sudoku.py:67:29: C0326: Exactly one space required after comma
         for subrow in range(6,9):
                              ^ (bad-whitespace)
 Sudoku.py:68:36: C0326: Exactly one space required after comma
+            for subcolumn in range(3,6):
+                                    ^ (bad-whitespace)
+Sudoku.py:70:9: C0326: Exactly one space required around comparison
+    if (i>=6 and i<9) and (j>=6 and j<9):
+         ^^ (bad-whitespace)
+Sudoku.py:70:18: C0326: Exactly one space required around comparison
+    if (i>=6 and i<9) and (j>=6 and j<9):
+                  ^ (bad-whitespace)
+Sudoku.py:70:28: C0326: Exactly one space required around comparison
+    if (i>=6 and i<9) and (j>=6 and j<9):
+                            ^^ (bad-whitespace)
+Sudoku.py:70:37: C0326: Exactly one space required around comparison
+    if (i>=6 and i<9) and (j>=6 and j<9):
+                                     ^ (bad-whitespace)
+Sudoku.py:71:29: C0326: Exactly one space required after comma
+        for subrow in range(6,9):
+                             ^ (bad-whitespace)
+Sudoku.py:72:36: C0326: Exactly one space required after comma
             for subcolumn in range(6,9):
                                     ^ (bad-whitespace)
-Sudoku.py:70:14: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:82:27: C0326: Exactly one space required around comparison
+Sudoku.py:74:14: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:86:27: C0326: Exactly one space required around comparison
             if list_t[i][j]==".":
                            ^^ (bad-whitespace)
-Sudoku.py:83:40: C0326: Exactly one space required after comma
+Sudoku.py:87:40: C0326: Exactly one space required after comma
                 duplicate(getRowValues(i,list_t))
                                         ^ (bad-whitespace)
-Sudoku.py:84:43: C0326: Exactly one space required after comma
+Sudoku.py:88:43: C0326: Exactly one space required after comma
                 duplicate(getColumnValues(i,list_t))
                                            ^ (bad-whitespace)
-Sudoku.py:85:41: C0326: Exactly one space required after comma
+Sudoku.py:89:41: C0326: Exactly one space required after comma
                 duplicate(getGridValues(i,j,list_t))
                                          ^ (bad-whitespace)
-Sudoku.py:85:43: C0326: Exactly one space required after comma
+Sudoku.py:89:43: C0326: Exactly one space required after comma
                 duplicate(getGridValues(i,j,list_t))
                                            ^ (bad-whitespace)
-Sudoku.py:86:23: C0326: Exactly one space required after comma
+Sudoku.py:90:23: C0326: Exactly one space required after comma
                 value(i,j,list_t)
                        ^ (bad-whitespace)
-Sudoku.py:86:25: C0326: Exactly one space required after comma
+Sudoku.py:90:25: C0326: Exactly one space required after comma
                 value(i,j,list_t)
                          ^ (bad-whitespace)
-Sudoku.py:87:11: C0326: Exactly one space required after comma
+Sudoku.py:91:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:92:11: C0326: Exactly one space required after comma
 def value(i,j,list_t):
            ^ (bad-whitespace)
-Sudoku.py:87:13: C0326: Exactly one space required after comma
+Sudoku.py:92:13: C0326: Exactly one space required after comma
 def value(i,j,list_t):
              ^ (bad-whitespace)
-Sudoku.py:88:7: C0326: Exactly one space required around assignment
+Sudoku.py:93:7: C0326: Exactly one space required around assignment
     num=[1,2,3,4,5,6,7,8,9]
        ^ (bad-whitespace)
-Sudoku.py:88:10: C0326: Exactly one space required after comma
+Sudoku.py:93:10: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
           ^ (bad-whitespace)
-Sudoku.py:88:12: C0326: Exactly one space required after comma
+Sudoku.py:93:12: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
             ^ (bad-whitespace)
-Sudoku.py:88:14: C0326: Exactly one space required after comma
+Sudoku.py:93:14: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
               ^ (bad-whitespace)
-Sudoku.py:88:16: C0326: Exactly one space required after comma
+Sudoku.py:93:16: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
                 ^ (bad-whitespace)
-Sudoku.py:88:18: C0326: Exactly one space required after comma
+Sudoku.py:93:18: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
                   ^ (bad-whitespace)
-Sudoku.py:88:20: C0326: Exactly one space required after comma
+Sudoku.py:93:20: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
                     ^ (bad-whitespace)
-Sudoku.py:88:22: C0326: Exactly one space required after comma
+Sudoku.py:93:22: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
                       ^ (bad-whitespace)
-Sudoku.py:88:24: C0326: Exactly one space required after comma
+Sudoku.py:93:24: C0326: Exactly one space required after comma
     num=[1,2,3,4,5,6,7,8,9]
                         ^ (bad-whitespace)
-Sudoku.py:89:7: C0326: Exactly one space required around assignment
+Sudoku.py:94:7: C0326: Exactly one space required around assignment
     new=[]
        ^ (bad-whitespace)
-Sudoku.py:90:46: C0326: Exactly one space required after comma
+Sudoku.py:95:46: C0326: Exactly one space required after comma
     row_val = converttointegers(getRowValues(i,list_t))
                                               ^ (bad-whitespace)
-Sudoku.py:91:49: C0326: Exactly one space required after comma
+Sudoku.py:96:49: C0326: Exactly one space required after comma
     col_val = converttointegers(getColumnValues(i,list_t))
                                                  ^ (bad-whitespace)
-Sudoku.py:92:48: C0326: Exactly one space required after comma
+Sudoku.py:97:48: C0326: Exactly one space required after comma
     grid_val = converttointegers(getGridValues(i,j,list_t))
                                                 ^ (bad-whitespace)
-Sudoku.py:92:50: C0326: Exactly one space required after comma
+Sudoku.py:97:50: C0326: Exactly one space required after comma
     grid_val = converttointegers(getGridValues(i,j,list_t))
                                                   ^ (bad-whitespace)
-Sudoku.py:99:7: C0326: Exactly one space required around assignment
+Sudoku.py:104:7: C0326: Exactly one space required around assignment
     ans=list(map(str,new))
        ^ (bad-whitespace)
-Sudoku.py:99:20: C0326: Exactly one space required after comma
+Sudoku.py:104:20: C0326: Exactly one space required after comma
     ans=list(map(str,new))
                     ^ (bad-whitespace)
-Sudoku.py:100:20: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:100:7: C0326: Exactly one space required around assignment
+Sudoku.py:105:20: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:105:7: C0326: Exactly one space required around assignment
     ans=''.join(ans)                
        ^ (bad-whitespace)
-Sudoku.py:102:14: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:107:25: C0326: Exactly one space required after comma
+Sudoku.py:107:14: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:112:25: C0326: Exactly one space required after comma
     row = row.replace(".","")
                          ^ (bad-whitespace)
-Sudoku.py:109:25: C0326: Exactly one space required after comma
+Sudoku.py:114:25: C0326: Exactly one space required after comma
     mapped = list(map(int,row))
                          ^ (bad-whitespace)
-Sudoku.py:119:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:124:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku.py:1:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:5:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku.py:16:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:16:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:24:16: W0101: Unreachable code (unreachable)
-Sudoku.py:25:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:25:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:27:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:17:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:25:16: W0101: Unreachable code (unreachable)
+Sudoku.py:27:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:27:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:29:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:32:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:32:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:34:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:34:27: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:30:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:30:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:32:8: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:36:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:36:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:38:8: R1716: Simplify chained comparison between the operands (chained-comparison)
 Sudoku.py:38:27: R1716: Simplify chained comparison between the operands (chained-comparison)
 Sudoku.py:42:8: R1716: Simplify chained comparison between the operands (chained-comparison)
@@ -316,19 +314,21 @@ Sudoku.py:62:8: R1716: Simplify chained comparison between the operands (chained
 Sudoku.py:62:27: R1716: Simplify chained comparison between the operands (chained-comparison)
 Sudoku.py:66:8: R1716: Simplify chained comparison between the operands (chained-comparison)
 Sudoku.py:66:27: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:32:0: R0912: Too many branches (27/12) (too-many-branches)
-Sudoku.py:78:-1: W0105: String statement has no effect (pointless-string-statement)
-Sudoku.py:79:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:79:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:80:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku.py:87:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:94:8: R1704: Redefining argument with the local name 'i' (redefined-argument-from-local)
-Sudoku.py:105:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:118:-1: W0105: String statement has no effect (pointless-string-statement)
-Sudoku.py:120:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:124:11: W0703: Catching too general exception Exception (broad-except)
-Sudoku.py:124:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:70:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:70:27: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:36:0: R0912: Too many branches (27/12) (too-many-branches)
+Sudoku.py:82:-1: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:83:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:83:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:84:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Sudoku.py:92:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:99:8: R1704: Redefining argument with the local name 'i' (redefined-argument-from-local)
+Sudoku.py:110:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:123:-1: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:125:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:129:11: W0703: Catching too general exception Exception (broad-except)
+Sudoku.py:129:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.43/10 (previous run: -3.42/10, -0.00)
+Your code has been rated at -3.43/10 (previous run: -3.43/10, +0.00)
 

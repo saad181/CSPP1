@@ -13,6 +13,7 @@ def validateSudoku(sudoku):
     if (sudoku.count('.') == 0):
         raise Exception("Given sudoku is solved")
     possibleValues(list_t)
+
 def duplicate(st):
     suduko1 = list()
     for i in st:
@@ -21,14 +22,17 @@ def duplicate(st):
                 suduko1.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
-                return    
+                return
+
 def getRowValues(i,list_t):
     return list_t[i]
+
 def getColumnValues(i,list_t):
     col=[]
     for r in list_t:
         col.append(r[i])
     return col    
+
 def getGridValues(i,j,list_t):
     sub=list()
     if (i>=0 and i<3) and (j>=0 and j<3):
@@ -84,6 +88,7 @@ def possibleValues(list_t):
                 duplicate(getColumnValues(i,list_t))
                 duplicate(getGridValues(i,j,list_t))
                 value(i,j,list_t)
+                
 def value(i,j,list_t):
     num=[1,2,3,4,5,6,7,8,9]
     new=[]
