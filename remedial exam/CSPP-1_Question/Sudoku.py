@@ -12,7 +12,7 @@ def validateSudoku(sudoku):
     list_t = []
     sublist =[]
     if len(sudoku) == 81:
-        for i in range(sudoku):
+        for i in range(len(sudoku)):
             if i %9==0 and i!=0:
                 list_t.append(sublist)
                 sublist.append(sudoku)
