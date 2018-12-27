@@ -14,17 +14,19 @@ def validateSudoku(sudoku):
         raise Exception("Given sudoku is solved")
     possibleValues(list_t)
 
-def duplicate(string):
+def duplicate(st):
     suduko1 = list()
-    for i in string:
+    for i in st:
         if i != ".":
             if i not in suduko1:
                 suduko1.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
                 return
+
 def validRow(i, list_t):
     return list_t[i]
+
 def validCol(i, list_t):
     column = []
     for row in list_t:
