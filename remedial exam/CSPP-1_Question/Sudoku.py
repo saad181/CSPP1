@@ -81,18 +81,18 @@ def possibleValues(list_t):
                 duplicate(getGridValues(i, j, list_t))
                 value(i, j, list_t)
 def value(i , j, list_t):
-    newstring = [1,2,3,4,5,6,7,8,9]
-    newlist = []
-    r = maptointegers(getRowValues(i, list_t))
-    c = maptointegers(getColumnValues(j, list_t))
-    g = maptointegers(getGridValues(i, j, list_t))
+    num = [1,2,3,4,5,6,7,8,9]
+    new = []
+    row_val = maptointegers(getRowValues(i, list_t))
+    col_val = maptointegers(getColumnValues(j, list_t))
+    grid_val = maptointegers(getGridValues(i, j, list_t))
     finalanswer = ""
-    for each in newstring:
-        if each not in r:
-            if each not in c:
-                if each not in g:
-                    newlist.append(each)
-    finalanswer = list(map(str, newlist))
+    for i in num:
+        if i not in r:
+            if i not in c:
+                if i not in g:
+                    new.append(each)
+    finalanswer = list(map(str, new))
     finalanswer = ''.join(finalanswer)
     print(finalanswer)
     return finalanswer

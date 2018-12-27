@@ -6,30 +6,30 @@ Sudoku.py:13:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens
 Sudoku.py:83:12: C0326: No space allowed before comma
 def value(i , j, list_t):
             ^ (bad-whitespace)
+Sudoku.py:84:12: C0326: Exactly one space required after comma
+    num = [1,2,3,4,5,6,7,8,9]
+            ^ (bad-whitespace)
+Sudoku.py:84:14: C0326: Exactly one space required after comma
+    num = [1,2,3,4,5,6,7,8,9]
+              ^ (bad-whitespace)
+Sudoku.py:84:16: C0326: Exactly one space required after comma
+    num = [1,2,3,4,5,6,7,8,9]
+                ^ (bad-whitespace)
 Sudoku.py:84:18: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
+    num = [1,2,3,4,5,6,7,8,9]
                   ^ (bad-whitespace)
 Sudoku.py:84:20: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
+    num = [1,2,3,4,5,6,7,8,9]
                     ^ (bad-whitespace)
 Sudoku.py:84:22: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
+    num = [1,2,3,4,5,6,7,8,9]
                       ^ (bad-whitespace)
 Sudoku.py:84:24: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
+    num = [1,2,3,4,5,6,7,8,9]
                         ^ (bad-whitespace)
 Sudoku.py:84:26: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
+    num = [1,2,3,4,5,6,7,8,9]
                           ^ (bad-whitespace)
-Sudoku.py:84:28: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
-                            ^ (bad-whitespace)
-Sudoku.py:84:30: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
-                              ^ (bad-whitespace)
-Sudoku.py:84:32: C0326: Exactly one space required after comma
-    newstring = [1,2,3,4,5,6,7,8,9]
-                                ^ (bad-whitespace)
 Sudoku.py:113:0: C0304: Final newline missing (missing-final-newline)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -68,14 +68,19 @@ Sudoku.py:75:0: C0103: Function name "possibleValues" doesn't conform to snake_c
 Sudoku.py:75:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:76:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Sudoku.py:83:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:86:4: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:87:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:88:4: C0103: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:90:8: R1704: Redefining argument with the local name 'i' (redefined-argument-from-local)
+Sudoku.py:91:20: E0602: Undefined variable 'r' (undefined-variable)
+Sudoku.py:92:24: E0602: Undefined variable 'c' (undefined-variable)
+Sudoku.py:93:28: E0602: Undefined variable 'g' (undefined-variable)
+Sudoku.py:94:31: E0602: Undefined variable 'each' (undefined-variable)
+Sudoku.py:86:4: W0612: Unused variable 'row_val' (unused-variable)
+Sudoku.py:87:4: W0612: Unused variable 'col_val' (unused-variable)
+Sudoku.py:88:4: W0612: Unused variable 'grid_val' (unused-variable)
 Sudoku.py:99:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:106:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:110:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:110:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.72/10 (previous run: 4.72/10, +0.00)
+Your code has been rated at 2.74/10 (previous run: 4.72/10, -1.98)
 
