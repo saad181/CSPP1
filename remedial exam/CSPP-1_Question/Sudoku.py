@@ -143,7 +143,7 @@ def duplicate(st):
                 suduko1.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
-                return        
+            return        
 def main():
     inp = str(input())
     try:
