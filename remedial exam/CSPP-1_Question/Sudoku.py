@@ -83,9 +83,9 @@ def possibleValues(list_t):
 def value(i , j, list_t):
     num = [1,2,3,4,5,6,7,8,9]
     new = []
-    row_val = maptointegers(getRowValues(i, list_t))
-    col_val = maptointegers(getColumnValues(j, list_t))
-    grid_val = maptointegers(getGridValues(i, j, list_t))
+    row_val = converttointegers(getRowValues(i, list_t))
+    col_val = converttointegers(getColumnValues(j, list_t))
+    grid_val = converttointegers(getGridValues(i, j, list_t))
     ans = ""
     for i in num:
         if i not in row_val:
@@ -96,12 +96,13 @@ def value(i , j, list_t):
     ans = ''.join(ans)
     print(ans)
     return ans
-def maptointegers(integerlist):
-    row = ''.join(integerlist)
+
+def converttointegers(interger):
+    row = ''.join(interger)
     row = row.replace(".", "")
     row = list(row)
-    finalmappedint = list(map(int, row))
-    return finalmappedint
+    mapped = list(map(int, row))
+    return mapped
 
 def main():
     inp = str(input())
