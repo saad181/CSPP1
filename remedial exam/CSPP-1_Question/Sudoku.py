@@ -15,11 +15,11 @@ def validateSudoku(sudoku):
     possibleValues(list_t)
 
 def duplicate(string):
-    listt = list()
+    suduko1 = list()
     for i in string:
         if i != ".":
-            if i not in listt:
-                listt.append(i)
+            if i not in suduko1:
+                suduko1.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
                 return
