@@ -212,11 +212,60 @@ Sudoku.py:103:31: C0326: Exactly one space required after comma
 Sudoku.py:103:33: C0326: Exactly one space required after comma
                 getGridValues(i,j,list_t)
                                  ^ (bad-whitespace)
-Sudoku.py:115:11: C0326: Exactly one space required around assignment
+Sudoku.py:105:11: C0326: Exactly one space required after comma
+def value(i,j,list_t):
+           ^ (bad-whitespace)
+Sudoku.py:105:13: C0326: Exactly one space required after comma
+def value(i,j,list_t):
+             ^ (bad-whitespace)
+Sudoku.py:106:7: C0326: Exactly one space required around assignment
+    num=[1,2,3,4,5,6,7,8,9]
+       ^ (bad-whitespace)
+Sudoku.py:106:10: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+          ^ (bad-whitespace)
+Sudoku.py:106:12: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+            ^ (bad-whitespace)
+Sudoku.py:106:14: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+              ^ (bad-whitespace)
+Sudoku.py:106:16: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+                ^ (bad-whitespace)
+Sudoku.py:106:18: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+                  ^ (bad-whitespace)
+Sudoku.py:106:20: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+                    ^ (bad-whitespace)
+Sudoku.py:106:22: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+                      ^ (bad-whitespace)
+Sudoku.py:106:24: C0326: Exactly one space required after comma
+    num=[1,2,3,4,5,6,7,8,9]
+                        ^ (bad-whitespace)
+Sudoku.py:107:7: C0326: Exactly one space required around assignment
+    new=[]
+       ^ (bad-whitespace)
+Sudoku.py:108:28: C0326: Exactly one space required after comma
+    row_val = getRowValues(i,list_t)
+                            ^ (bad-whitespace)
+Sudoku.py:109:31: C0326: Exactly one space required after comma
+    col_val = getColumnValues(i,list_t)
+                               ^ (bad-whitespace)
+Sudoku.py:110:30: C0326: Exactly one space required after comma
+    grid_val = getGridValues(i,j,list_t)
+                              ^ (bad-whitespace)
+Sudoku.py:110:32: C0326: Exactly one space required after comma
+    grid_val = getGridValues(i,j,list_t)
+                                ^ (bad-whitespace)
+Sudoku.py:118:14: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:131:11: C0326: Exactly one space required around assignment
     suduko1=[]
            ^ (bad-whitespace)
-Sudoku.py:122:10: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:124:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:138:10: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:140:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
@@ -253,13 +302,15 @@ Sudoku.py:96:-1: W0105: String statement has no effect (pointless-string-stateme
 Sudoku.py:97:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:97:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:98:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku.py:113:-1: W0105: String statement has no effect (pointless-string-statement)
-Sudoku.py:114:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:117:11: C0122: Comparison should be suduko1 != '.' (misplaced-comparison-constant)
-Sudoku.py:118:15: E0602: Undefined variable 'suduko' (undefined-variable)
-Sudoku.py:114:0: R1711: Useless return at end of function or method (useless-return)
-Sudoku.py:123:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:105:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:112:8: R1704: Redefining argument with the local name 'i' (redefined-argument-from-local)
+Sudoku.py:129:-1: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:130:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:133:11: C0122: Comparison should be suduko1 != '.' (misplaced-comparison-constant)
+Sudoku.py:134:15: E0602: Undefined variable 'suduko' (undefined-variable)
+Sudoku.py:130:0: R1711: Useless return at end of function or method (useless-return)
+Sudoku.py:139:0: C0111: Missing function docstring (missing-docstring)
 
--------------------------------------------------------------------
-Your code has been rated at -5.31/10 (previous run: 2.50/10, -7.81)
+--------------------------------------------------------------------
+Your code has been rated at -5.05/10 (previous run: -5.31/10, +0.26)
 

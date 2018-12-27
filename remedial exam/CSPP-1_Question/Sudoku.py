@@ -102,6 +102,22 @@ def possibleValues(list_t):
                 getColumnValues(i,list_t)
                 getGridValues(i,j,list_t)
 
+def value(i,j,list_t):
+    num=[1,2,3,4,5,6,7,8,9]
+    new=[]
+    row_val = getRowValues(i,list_t)
+    col_val = getColumnValues(i,list_t)
+    grid_val = getGridValues(i,j,list_t)
+    ans = ""
+    for i in num:
+        if i not in row_val:
+            if i not in col_val:
+                if i not in grid_val:
+                    new.append(i)
+    print(ans)
+    return ans                
+
+
 
 
 
