@@ -45,7 +45,6 @@ Sudoku.py:30:0: C0103: Function name "getColumnValues" doesn't conform to snake_
 Sudoku.py:30:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:35:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:35:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:36:4: C0103: Variable name "SubGrid" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:37:8: R1716: Simplify chained comparison between the operands (chained-comparison)
 Sudoku.py:37:31: R1716: Simplify chained comparison between the operands (chained-comparison)
 Sudoku.py:41:8: R1716: Simplify chained comparison between the operands (chained-comparison)
@@ -78,5 +77,5 @@ Sudoku.py:109:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:109:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.62/10 (previous run: 4.62/10, +0.00)
+Your code has been rated at 4.72/10 (previous run: 4.62/10, +0.09)
 

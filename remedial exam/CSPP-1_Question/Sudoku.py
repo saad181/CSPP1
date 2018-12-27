@@ -33,44 +33,44 @@ def getColumnValues(i, list_t):
         column.append(row[i])
     return column
 def getGridValues(i, j, list_t):
-    SubGrid = list()
+    sub = list()
     if (i >= 0 and i < 3) and (j >= 0 and j < 3):
         for subrow in range(0, 3):
-            for subcol in range(0, 3):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(0, 3):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 0 and i < 3) and (j >= 3 and j < 6):
         for subrow in range(0, 3):
-            for subcol in range(3, 6):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(3, 6):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 0 and i < 3) and (j >= 6 and j < 9):
         for subrow in range(0, 3):
-            for subcol in range(6, 9):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(6, 9):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 3 and i < 6) and (j >= 0 and j < 3):
         for subrow in range(3, 6):
-            for subcol in range(0, 3):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(0, 3):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 3 and i < 6) and (j >= 3 and j < 6):
         for subrow in range(3, 6):
-            for subcol in range(3, 6):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(3, 6):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 3 and i < 6) and (j >= 6 and j < 9):
         for subrow in range(3, 6):
-            for subcol in range(6, 9):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(6, 9):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 6 and i < 9) and (j >= 0 and j < 3):
         for subrow in range(6, 9):
-            for subcol in range(0, 3):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(0, 3):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 6 and i < 9) and (j >= 3 and j < 6):
         for subrow in range(6, 9):
-            for subcol in range(3, 6):
-                SubGrid.append(list_t[subrow][subcol])
+            for subcolumn in range(3, 6):
+                sub.append(list_t[subrow][subcolumn])
     if (i >= 6 and i < 9) and (j >= 6 and j < 9):
         for subrow in range(6, 9):
-            for subcol in range(6, 9):
-                SubGrid.append(list_t[subrow][subcol])
-    return SubGrid
+            for subcolumn in range(6, 9):
+                sub.append(list_t[subrow][subcolumn])
+    return sub
 def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t[0])):
