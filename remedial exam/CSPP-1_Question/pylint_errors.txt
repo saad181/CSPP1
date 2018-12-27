@@ -3,78 +3,78 @@ Sudoku.py:6:31: C0326: Exactly one space required around comparison
             if i % 9 == 0 and i!=0:
                                ^^ (bad-whitespace)
 Sudoku.py:13:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
-Sudoku.py:79:20: C0326: No space allowed before comma
+Sudoku.py:80:20: C0326: No space allowed before comma
 def possibilities(i , j, list_t):
                     ^ (bad-whitespace)
-Sudoku.py:80:18: C0326: Exactly one space required after comma
+Sudoku.py:81:18: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                   ^ (bad-whitespace)
-Sudoku.py:80:20: C0326: Exactly one space required after comma
+Sudoku.py:81:20: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                     ^ (bad-whitespace)
-Sudoku.py:80:22: C0326: Exactly one space required after comma
+Sudoku.py:81:22: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                       ^ (bad-whitespace)
-Sudoku.py:80:24: C0326: Exactly one space required after comma
+Sudoku.py:81:24: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                         ^ (bad-whitespace)
-Sudoku.py:80:26: C0326: Exactly one space required after comma
+Sudoku.py:81:26: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                           ^ (bad-whitespace)
-Sudoku.py:80:28: C0326: Exactly one space required after comma
+Sudoku.py:81:28: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                             ^ (bad-whitespace)
-Sudoku.py:80:30: C0326: Exactly one space required after comma
+Sudoku.py:81:30: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                               ^ (bad-whitespace)
-Sudoku.py:80:32: C0326: Exactly one space required after comma
+Sudoku.py:81:32: C0326: Exactly one space required after comma
     newstring = [1,2,3,4,5,6,7,8,9]
                                 ^ (bad-whitespace)
-Sudoku.py:109:0: C0304: Final newline missing (missing-final-newline)
+Sudoku.py:110:0: C0304: Final newline missing (missing-final-newline)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing module docstring (missing-docstring)
 Sudoku.py:1:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:1:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:5:8: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku.py:16:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:24:16: W0101: Unreachable code (unreachable)
-Sudoku.py:25:0: C0103: Function name "validRow" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:25:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:27:0: C0103: Function name "validCol" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:27:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:32:0: C0103: Function name "validGrid" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:32:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:33:4: C0103: Variable name "SubGrid" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:34:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:34:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:38:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:38:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:42:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:42:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:46:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:46:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:50:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:50:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:54:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:54:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:58:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:58:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:62:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:62:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:66:8: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:66:31: R1716: Simplify chained comparison between the operands (chained-comparison)
-Sudoku.py:32:0: R0912: Too many branches (27/12) (too-many-branches)
-Sudoku.py:71:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:71:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:72:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Sudoku.py:79:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:82:4: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:83:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:84:4: C0103: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:95:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:102:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:106:11: W0703: Catching too general exception Exception (broad-except)
-Sudoku.py:106:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:17:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:25:16: W0101: Unreachable code (unreachable)
+Sudoku.py:26:0: C0103: Function name "validRow" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:26:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:28:0: C0103: Function name "validCol" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:28:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:33:0: C0103: Function name "validGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:33:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:34:4: C0103: Variable name "SubGrid" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:35:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:35:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:39:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:39:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:43:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:43:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:47:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:47:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:51:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:51:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:55:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:55:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:59:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:59:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:63:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:63:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:67:8: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:67:31: R1716: Simplify chained comparison between the operands (chained-comparison)
+Sudoku.py:33:0: R0912: Too many branches (27/12) (too-many-branches)
+Sudoku.py:72:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:72:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:73:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Sudoku.py:80:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:83:4: C0103: Variable name "r" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:84:4: C0103: Variable name "c" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:85:4: C0103: Variable name "g" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:96:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:103:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:107:11: W0703: Catching too general exception Exception (broad-except)
+Sudoku.py:107:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 ------------------------------------------------------------------
 Your code has been rated at 4.72/10 (previous run: 4.72/10, +0.00)

@@ -1,19 +1,20 @@
 def validateSudoku(sudoku):
     list_t = []
-    sublist = []
+    sub = []
     if len(sudoku) == 81:
         for i in range(len(sudoku)):
             if i % 9 == 0 and i!=0:
-                list_t.append(sublist)
-                sublist = []
-            sublist.append(sudoku[i])
-        list_t.append(sublist)
+                list_t.append(sub)
+                sub = []
+            sub.append(sudoku[i])
+        list_t.append(sub)
     else:
         raise Exception("Invalid input")
     if (sudoku.count('.') == 0):
         raise Exception("Given sudoku is solved")
     possibleValues(list_t)
-def eliminatedups(string):
+
+def duplicate(string):
     listt = list()
     for i in string:
         if i != ".":
@@ -72,9 +73,9 @@ def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t[0])):
             if list_t[i][j] == ".":
-                eliminatedups(validRow(i, list_t))
-                eliminatedups(validCol(i, list_t))
-                eliminatedups(validGrid(i, j, list_t))
+                duplicate(validRow(i, list_t))
+                duplicate(validCol(i, list_t))
+                duplicate(validGrid(i, j, list_t))
                 possibilities(i, j, list_t)
 def possibilities(i , j, list_t):
     newstring = [1,2,3,4,5,6,7,8,9]
