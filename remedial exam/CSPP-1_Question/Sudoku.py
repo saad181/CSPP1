@@ -121,6 +121,7 @@ def value(i,j,list_t):
 
 
 def converttointegers(integer):
+    row = ''.join(integer)
     row = row.replace(".","")
     row = list(row)
     mapped = list(map(int,row))
@@ -143,7 +144,7 @@ def duplicate(st):
             return
           
 def main():
-    inp = input()
+    inp = str(input())
     try:
         check(inp)
     except Exception as e:
