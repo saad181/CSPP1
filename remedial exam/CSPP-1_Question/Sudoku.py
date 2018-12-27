@@ -9,62 +9,120 @@ In this method :
     raise an exception
 """
 def validateSudoku(sudoku):
-    for i in range(9):
-        for j in range(9):
-            if sudoku[i][j]==0:
-                return[i][j]
-    
+    list_t = []
+    sublist =[]
+    if len(sudoku) == 81:
+        for i in range(sudoku):
+            if i %9==0 and i!=0:
+                list_t.append(sublist)
+                sublist.append(sudoku)
+                list_t.append(sublist)
+            else:
+                raise Exception("Invalid input")
+            if (list_t.count(".")==0):
+                raise Exception("Given sudoku is solved")
 
-    pass
+
+
+
+    #pass
 """
 This  method should retunn all the values present in the ith row
 """
-def getRowValues():
-    #num='123456789'
-    for i in range(9):
-        
-            return i
+def getRowValues(i,list_t):
+    return list_t[i]
+    
     #pass
 """
 This  method should retunn all the values present in the ith column
 """
-def getColumnValues():
-    #num='123456789'
-    for i in range(9):
-        #if num != column:
-            return i
+def getColumnValues(i,list_t):
+    col=[]
+    for row in list_t:
+        col.append(row)
+    return col    
+    
     #pass
 
 """
 This  method should retunn all the values present in the i,j th subgrid
 """
-def getGridValues():
-    pass
+def getGridValues(i,j,list_t):
+    sub=list()
+    if (i>=0 and i<3) and (j>=0 and j<3):
+        for subrow in range(0,3):
+            for subcolumn in range(0,3):
+                sub.append(list_t[subrow][subcolumn])  # for 1 subgrid
+    if (i>=0 and i<3) and (j>=3 and j<6):
+        for subrow in range(0,3):
+            for subcolumn in range(3,6):
+                sub.append(list_t[subrow][subcolumn])  #for 2 subgrid
+    if (i>=0 and i<3) and (j>=6 and j<9):
+        for subrow in range(0,3):
+            for subcolumn in range(6,9):
+                sub.append(list_t[subrow][subcolumn])   #for 3 subgrid
+    if (i>=3 and i<6) and (j>=0 and j<3):
+        for subrow in range(3,6):
+            for subcolumn in range(0,3):
+                sub.append(list_t[subrow][subcolumn]) # for 4 subgrid
+    if (i>=3 and i<6) and (j>=3 and j<6):
+        for subrow in range(3,6):
+            for subcolumn in range(3,6):
+                sub.append(list_t[subrow][subcolumn])   #for 5 subgrid
+    if (i>=3 and i<6) and (j>=6 and j<9):
+        for subrow in range(3,6):
+            for subcolumn in range(6,9):
+                sub.append(list_t[subrow][subcolumn])   #for 6 subgrid                                                
+    if (i>=6 and i<9) and (j>=0 and j<3):
+        for subrow in range(6,9):
+            for subcolumn in range(0,3):
+                sub.append(list_t[subrow][subcolumn])  #for 7 subgrid
+    if (i>=6 and i<9) and (j>=3 and j<6):
+        for subrow in range(6,9):
+            for subcolumn in range(3,6):
+                sub.append(list_t[subrow][subcolumn])   #for 8 subgrid
+    if (i>=6 and i<9) and (j>=6 and j<9):
+        for subrow in range(6,9):
+            for subcolumn in range(6,9):
+                sub.append(list_t[subrow][subcolumn])  #for 9 subgrid
+    return sub            
+
+
+    #pass
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
-def possibleValues():
-    pass
+def possibleValues(list_t):
+    for i in range(len(list_t)):
+        for j in range(len(list_t)):
+            if list_t[i][j]=='.':
+                getRowValues(i,list_t)
+                getColumnValues(i,list_t)
+                getGridValues(i,j,list_t)
+
+
+
+
+
+    #pass
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
+def duplicate():
+    suduko1=[]
+    for i in suduko1:
+        if "." != suduko1:
+            if suduko != suduko1:
+                suduko1.append(i)
+            else:
+                raise Exception("invalid sudoku:found duplicate")
+    return       
 def main():
-    inp = input()
-    if "." not in inp:
-        print("Given sudoku is solved")
-    else:
-        suduko = []
-        count = 0
-        for i in range(9):
-            row = []
-            for j in range(9):
-                row.append(inp[count])
-                count = count + 1
-            suduko.append(row)
-        print(suduko)
+   
 
-if __name__ == '__main__':
+
+    if __name__ == '__main__':
         main()
