@@ -19,7 +19,7 @@ Expected Output:
 7
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -35,7 +35,7 @@ Expected Output:
 9
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -45,7 +45,7 @@ Expected Output:
 2
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -55,7 +55,7 @@ Expected Output:
 9
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -71,7 +71,7 @@ Expected Output:
 5
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -87,7 +87,7 @@ Expected Output:
 3
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -103,7 +103,7 @@ Expected Output:
 9
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -119,7 +119,7 @@ Expected Output:
 6
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -135,7 +135,7 @@ Expected Output:
 4
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -151,7 +151,7 @@ Expected Output:
 8
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -167,7 +167,7 @@ Expected Output:
 4
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -183,7 +183,7 @@ Expected Output:
 8
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -199,7 +199,7 @@ Expected Output:
 4
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -224,7 +224,7 @@ Expected Output:
 4
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -263,15 +263,15 @@ Expected Output:
 23689
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 17: Passed ##########
@@ -282,12 +282,12 @@ Your Output:
 Invalid input
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -358,7 +358,7 @@ Expected Output:
 23689
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 20: Passed ##########
@@ -424,7 +424,7 @@ Expected Output:
 1346
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -489,7 +489,7 @@ Expected Output:
 4567
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -520,7 +520,7 @@ Expected Output:
 6
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -564,6 +564,6 @@ Expected Output:
 19
 
 Your Output: 
-Given sudoku is solved
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 

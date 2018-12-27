@@ -13,7 +13,7 @@ Sudoku.py:18:23: C0326: Exactly one space required around assignment
                        ^ (bad-whitespace)
 Sudoku.py:23:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
 Sudoku.py:23:25: C0326: Exactly one space required around comparison
-    if (list_t.count(".")==0):
+    if (sudoku.count(".")==0):
                          ^^ (bad-whitespace)
 Sudoku.py:33:18: C0326: Exactly one space required after comma
 def getRowValues(i,list_t):
