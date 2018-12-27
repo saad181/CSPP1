@@ -286,7 +286,7 @@ Sudoku.py:126:25: C0326: Exactly one space required after comma
 Sudoku.py:128:25: C0326: Exactly one space required after comma
     mapped = list(map(int,row))
                          ^ (bad-whitespace)
-Sudoku.py:146:18: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:146:14: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
@@ -335,5 +335,5 @@ Sudoku.py:151:11: W0703: Catching too general exception Exception (broad-except)
 Sudoku.py:151:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.33/10 (previous run: -3.42/10, +0.09)
+Your code has been rated at -3.33/10 (previous run: -3.33/10, +0.00)
 
