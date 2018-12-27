@@ -14,15 +14,15 @@ def validateSudoku(sudoku):
         raise Exception("Given sudoku is solved")
     possibleValues(list_t)
 
-def duplicate(st):
-    suduko1 = list()
-    for i in st:
-        if i != ".":
-            if i not in suduko1:
-                suduko1.append(i)
-            else:
-                raise Exception("Invalid Sudoku:Duplicate values")
-                return
+# def duplicate(st):
+#     suduko1 = list()
+#     for i in st:
+#         if i != ".":
+#             if i not in suduko1:
+#                 suduko1.append(i)
+#             else:
+#                 raise Exception("Invalid Sudoku:Duplicate values")
+#                 return
 
 def getRowValues(i, list_t):
     return list_t[i]
@@ -108,6 +108,16 @@ def converttointegers(interger):
     row = list(row)
     mapped = list(map(int, row))
     return mapped
+
+def duplicate(st):
+    suduko1 = list()
+    for i in st:
+        if i != ".":
+            if i not in suduko1:
+                suduko1.append(i)
+            else:
+                raise Exception("Invalid Sudoku:Duplicate values")
+                return    
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
