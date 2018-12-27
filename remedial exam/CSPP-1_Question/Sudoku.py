@@ -1,13 +1,3 @@
-"""
-In this method :
- * Check there are only 81 values
- * iterate through each row in the sudoku and if you find any duplicate values
-    raise an exception
- * iterate through each column in the sudoku and if you find any duplicate values
-    raise an exception
- * iterate through each subgrid(3x3) in the sudoku and if you find any duplicate values
-    raise an exception
-"""
 def validateSudoku(sudoku):
     list_t = []
     sublist =[]
@@ -20,34 +10,25 @@ def validateSudoku(sudoku):
         list_t.append(sublist)
     else:
         raise Exception("Invalid input")
-    if (sudoku.count('.')==0):
+    if (sudoku.count('.') == 0):
         raise Exception("Given sudoku is solved")
     possibleValues(list_t)
-
-
-
-    #pass
-"""
-This  method should retunn all the values present in the ith row
-"""
+def duplicate(st):
+    suduko1 = list()
+    for i in st:
+        if i != ".":
+            if i not in suduko1:
+                suduko1.append(i)
+            else:
+                raise Exception("Invalid Sudoku:Duplicate values")
+                return    
 def getRowValues(i,list_t):
     return list_t[i]
-    
-    #pass
-"""
-This  method should retunn all the values present in the ith column
-"""
 def getColumnValues(i,list_t):
     col=[]
     for r in list_t:
         col.append(r[i])
     return col    
-    
-    #pass
-
-"""
-This  method should retunn all the values present in the i,j th subgrid
-"""
 def getGridValues(i,j,list_t):
     sub=list()
     if (i>=0 and i<3) and (j>=0 and j<3):
@@ -135,15 +116,7 @@ def converttointegers(integer):
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
-def duplicate(st):
-    suduko1 = list()
-    for i in st:
-        if i != ".":
-            if i not in suduko1:
-                suduko1.append(i)
-            else:
-                raise Exception("Invalid Sudoku:Duplicate values")
-                return        
+        
 def main():
     inp = str(input())
     try:
