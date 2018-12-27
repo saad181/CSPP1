@@ -98,9 +98,9 @@ def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t)):
             if list_t[i][j]=='.':
-                # getRowValues(i,list_t)
-                # getColumnValues(i,list_t)
-                # getGridValues(i,j,list_t)
+                duplicate( getRowValues(i,list_t))
+                duplicate(getColumnValues(i,list_t))
+                duplicate(getGridValues(i,j,list_t))
                 value(i,j,list_t)
 def value(i,j,list_t):
     num=[1,2,3,4,5,6,7,8,9]

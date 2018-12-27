@@ -200,6 +200,21 @@ Sudoku.py:88:14: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:100:27: C0326: Exactly one space required around comparison
             if list_t[i][j]=='.':
                            ^^ (bad-whitespace)
+Sudoku.py:101:25: C0326: No space allowed after bracket
+                duplicate( getRowValues(i,list_t))
+                         ^ (bad-whitespace)
+Sudoku.py:101:41: C0326: Exactly one space required after comma
+                duplicate( getRowValues(i,list_t))
+                                         ^ (bad-whitespace)
+Sudoku.py:102:43: C0326: Exactly one space required after comma
+                duplicate(getColumnValues(i,list_t))
+                                           ^ (bad-whitespace)
+Sudoku.py:103:41: C0326: Exactly one space required after comma
+                duplicate(getGridValues(i,j,list_t))
+                                         ^ (bad-whitespace)
+Sudoku.py:103:43: C0326: Exactly one space required after comma
+                duplicate(getGridValues(i,j,list_t))
+                                           ^ (bad-whitespace)
 Sudoku.py:104:23: C0326: Exactly one space required after comma
                 value(i,j,list_t)
                        ^ (bad-whitespace)
@@ -319,5 +334,5 @@ Sudoku.py:145:8: E0602: Undefined variable 'check' (undefined-variable)
 Sudoku.py:146:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.10/10 (previous run: -5.25/10, +0.15)
+Your code has been rated at -5.14/10 (previous run: -5.10/10, -0.04)
 
