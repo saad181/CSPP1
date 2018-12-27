@@ -96,7 +96,7 @@ Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues(list_t):
     for i in range(len(list_t)):
-        for j in range(len(list_t)):
+        for j in range(len(list_t[0])):
             if list_t[i][j]=='.':
                 duplicate( getRowValues(i,list_t))
                 duplicate(getColumnValues(i,list_t))
@@ -105,9 +105,9 @@ def possibleValues(list_t):
 def value(i,j,list_t):
     num=[1,2,3,4,5,6,7,8,9]
     new=[]
-    row_val = getRowValues(i,list_t)
-    col_val = getColumnValues(i,list_t)
-    grid_val = getGridValues(i,j,list_t)
+    row_val = converttointegers(getRowValues(i,list_t))
+    col_val = converttointegers(getColumnValues(i,list_t))
+    grid_val = converttointegers(getGridValues(i,j,list_t))
     ans = ""
     for i in num:
         if i not in row_val and i not in col_val and i not in grid_val:
@@ -131,14 +131,14 @@ Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
 """
 def duplicate(st):
-    suduko1=[]
+    suduko1 = list()
     for i in st:
         if i != "." and  i != suduko1:
             suduko1.append(i)
         else:
             raise Exception("Invalid Sudoku:Duplicate found")
         return
-    return       
+          
 def main():
     inp = input()
     try:

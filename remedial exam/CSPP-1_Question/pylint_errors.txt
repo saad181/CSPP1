@@ -257,18 +257,18 @@ Sudoku.py:106:24: C0326: Exactly one space required after comma
 Sudoku.py:107:7: C0326: Exactly one space required around assignment
     new=[]
        ^ (bad-whitespace)
-Sudoku.py:108:28: C0326: Exactly one space required after comma
-    row_val = getRowValues(i,list_t)
-                            ^ (bad-whitespace)
-Sudoku.py:109:31: C0326: Exactly one space required after comma
-    col_val = getColumnValues(i,list_t)
-                               ^ (bad-whitespace)
-Sudoku.py:110:30: C0326: Exactly one space required after comma
-    grid_val = getGridValues(i,j,list_t)
-                              ^ (bad-whitespace)
-Sudoku.py:110:32: C0326: Exactly one space required after comma
-    grid_val = getGridValues(i,j,list_t)
-                                ^ (bad-whitespace)
+Sudoku.py:108:46: C0326: Exactly one space required after comma
+    row_val = converttointegers(getRowValues(i,list_t))
+                                              ^ (bad-whitespace)
+Sudoku.py:109:49: C0326: Exactly one space required after comma
+    col_val = converttointegers(getColumnValues(i,list_t))
+                                                 ^ (bad-whitespace)
+Sudoku.py:110:48: C0326: Exactly one space required after comma
+    grid_val = converttointegers(getGridValues(i,j,list_t))
+                                                ^ (bad-whitespace)
+Sudoku.py:110:50: C0326: Exactly one space required after comma
+    grid_val = converttointegers(getGridValues(i,j,list_t))
+                                                  ^ (bad-whitespace)
 Sudoku.py:114:0: W0311: Bad indentation. Found 20 spaces, expected 12 (bad-indentation)
 Sudoku.py:115:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:117:14: C0303: Trailing whitespace (trailing-whitespace)
@@ -278,10 +278,7 @@ Sudoku.py:121:25: C0326: Exactly one space required after comma
 Sudoku.py:123:25: C0326: Exactly one space required after comma
     mapped = list(map(int,row))
                          ^ (bad-whitespace)
-Sudoku.py:134:11: C0326: Exactly one space required around assignment
-    suduko1=[]
-           ^ (bad-whitespace)
-Sudoku.py:141:10: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:141:0: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:147:16: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
@@ -334,5 +331,5 @@ Sudoku.py:145:8: E0602: Undefined variable 'check' (undefined-variable)
 Sudoku.py:146:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.14/10 (previous run: -5.14/10, +0.00)
+Your code has been rated at -5.19/10 (previous run: -5.14/10, -0.05)
 
