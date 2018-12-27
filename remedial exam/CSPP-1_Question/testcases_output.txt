@@ -380,20 +380,12 @@ Your Output:
 23689
 ----------------------------------------
 
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-45678
-45678
-45678
-12378
-12378
-12378
-123456
-123456
-123456
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 17: Passed ##########
@@ -404,12 +396,12 @@ Your Output:
 Invalid input
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
