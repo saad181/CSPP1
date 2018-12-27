@@ -140,7 +140,7 @@ def duplicate(st):
     for i in st:
         if i != ".":
             if i not in l:
-                listt.append(i)
+                l.append(i)
             else:
                 raise Exception("Invalid Sudoku:Duplicate values")
                 return   
