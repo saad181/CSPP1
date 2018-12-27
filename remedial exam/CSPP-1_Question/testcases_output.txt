@@ -1,9 +1,12 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-Given sudoku is solved
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -19,7 +22,10 @@ Expected Output:
 7
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -35,7 +41,10 @@ Expected Output:
 9
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -45,7 +54,10 @@ Expected Output:
 2
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -55,7 +67,10 @@ Expected Output:
 9
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -71,7 +86,10 @@ Expected Output:
 5
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -87,7 +105,10 @@ Expected Output:
 3
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -103,7 +124,10 @@ Expected Output:
 9
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -119,7 +143,10 @@ Expected Output:
 6
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -135,7 +162,10 @@ Expected Output:
 4
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -151,7 +181,10 @@ Expected Output:
 8
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -167,7 +200,10 @@ Expected Output:
 4
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -183,7 +219,10 @@ Expected Output:
 8
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -199,7 +238,10 @@ Expected Output:
 4
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -224,7 +266,10 @@ Expected Output:
 4
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -263,31 +308,43 @@ Expected Output:
 23689
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
-########## Testcase 16: Passed ##########
+########## Testcase 16: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
-########## Testcase 17: Passed ##########
+########## Testcase 17: Failed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Invalid input
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
-########## Testcase 18: Passed ##########
+########## Testcase 18: Failed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -358,15 +415,21 @@ Expected Output:
 23689
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
-########## Testcase 20: Passed ##########
+########## Testcase 20: Failed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Invalid input
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -424,7 +487,10 @@ Expected Output:
 1346
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -489,7 +555,10 @@ Expected Output:
 4567
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -520,7 +589,10 @@ Expected Output:
 6
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -564,6 +636,9 @@ Expected Output:
 19
 
 Your Output: 
-Invalid Sudoku:Duplicate values
+  File "Sudoku.py", line 141
+    if i not in suduko1
+                      ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
