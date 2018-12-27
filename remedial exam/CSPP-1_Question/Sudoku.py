@@ -112,6 +112,8 @@ def value(i,j,list_t):
     for i in num:
         if i not in row_val and i not in col_val and i not in grid_val:
                     new.append(i)
+    ans=list(map(str,new))
+    ans=''.join(ans)                
                    
     print(ans)
     return ans                

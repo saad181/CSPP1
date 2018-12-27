@@ -270,16 +270,26 @@ Sudoku.py:110:50: C0326: Exactly one space required after comma
     grid_val = converttointegers(getGridValues(i,j,list_t))
                                                   ^ (bad-whitespace)
 Sudoku.py:114:0: W0311: Bad indentation. Found 20 spaces, expected 12 (bad-indentation)
-Sudoku.py:115:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:117:14: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:121:25: C0326: Exactly one space required after comma
+Sudoku.py:115:7: C0326: Exactly one space required around assignment
+    ans=list(map(str,new))
+       ^ (bad-whitespace)
+Sudoku.py:115:20: C0326: Exactly one space required after comma
+    ans=list(map(str,new))
+                    ^ (bad-whitespace)
+Sudoku.py:116:20: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:116:7: C0326: Exactly one space required around assignment
+    ans=''.join(ans)                
+       ^ (bad-whitespace)
+Sudoku.py:117:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:119:14: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:123:25: C0326: Exactly one space required after comma
     row = row.replace(".","")
                          ^ (bad-whitespace)
-Sudoku.py:123:25: C0326: Exactly one space required after comma
+Sudoku.py:125:25: C0326: Exactly one space required after comma
     mapped = list(map(int,row))
                          ^ (bad-whitespace)
-Sudoku.py:141:0: C0303: Trailing whitespace (trailing-whitespace)
-Sudoku.py:147:16: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:143:0: C0303: Trailing whitespace (trailing-whitespace)
+Sudoku.py:149:16: C0303: Trailing whitespace (trailing-whitespace)
 Sudoku.py:1:0: C0103: Module name "Sudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 Sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
@@ -318,18 +328,18 @@ Sudoku.py:97:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:98:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Sudoku.py:105:0: C0111: Missing function docstring (missing-docstring)
 Sudoku.py:112:8: R1704: Redefining argument with the local name 'i' (redefined-argument-from-local)
-Sudoku.py:120:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:121:10: E0601: Using variable 'row' before assignment (used-before-assignment)
-Sudoku.py:120:22: W0613: Unused argument 'integer' (unused-argument)
-Sudoku.py:132:-1: W0105: String statement has no effect (pointless-string-statement)
-Sudoku.py:133:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
-Sudoku.py:133:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:136:11: R1714: Consider merging these comparisons with "in" to "i not in ('.', suduko1)" (consider-using-in)
-Sudoku.py:142:0: C0111: Missing function docstring (missing-docstring)
-Sudoku.py:146:11: W0703: Catching too general exception Exception (broad-except)
-Sudoku.py:145:8: E0602: Undefined variable 'check' (undefined-variable)
-Sudoku.py:146:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:122:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:123:10: E0601: Using variable 'row' before assignment (used-before-assignment)
+Sudoku.py:122:22: W0613: Unused argument 'integer' (unused-argument)
+Sudoku.py:134:-1: W0105: String statement has no effect (pointless-string-statement)
+Sudoku.py:135:0: C0103: Argument name "st" doesn't conform to snake_case naming style (invalid-name)
+Sudoku.py:135:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:138:11: R1714: Consider merging these comparisons with "in" to "i not in ('.', suduko1)" (consider-using-in)
+Sudoku.py:144:0: C0111: Missing function docstring (missing-docstring)
+Sudoku.py:148:11: W0703: Catching too general exception Exception (broad-except)
+Sudoku.py:147:8: E0602: Undefined variable 'check' (undefined-variable)
+Sudoku.py:148:4: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.19/10 (previous run: -5.19/10, +0.00)
+Your code has been rated at -5.28/10 (previous run: -5.19/10, -0.09)
 
