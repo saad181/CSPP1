@@ -99,7 +99,7 @@ def possibleValues(list_t):
     for i in range(len(list_t)):
         for j in range(len(list_t[0])):
             if list_t[i][j]=='.':
-                duplicate( getRowValues(i,list_t))
+                duplicate(getRowValues(i,list_t))
                 duplicate(getColumnValues(i,list_t))
                 duplicate(getGridValues(i,j,list_t))
                 value(i,j,list_t)
