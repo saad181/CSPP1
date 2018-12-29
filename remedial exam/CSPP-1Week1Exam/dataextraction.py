@@ -17,6 +17,7 @@ def getImage(image):
 				pass
 			else:
 				print(eachthing[:end])
+	return count
 
 
 
