@@ -4,27 +4,27 @@ dataextraction.py:3:0: W0312: Found indentation with tabs instead of spaces (mix
 dataextraction.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-dataextraction.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 dataextraction.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-dataextraction.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-dataextraction.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-dataextraction.py:16:29: C0303: Trailing whitespace (trailing-whitespace)
 dataextraction.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-dataextraction.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
-dataextraction.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
-dataextraction.py:31:0: C0304: Final newline missing (missing-final-newline)
+dataextraction.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+dataextraction.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+dataextraction.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+dataextraction.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+dataextraction.py:35:0: C0304: Final newline missing (missing-final-newline)
 dataextraction.py:1:0: C0111: Missing module docstring (missing-docstring)
 dataextraction.py:1:0: C0103: Function name "getImage" doesn't conform to snake_case naming style (invalid-name)
 dataextraction.py:1:0: C0111: Missing function docstring (missing-docstring)
-dataextraction.py:13:3: W0702: No exception type(s) specified (bare-except)
-dataextraction.py:10:30: E0602: Undefined variable 'length' (undefined-variable)
-dataextraction.py:25:0: C0111: Missing function docstring (missing-docstring)
+dataextraction.py:16:3: W0702: No exception type(s) specified (bare-except)
+dataextraction.py:12:26: E0602: Undefined variable 'length' (undefined-variable)
+dataextraction.py:10:4: W0612: Unused variable 'possible' (unused-variable)
+dataextraction.py:13:4: W0612: Unused variable 'ending' (unused-variable)
+dataextraction.py:29:0: C0111: Missing function docstring (missing-docstring)
 
-------------------------------------
-Your code has been rated at -4.50/10
+--------------------------------------------------------------------
+Your code has been rated at -4.50/10 (previous run: -4.50/10, +0.00)
 
