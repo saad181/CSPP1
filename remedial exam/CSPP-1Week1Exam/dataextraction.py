@@ -1,24 +1,29 @@
 def getImage(image):
-	string = image.split("<img")
-	count = 0
-	start = "./webpage5\""
-	end = ".jpg\""
-	for eachthing in string:
+    string = image.split("<img")
+    string= string[1:]
+    # print(string)
+    # start =" "
+    l = []
 
-		if start in eachthing:
-			try:
-				possible = eachthing.index(start)
-				count = count+1
-				eachthing = eachthing[length(start): end]
-				ending = eachthing.index(end)
-				# count = count+1
 
-			except:
-				pass
-			else:
-				print(eachthing[:end])
-	return count
-
+    count = 0
+    tag = "src=\""
+    end = "\""
+    for i in string:
+        l.append(i)
+        for items in l:
+            if tag in items: 
+                possible = items.index(tag)
+                items = items[possible + len(tag):]
+                ending = items.index(end)
+                # print(ending)
+                result=items[:ending]
+                print(result)
+        count=count+1
+        print(result)
+    print(count)
+# def getBackground():
+    
 
 
 
@@ -29,8 +34,11 @@ def getImage(image):
 
 def main():
     file = open("webpage5.html", errors="ignore").read()
-    getImage(file)
-    # print(file)
+    inp = input()
+    if inp == "image":
+        getImage(file)
+    # if inp == "background"  
+    #     getBackground(file)
    
 if __name__ == '__main__':
     main()
