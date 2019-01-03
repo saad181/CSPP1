@@ -1,30 +1,31 @@
 ************* Module reservation
 reservation.py:15:14: C0303: Trailing whitespace (trailing-whitespace)
 reservation.py:15:0: W0311: Bad indentation. Found 8 spaces, expected 4 (bad-indentation)
-reservation.py:23:14: C0326: Exactly one space required around comparison
-    if roomnum>total_rooms:
-              ^ (bad-whitespace)
-reservation.py:31:23: C0303: Trailing whitespace (trailing-whitespace)
+reservation.py:31:25: C0303: Trailing whitespace (trailing-whitespace)
 reservation.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
 reservation.py:49:43: C0303: Trailing whitespace (trailing-whitespace)
 reservation.py:50:18: C0303: Trailing whitespace (trailing-whitespace)
-reservation.py:56:0: C0305: Trailing newlines (trailing-newlines)
+reservation.py:51:22: C0326: Exactly one space required around assignment
+    dictionary[person]=int(roomnum)
+                      ^ (bad-whitespace)
+reservation.py:59:0: C0303: Trailing whitespace (trailing-whitespace)
+reservation.py:61:0: C0305: Trailing newlines (trailing-newlines)
 reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
 reservation.py:1:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:3:4: C0103: Variable name "l" doesn't conform to snake_case naming style (invalid-name)
-reservation.py:11:12: E0602: Undefined variable 'getBuild' (undefined-variable)
-reservation.py:13:12: E0602: Undefined variable 'cancel' (undefined-variable)
+reservation.py:7:12: E0602: Undefined variable 'getReserve' (undefined-variable)
+reservation.py:11:12: E1120: No value for argument 'extraroom' in function call (no-value-for-parameter)
+reservation.py:13:12: E0602: Undefined variable 'getPrinting' (undefined-variable)
 reservation.py:3:4: W0612: Unused variable 'l' (unused-variable)
 reservation.py:4:8: W0612: Unused variable 'i' (unused-variable)
-reservation.py:17:0: C0103: Function name "getReserve" doesn't conform to snake_case naming style (invalid-name)
-reservation.py:17:0: C0111: Missing function docstring (missing-docstring)
-reservation.py:31:8: E0602: Undefined variable 'reserve' (undefined-variable)
 reservation.py:38:0: C0103: Function name "getN" doesn't conform to snake_case naming style (invalid-name)
 reservation.py:38:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:40:23: E0602: Undefined variable 'lis' (undefined-variable)
 reservation.py:44:16: E0602: Undefined variable 'dictionary' (undefined-variable)
-reservation.py:38:9: W0613: Unused argument 'person' (unused-argument)
+reservation.py:51:4: E0602: Undefined variable 'dictionary' (undefined-variable)
+reservation.py:55:0: C0103: Function name "getBuild" doesn't conform to snake_case naming style (invalid-name)
+reservation.py:55:0: C0111: Missing function docstring (missing-docstring)
 
-------------------------------------
-Your code has been rated at -0.24/10
+--------------------------------------------------------------------
+Your code has been rated at -4.12/10 (previous run: -0.24/10, -3.88)
 
