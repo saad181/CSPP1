@@ -13,11 +13,13 @@ rajiv 5
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 7, in main
+  File "reservation.py", line 52, in main
     getReserve(tokens[1])
-NameError: name 'getReserve' is not defined
+  File "reservation.py", line 14, in getReserve
+    print(person+" "+ roomnum)
+TypeError: must be str, not int
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -36,11 +38,13 @@ kumar 5
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 9, in main
+  File "reservation.py", line 54, in main
     getN(tokens[1], tokens[2])
-NameError: name 'getN' is not defined
+  File "reservation.py", line 24, in getN
+    for room in sorted(lis):
+NameError: name 'lis' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -60,11 +64,13 @@ kumar 5
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 9, in main
+  File "reservation.py", line 54, in main
     getN(tokens[1], tokens[2])
-NameError: name 'getN' is not defined
+  File "reservation.py", line 24, in getN
+    for room in sorted(lis):
+NameError: name 'lis' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -84,11 +90,13 @@ swathi 5
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 9, in main
+  File "reservation.py", line 54, in main
     getN(tokens[1], tokens[2])
-NameError: name 'getN' is not defined
+  File "reservation.py", line 24, in getN
+    for room in sorted(lis):
+NameError: name 'lis' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -112,11 +120,13 @@ manasa 7
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 9, in main
+  File "reservation.py", line 54, in main
     getN(tokens[1], tokens[2])
-NameError: name 'getN' is not defined
+  File "reservation.py", line 24, in getN
+    for room in sorted(lis):
+NameError: name 'lis' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -157,11 +167,13 @@ reddy 10
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 9, in main
+  File "reservation.py", line 54, in main
     getN(tokens[1], tokens[2])
-NameError: name 'getN' is not defined
+  File "reservation.py", line 24, in getN
+    for room in sorted(lis):
+NameError: name 'lis' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -196,11 +208,13 @@ kumar 7
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 9, in main
+  File "reservation.py", line 54, in main
     getN(tokens[1], tokens[2])
-NameError: name 'getN' is not defined
+  File "reservation.py", line 24, in getN
+    for room in sorted(lis):
+NameError: name 'lis' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -241,10 +255,12 @@ reddy 10
 
 Your Output: 
 Traceback (most recent call last):
-  File "reservation.py", line 15, in <module>
+  File "reservation.py", line 60, in <module>
     main()  
-  File "reservation.py", line 9, in main
+  File "reservation.py", line 54, in main
     getN(tokens[1], tokens[2])
-NameError: name 'getN' is not defined
+  File "reservation.py", line 24, in getN
+    for room in sorted(lis):
+NameError: name 'lis' is not defined
 ----------------------------------------
 
