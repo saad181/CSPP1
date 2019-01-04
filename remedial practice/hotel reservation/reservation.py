@@ -1,60 +1,66 @@
+from operator import itemgetter
+global d
+d = {}
+global countofrooms
+countofrooms = 0
+global listt
+listt = []
+global total
+total = 6
 
-def getReserve(person):
-    roomnum = 0
-    dictionary = {}
-    lis = []
-    total_rooms = 5
-    roomnum = roomnum+1
-    if roomnum>total_rooms:
+def reserve(person):
+    global countofrooms
+    global d
+    global total
+    countofrooms += 1
+    if countofrooms >= total:
         print("All Rooms are reserved")
         return
-    if roomnum not in dictionary.values():
-        dictionary[person] = roomnum
-        lis.append(roomnum)
-        print(person+" "+ roomnum)
+    if countofrooms not in d.values():
+        d[person] = countofrooms
+        listt.append(countofrooms)
+        print(person + " " + str(countofrooms))
     else:
-        reserve(person)    
+        reserve(person)
 
-
-
-
-    
-def getN(person, roomnum):
-    total_rooms = 5
-    for room in sorted(lis):
-        if int(roomnum) == int(room):
+def reserveN(person, rn):
+    global total
+    for everyroom in sorted(listt):
+        if int(rn) == int(everyroom):
             print("All Rooms are reserved")
             return
-    for room in dictionary.values():
-        if int(roomnum) == int(room):
+    for everyroom in d.values():
+        if int(rn) == int(everyroom):
             print("Room is already reserved")
             return
-        if int(roomnum) >= total_rooms:
-            print("All Rooms are reserved") 
-            return               
-    dictionary[person]=int(roomnum)
-    print(person + " " + str(roomnum))
+
+        if int(rn) >= total:
+            print("All Rooms are reserved")
+            return
+    d[person] = int(rn)
+    print(person + " " + str(rn))
 
 
-def getBuild(extraroom):
-    total_rooms = 5
-    print("Added" + str(extraroom)+ "more rooms")
-    total_rooms = total_rooms+extraroom
+def display():
+    for key, value in sorted(d.items(), key = itemgetter(1)):
+        print(key, value)
 
-
+def build(extra):
+    global total
+    print("Added " + str(extra) + " more rooms")
+    total += extra
 
 def main():
-    inp = int(input())
-    l = []
-    for i in range(inp):
+    n = int(input())
+    tokens = []
+    for i in range(n):
         tokens = input().split(" ")
         if tokens[0] == "reserve":
-            getReserve(tokens[1])
+            reserve(tokens[1])
         elif tokens[0] == "reserveN":
-            getN(tokens[1], tokens[2])
-        elif tokens[0] == "build":
-            getBuild()
+            reserveN(tokens[1], tokens[2])
         elif tokens[0] == "print":
-            getPrinting()
-if  __name__ == '__main__':
-        main()  
+            display()
+        elif tokens[0] == "build":
+            build(int(tokens[1]))
+main()
