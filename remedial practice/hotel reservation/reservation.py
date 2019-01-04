@@ -23,7 +23,7 @@ def getReserve(person):
     else:
         reserve(person)
 
-def reserveN(person, rn):
+def getN(person, rn):
     global total
     for everyroom in sorted(listt):
         if int(rn) == int(everyroom):
@@ -57,8 +57,8 @@ def main():
         tokens = input().split(" ")
         if tokens[0] == "reserve":
             getReserve(tokens[1])
-        elif tokens[0] == "reserveN":
-            reserveN(tokens[1], tokens[2])
+        elif tokens[0] == "getN":
+            getN(tokens[1], tokens[2])
         elif tokens[0] == "print":
             display()
         elif tokens[0] == "build":
