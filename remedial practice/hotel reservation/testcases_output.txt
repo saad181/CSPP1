@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 rehana 1
 karan 3
@@ -16,17 +16,15 @@ rehana 1
 karan 3
 murthy 2
 rajiv 5
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+kalyani 4
+rehana 1
+murthy 2
+karan 3
+kalyani 4
+rajiv 5
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -43,17 +41,18 @@ kumar 5
 Your Output: 
 kiran 2
 murthy 1
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+rajiv 3
+kalyani 4
+kumar 5
+All Rooms are reserved
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -71,17 +70,19 @@ kumar 5
 Your Output: 
 kiran 2
 murthy 1
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+rajiv 3
+kalyani 4
+kumar 5
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+rajiv 3
+kalyani 4
+kumar 5
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -100,17 +101,18 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+kalyani 3
+kumar 4
+swathi 5
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -133,14 +135,19 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+kalyani 3
+kumar 4
+swathi 5
+Added 2 more rooms
+alekhya 6
+manasa 7
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+manasa 7
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -182,14 +189,25 @@ reddy 10
 Your Output: 
 kiran 2
 murthy 1
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+kumar 3
+All Rooms are reserved
+murthy 1
+kiran 2
+kumar 3
+Added 5 more rooms
+alekhya 6
+manasa 4
+kumar 5
+karthik 7
+manohar 8
+kumar 9
+murthy 1
+kiran 2
+manasa 4
+alekhya 6
+karthik 7
+manohar 8
+kumar 9
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -226,14 +244,30 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+Added 2 more rooms
+alekhya 6
+manasa 7
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+kumar 4
+swathi 5
+alekhya 6
+manasa 7
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -276,13 +310,32 @@ Your Output:
 kiran 2
 murthy 1
 Room is already reserved
-Traceback (most recent call last):
-  File "reservation.py", line 67, in <module>
-    main()
-  File "reservation.py", line 59, in main
-    getReserve(tokens[1])
-  File "reservation.py", line 24, in getReserve
-    reserve(person)
-NameError: name 'reserve' is not defined
+kalyani 3
+kumar 4
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 5
+murthy 1
+kiran 2
+kalyani 3
+kumar 5
+Added 5 more rooms
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
+All Rooms are reserved
+All Rooms are reserved
+murthy 1
+kiran 2
+kalyani 3
+alekhya 6
+manasa 7
+kumar 8
+karthik 9
+manohar 10
 ----------------------------------------
 

@@ -8,7 +8,7 @@ listt = []
 global total
 total = 6
 
-def getReserve(person):
+def reserve(person):
     global countofrooms
     global d
     global total
@@ -23,7 +23,7 @@ def getReserve(person):
     else:
         reserve(person)
 
-def getN(person, rn):
+def reserveN(person, rn):
     global total
     for everyroom in sorted(listt):
         if int(rn) == int(everyroom):
@@ -41,11 +41,11 @@ def getN(person, rn):
     print(person + " " + str(rn))
 
 
-def getDisplay():
+def display():
     for key, value in sorted(d.items(), key = itemgetter(1)):
         print(key, value)
 
-def getBuild(extra):
+def build(extra):
     global total
     print("Added " + str(extra) + " more rooms")
     total += extra
@@ -56,12 +56,11 @@ def main():
     for i in range(n):
         tokens = input().split(" ")
         if tokens[0] == "reserve":
-            getReserve(tokens[1])
+            reserve(tokens[1])
         elif tokens[0] == "reserveN":
-            getN(tokens[1], tokens[2])
+            reserveN(tokens[1], tokens[2])
         elif tokens[0] == "print":
-            getDisplay()
+            display()
         elif tokens[0] == "build":
-            getBuild(int(tokens[1]))
-if __name__ == '__main__':
-    main()
+            build(int(tokens[1]))
+main()
