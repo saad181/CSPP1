@@ -1,12 +1,12 @@
 ************* Module reservation
-reservation.py:45:44: C0326: No space allowed around keyword argument assignment
-    for key, value in sorted(d.items(), key = itemgetter(1)):
-                                            ^ (bad-whitespace)
-reservation.py:66:0: C0304: Final newline missing (missing-final-newline)
+reservation.py:45:53: C0326: No space allowed around keyword argument assignment
+    for key, value in sorted(dictionary.items(), key = itemgetter(1)):
+                                                     ^ (bad-whitespace)
+reservation.py:67:0: C0304: Final newline missing (missing-final-newline)
 reservation.py:1:0: C0111: Missing module docstring (missing-docstring)
-reservation.py:2:0: C0103: Constant name "d" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:2:0: C0103: Constant name "dictionary" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:2:0: W0604: Using the global statement at the module level (global-at-module-level)
-reservation.py:3:0: C0103: Constant name "d" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:3:0: C0103: Constant name "dictionary" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:4:0: C0103: Constant name "countofrooms" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:4:0: W0604: Using the global statement at the module level (global-at-module-level)
 reservation.py:5:0: C0103: Constant name "countofrooms" doesn't conform to UPPER_CASE naming style (invalid-name)
@@ -19,7 +19,7 @@ reservation.py:9:0: C0103: Constant name "total" doesn't conform to UPPER_CASE n
 reservation.py:11:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:12:4: C0103: Constant name "countofrooms" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:12:4: W0603: Using the global statement (global-statement)
-reservation.py:13:4: C0103: Constant name "d" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:13:4: C0103: Constant name "dictionary" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:13:4: W0603: Using the global statement (global-statement)
 reservation.py:14:4: C0103: Constant name "total" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:14:4: W0603: Using the global statement (global-statement)
@@ -37,5 +37,5 @@ reservation.py:54:4: C0103: Variable name "n" doesn't conform to snake_case nami
 reservation.py:56:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.14/10 (previous run: 2.88/10, +1.26)
+Your code has been rated at 4.24/10 (previous run: 4.14/10, +0.10)
 

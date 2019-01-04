@@ -1,6 +1,6 @@
 from operator import itemgetter
-global d
-d = {}
+global dictionary
+dictionary = {}
 global countofrooms
 countofrooms = 0
 global listt
@@ -10,14 +10,14 @@ total = 6
 
 def reserve(person):
     global countofrooms
-    global d
+    global dictionary
     global total
     countofrooms += 1
     if countofrooms >= total:
         print("All Rooms are reserved")
         return
-    if countofrooms not in d.values():
-        d[person] = countofrooms
+    if countofrooms not in dictionary.values():
+        dictionary[person] = countofrooms
         listt.append(countofrooms)
         print(person + " " + str(countofrooms))
     else:
@@ -29,7 +29,7 @@ def reserveN(person, rn):
         if int(rn) == int(everyroom):
             print("All Rooms are reserved")
             return
-    for everyroom in d.values():
+    for everyroom in dictionary.values():
         if int(rn) == int(everyroom):
             print("Room is already reserved")
             return
@@ -37,12 +37,12 @@ def reserveN(person, rn):
         if int(rn) >= total:
             print("All Rooms are reserved")
             return
-    d[person] = int(rn)
+    dictionary[person] = int(rn)
     print(person + " " + str(rn))
 
 
 def display():
-    for key, value in sorted(d.items(), key = itemgetter(1)):
+    for key, value in sorted(dictionary.items(), key = itemgetter(1)):
         print(key, value)
 
 def build(extra):
@@ -63,4 +63,5 @@ def main():
             display()
         elif tokens[0] == "build":
             build(int(tokens[1]))
-main()
+if __name__ == '__main__':
+    main()
