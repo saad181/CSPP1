@@ -42,7 +42,7 @@ def reserveN(person, roomnum):
 
 
 def display():
-    for key, value in sorted(dictionary.items(), key = itemgetter(1)):
+    for k, value in sorted(dictionary.items(), key = itemgetter(1)):
         print(key, value)
 
 def build(extraroom):
