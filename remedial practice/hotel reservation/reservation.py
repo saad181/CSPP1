@@ -41,11 +41,11 @@ def getN(person, rn):
     print(person + " " + str(rn))
 
 
-def display():
+def getDisplay():
     for key, value in sorted(d.items(), key = itemgetter(1)):
         print(key, value)
 
-def build(extra):
+def getBuild(extra):
     global total
     print("Added " + str(extra) + " more rooms")
     total += extra
@@ -57,11 +57,11 @@ def main():
         tokens = input().split(" ")
         if tokens[0] == "reserve":
             getReserve(tokens[1])
-        elif tokens[0] == "getN":
+        elif tokens[0] == "reserveN":
             getN(tokens[1], tokens[2])
         elif tokens[0] == "print":
-            display()
+            getDisplay()
         elif tokens[0] == "build":
-            build(int(tokens[1]))
+            getBuild(int(tokens[1]))
 if __name__ == '__main__':
     main()
