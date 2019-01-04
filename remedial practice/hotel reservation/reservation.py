@@ -63,4 +63,5 @@ def main():
             display()
         elif tokens[0] == "build":
             build(int(tokens[1]))
-main()
+if __name__ == '__main__':
+    main()
