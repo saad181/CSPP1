@@ -1,44 +1,44 @@
 from operator import itemgetter
 global dictionary
 dictionary = {}
-global countofrooms
-countofrooms = 0
+global roomnum
+roomnum = 0
 global listt
 listt = []
 global total
 total = 6
 
 def reserve(person):
-    global countofrooms
+    global roomnum
     global dictionary
     global total
-    countofrooms += 1
-    if countofrooms >= total:
+    roomnum += 1
+    if roomnum >= total:
         print("All Rooms are reserved")
         return
-    if countofrooms not in dictionary.values():
-        dictionary[person] = countofrooms
-        listt.append(countofrooms)
-        print(person + " " + str(countofrooms))
+    if roomnum not in dictionary.values():
+        dictionary[person] = roomnum
+        listt.append(roomnum)
+        print(person + " " + str(roomnum))
     else:
         reserve(person)
 
-def reserveN(person, rn):
+def reserveN(person, roomnum):
     global total
     for everyroom in sorted(listt):
-        if int(rn) == int(everyroom):
+        if int(roomnum) == int(everyroom):
             print("All Rooms are reserved")
             return
     for everyroom in dictionary.values():
-        if int(rn) == int(everyroom):
+        if int(roomnum) == int(everyroom):
             print("Room is already reserved")
             return
 
-        if int(rn) >= total:
+        if int(roomnum) >= total:
             print("All Rooms are reserved")
             return
-    dictionary[person] = int(rn)
-    print(person + " " + str(rn))
+    dictionary[person] = int(roomnum)
+    print(person + " " + str(roomnum))
 
 
 def display():
@@ -51,9 +51,9 @@ def build(extra):
     total += extra
 
 def main():
-    n = int(input())
+    inp = int(input())
     tokens = []
-    for i in range(n):
+    for i in range(inp):
         tokens = input().split(" ")
         if tokens[0] == "reserve":
             reserve(tokens[1])
