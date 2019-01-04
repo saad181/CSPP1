@@ -8,7 +8,7 @@ listt = []
 global total
 total = 6
 
-def reserve(person):
+def getReserve(person):
     global countofrooms
     global d
     global total
@@ -56,7 +56,7 @@ def main():
     for i in range(n):
         tokens = input().split(" ")
         if tokens[0] == "reserve":
-            reserve(tokens[1])
+            getReserve(tokens[1])
         elif tokens[0] == "reserveN":
             reserveN(tokens[1], tokens[2])
         elif tokens[0] == "print":

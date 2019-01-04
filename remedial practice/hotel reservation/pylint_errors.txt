@@ -16,6 +16,7 @@ reservation.py:7:0: C0103: Constant name "listt" doesn't conform to UPPER_CASE n
 reservation.py:8:0: C0103: Constant name "total" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:8:0: W0604: Using the global statement at the module level (global-at-module-level)
 reservation.py:9:0: C0103: Constant name "total" doesn't conform to UPPER_CASE naming style (invalid-name)
+reservation.py:11:0: C0103: Function name "getReserve" doesn't conform to snake_case naming style (invalid-name)
 reservation.py:11:0: C0111: Missing function docstring (missing-docstring)
 reservation.py:12:4: C0103: Constant name "countofrooms" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:12:4: W0603: Using the global statement (global-statement)
@@ -23,6 +24,7 @@ reservation.py:13:4: C0103: Constant name "d" doesn't conform to UPPER_CASE nami
 reservation.py:13:4: W0603: Using the global statement (global-statement)
 reservation.py:14:4: C0103: Constant name "total" doesn't conform to UPPER_CASE naming style (invalid-name)
 reservation.py:14:4: W0603: Using the global statement (global-statement)
+reservation.py:24:8: E0602: Undefined variable 'reserve' (undefined-variable)
 reservation.py:26:0: C0103: Function name "reserveN" doesn't conform to snake_case naming style (invalid-name)
 reservation.py:26:0: C0103: Argument name "rn" doesn't conform to snake_case naming style (invalid-name)
 reservation.py:26:0: C0111: Missing function docstring (missing-docstring)
@@ -37,5 +39,5 @@ reservation.py:54:4: C0103: Variable name "n" doesn't conform to snake_case nami
 reservation.py:56:8: W0612: Unused variable 'i' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.24/10 (previous run: 4.14/10, +0.10)
+Your code has been rated at 3.22/10 (previous run: 4.24/10, -1.02)
 
