@@ -45,10 +45,10 @@ def display():
     for key, value in sorted(dictionary.items(), key = itemgetter(1)):
         print(key, value)
 
-def build(extra):
+def build(extraroom):
     global total
-    print("Added " + str(extra) + " more rooms")
-    total += extra
+    print("Added " + str(extraroom) + " more rooms")
+    total += extraroom
 
 def main():
     inp = int(input())
