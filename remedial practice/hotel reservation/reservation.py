@@ -3,29 +3,29 @@ global dictionary
 dictionary = {}
 global roomnum
 roomnum = 0
-global listt
-listt = []
-global total
-total = 6
+global lis
+lis = []
+global total_rooms
+total_rooms = 6
 
 def reserve(person):
     global roomnum
     global dictionary
-    global total
+    global total_rooms
     roomnum += 1
-    if roomnum >= total:
+    if roomnum >= total_rooms:
         print("All Rooms are reserved")
         return
     if roomnum not in dictionary.values():
         dictionary[person] = roomnum
-        listt.append(roomnum)
+        lis.append(roomnum)
         print(person + " " + str(roomnum))
     else:
         reserve(person)
 
 def reserveN(person, roomnum):
-    global total
-    for everyroom in sorted(listt):
+    global total_rooms
+    for everyroom in sorted(lis):
         if int(roomnum) == int(everyroom):
             print("All Rooms are reserved")
             return
@@ -34,7 +34,7 @@ def reserveN(person, roomnum):
             print("Room is already reserved")
             return
 
-        if int(roomnum) >= total:
+        if int(roomnum) >= total_rooms:
             print("All Rooms are reserved")
             return
     dictionary[person] = int(roomnum)
@@ -46,9 +46,9 @@ def display():
         print(key, value)
 
 def build(extraroom):
-    global total
+    global total_rooms
     print("Added " + str(extraroom) + " more rooms")
-    total += extraroom
+    total_rooms += extraroom
 
 def main():
     inp = int(input())
