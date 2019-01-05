@@ -4,7 +4,14 @@ Expected Output:
 6
 
 Your Output: 
-
+Traceback (most recent call last):
+  File "Deep.py", line 20, in <module>
+    main()
+  File "Deep.py", line 18, in main
+    list_sum(store)
+  File "Deep.py", line 5, in list_sum
+    count = count+str(number)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -19,7 +26,7 @@ Traceback (most recent call last):
   File "Deep.py", line 18, in main
     list_sum(store)
   File "Deep.py", line 5, in list_sum
-    count = count+number
+    count = count+str(number)
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -35,8 +42,8 @@ Traceback (most recent call last):
   File "Deep.py", line 18, in main
     list_sum(store)
   File "Deep.py", line 5, in list_sum
-    count = count+number
-TypeError: unsupported operand type(s) for +: 'int' and 'list'
+    count = count+str(number)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -67,8 +74,8 @@ Traceback (most recent call last):
   File "Deep.py", line 18, in main
     list_sum(store)
   File "Deep.py", line 5, in list_sum
-    count = count+number
-TypeError: unsupported operand type(s) for +: 'int' and 'list'
+    count = count+str(number)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -77,6 +84,13 @@ Expected Output:
 10
 
 Your Output: 
-
+Traceback (most recent call last):
+  File "Deep.py", line 20, in <module>
+    main()
+  File "Deep.py", line 18, in main
+    list_sum(store)
+  File "Deep.py", line 5, in list_sum
+    count = count+str(number)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
