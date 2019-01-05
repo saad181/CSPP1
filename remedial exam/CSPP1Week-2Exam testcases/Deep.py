@@ -4,13 +4,10 @@ def list_sum(sumlist):
 		if isinstance(i,list):
 			count = count+list_sum(i)
 		else:
-			count = count+i
+			count = count+int(i)
 	return count
 
 		
-
-			
-
 
 def list_count(count):
 	tot = 0
@@ -23,8 +20,7 @@ def list_count(count):
 
 def depth(d):
     maxi = 0
-  
-    # traversal in the lists 
+   # traversal in the lists 
     for x in list1: 
         sum = 0 
         # traversal in list of lists 

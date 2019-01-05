@@ -5,9 +5,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 45, in <module>
+  File "Deep.py", line 41, in <module>
     main()
-  File "Deep.py", line 41, in main
+  File "Deep.py", line 37, in main
     list_count(store)
 NameError: name 'store' is not defined
 ----------------------------------------
@@ -19,13 +19,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 45, in <module>
+  File "Deep.py", line 41, in <module>
     main()
-  File "Deep.py", line 40, in main
+  File "Deep.py", line 36, in main
     list_sum(sumlist)
   File "Deep.py", line 7, in list_sum
-    count = count+i
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+    count = count+int(i)
+ValueError: invalid literal for int() with base 10: 'a,'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -35,9 +35,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 45, in <module>
+  File "Deep.py", line 41, in <module>
     main()
-  File "Deep.py", line 41, in main
+  File "Deep.py", line 37, in main
     list_count(store)
 NameError: name 'store' is not defined
 ----------------------------------------
@@ -49,9 +49,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 45, in <module>
+  File "Deep.py", line 41, in <module>
     main()
-  File "Deep.py", line 41, in main
+  File "Deep.py", line 37, in main
     list_count(store)
 NameError: name 'store' is not defined
 ----------------------------------------
@@ -63,9 +63,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 45, in <module>
+  File "Deep.py", line 41, in <module>
     main()
-  File "Deep.py", line 41, in main
+  File "Deep.py", line 37, in main
     list_count(store)
 NameError: name 'store' is not defined
 ----------------------------------------
@@ -77,16 +77,16 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 45, in <module>
+  File "Deep.py", line 41, in <module>
     main()
-  File "Deep.py", line 40, in main
+  File "Deep.py", line 36, in main
     list_sum(sumlist)
   File "Deep.py", line 5, in list_sum
     count = count+list_sum(i)
   File "Deep.py", line 5, in list_sum
     count = count+list_sum(i)
   File "Deep.py", line 7, in list_sum
-    count = count+i
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+    count = count+int(i)
+ValueError: invalid literal for int() with base 10: 'dfgdfg'
 ----------------------------------------
 
