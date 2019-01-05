@@ -2,7 +2,7 @@ def list_sum(sumlist):
 	count = 0
 	for i in sumlist:
 		for number in i:
-			print(number)
+			sum(number)
 
 
 
