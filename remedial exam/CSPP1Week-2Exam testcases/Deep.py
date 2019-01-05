@@ -4,7 +4,7 @@ def list_sum(sumlist):
 		for number in i:
 			count = count+str(number)
 			return count
-			print(count)
+			# print(count)
 
 
 
@@ -16,5 +16,6 @@ def list_sum(sumlist):
 def main():
 	store = eval(input())
 	list_sum(store)
+	print(count)
 if __name__ == '__main__':
 	main()
