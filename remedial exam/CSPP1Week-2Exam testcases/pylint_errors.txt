@@ -3,15 +3,15 @@ Deep.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indenta
 Deep.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep.py:17:0: C0304: Final newline missing (missing-final-newline)
-Deep.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep.py:18:0: C0304: Final newline missing (missing-final-newline)
+Deep.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:1:0: C0103: Module name "Deep" doesn't conform to snake_case naming style (invalid-name)
 Deep.py:1:0: C0111: Missing module docstring (missing-docstring)
 Deep.py:1:0: C0111: Missing function docstring (missing-docstring)
 Deep.py:2:1: W0612: Unused variable 'count' (unused-variable)
-Deep.py:13:0: C0111: Missing function docstring (missing-docstring)
+Deep.py:14:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
 Your code has been rated at -3.00/10 (previous run: -3.00/10, +0.00)

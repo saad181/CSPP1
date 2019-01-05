@@ -4,14 +4,63 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
-    main()
-  File "Deep.py", line 15, in main
-    list_sum(store)
-  File "Deep.py", line 5, in list_sum
-    sum(number)
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[
+[
+1
+,
+2
+,
+3
+]
+,
+[
+1
+,
+2
+,
+[
+1
+,
+2
+,
+3
+,
+4
+,
+9
+,
+[
+3
+,
+4
+]
+,
+6
+,
+7
+]
+,
+7
+]
+,
+[
+0
+,
+6
+.
+8
+,
+[
+1
+,
+2
+,
+3
+]
+,
+9
+]
+]
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -20,14 +69,34 @@ Expected Output:
 1
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
-    main()
-  File "Deep.py", line 15, in main
-    list_sum(store)
-  File "Deep.py", line 5, in list_sum
-    sum(number)
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[
+"
+a
+,
+"
+,
+ 
+"
+b
+,
+"
+,
+"
+1
+"
+,
+2
+,
+[
+3
+.
+5
+,
+"
+u
+"
+]
+]
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -36,14 +105,21 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
-    main()
-  File "Deep.py", line 15, in main
-    list_sum(store)
-  File "Deep.py", line 5, in list_sum
-    sum(number)
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[
+[
+[
+[
+[
+[
+[
+1
+]
+]
+]
+]
+]
+]
+]
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -52,14 +128,25 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
-    main()
-  File "Deep.py", line 15, in main
-    list_sum(store)
-  File "Deep.py", line 5, in list_sum
-    sum(number)
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[
+1
+,
+[
+1
+,
+[
+1
+,
+[
+1
+,
+[
+1
+]
+]
+]
+]
+]
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -68,14 +155,24 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
-    main()
-  File "Deep.py", line 15, in main
-    list_sum(store)
-  File "Deep.py", line 5, in list_sum
-    sum(number)
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[
+[
+[
+[
+[
+[
+[
+[
+[
+]
+]
+]
+]
+]
+]
+]
+]
+]
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -84,13 +181,134 @@ Expected Output:
 10
 
 Your Output: 
-Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
-    main()
-  File "Deep.py", line 15, in main
-    list_sum(store)
-  File "Deep.py", line 5, in list_sum
-    sum(number)
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[
+[
+1
+,
+2
+,
+3
+,
+4
+,
+5
+6
+5
+4
+6
+6
+5
+,
+[
+3
+,
+4
+5
+,
+-
+0
+,
+0
+,
+-
+6
+6
+6
+,
+"
+d
+f
+g
+d
+f
+g
+"
+,
+"
+j
+k
+k
+k
+"
+]
+,
+[
+1
+,
+2
+,
+4
+,
+"
+i
+i
+"
+,
+8
+.
+9
+,
+[
+"
+i
+"
+,
+"
+j
+"
+]
+,
+4
+,
+5
+,
+6
+,
+[
+7
+,
+8
+,
+8
+]
+,
+"
+r
+"
+,
+"
+p
+"
+,
+6
+,
+-
+9
+]
+,
+[
+8
+,
+6
+,
+9
+]
+,
+1
+]
+,
+3
+,
+[
+[
+]
+,
+[
+]
+]
+,
+[
+]
+]
 ----------------------------------------
 
