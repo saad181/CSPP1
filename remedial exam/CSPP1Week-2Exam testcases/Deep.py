@@ -14,7 +14,7 @@ def list_sum(sumlist):
 
 
 def main():
-	store = list(input())
+	store = eval(input())
 	list_sum(store)
 if __name__ == '__main__':
 	main()

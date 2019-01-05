@@ -14,7 +14,8 @@ Deep.py:1:0: C0111: Missing module docstring (missing-docstring)
 Deep.py:1:0: C0111: Missing function docstring (missing-docstring)
 Deep.py:7:3: W0101: Unreachable code (unreachable)
 Deep.py:16:0: C0111: Missing function docstring (missing-docstring)
+Deep.py:17:9: W0123: Use of eval (eval-used)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.50/10 (previous run: -3.00/10, +0.50)
+Your code has been rated at -3.33/10 (previous run: -2.50/10, -0.83)
 
