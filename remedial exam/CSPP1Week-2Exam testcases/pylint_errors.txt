@@ -2,18 +2,24 @@
 Deep.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep.py:4:6: C0326: Exactly one space required after assignment
+		sum =0
+      ^ (bad-whitespace)
 Deep.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep.py:17:0: C0304: Final newline missing (missing-final-newline)
+Deep.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Deep.py:19:0: C0304: Final newline missing (missing-final-newline)
+Deep.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:1:0: C0103: Module name "Deep" doesn't conform to snake_case naming style (invalid-name)
 Deep.py:1:0: C0111: Missing module docstring (missing-docstring)
 Deep.py:1:0: C0111: Missing function docstring (missing-docstring)
+Deep.py:4:2: W0622: Redefining built-in 'sum' (redefined-builtin)
+Deep.py:5:6: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
 Deep.py:2:1: W0612: Unused variable 'count' (unused-variable)
-Deep.py:3:5: W0612: Unused variable 'i' (unused-variable)
-Deep.py:13:0: C0111: Missing function docstring (missing-docstring)
+Deep.py:15:0: C0111: Missing function docstring (missing-docstring)
 
-------------------------------------
-Your code has been rated at -4.00/10
+--------------------------------------------------------------------
+Your code has been rated at -5.00/10 (previous run: -4.00/10, -1.00)
 

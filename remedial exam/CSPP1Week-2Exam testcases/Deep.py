@@ -1,8 +1,10 @@
 def list_sum(sumlist):
 	count = 0
 	for i in sumlist:
-		add = sum(sumlist)
-		print(add)
+		sum =0
+		for y in i:
+			sum = sum + y
+			print(sum)
 
 
 

@@ -5,12 +5,12 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
+  File "Deep.py", line 19, in <module>
     main()
-  File "Deep.py", line 15, in main
+  File "Deep.py", line 17, in main
     list_sum(store)
-  File "Deep.py", line 4, in list_sum
-    add = sum(sumlist)
+  File "Deep.py", line 6, in list_sum
+    sum = sum + y
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -21,12 +21,12 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
+  File "Deep.py", line 19, in <module>
     main()
-  File "Deep.py", line 15, in main
+  File "Deep.py", line 17, in main
     list_sum(store)
-  File "Deep.py", line 4, in list_sum
-    add = sum(sumlist)
+  File "Deep.py", line 6, in list_sum
+    sum = sum + y
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -37,12 +37,12 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
+  File "Deep.py", line 19, in <module>
     main()
-  File "Deep.py", line 15, in main
+  File "Deep.py", line 17, in main
     list_sum(store)
-  File "Deep.py", line 4, in list_sum
-    add = sum(sumlist)
+  File "Deep.py", line 6, in list_sum
+    sum = sum + y
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -53,12 +53,12 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
+  File "Deep.py", line 19, in <module>
     main()
-  File "Deep.py", line 15, in main
+  File "Deep.py", line 17, in main
     list_sum(store)
-  File "Deep.py", line 4, in list_sum
-    add = sum(sumlist)
+  File "Deep.py", line 6, in list_sum
+    sum = sum + y
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -69,12 +69,12 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
+  File "Deep.py", line 19, in <module>
     main()
-  File "Deep.py", line 15, in main
+  File "Deep.py", line 17, in main
     list_sum(store)
-  File "Deep.py", line 4, in list_sum
-    add = sum(sumlist)
+  File "Deep.py", line 6, in list_sum
+    sum = sum + y
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -85,12 +85,12 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Deep.py", line 17, in <module>
+  File "Deep.py", line 19, in <module>
     main()
-  File "Deep.py", line 15, in main
+  File "Deep.py", line 17, in main
     list_sum(store)
-  File "Deep.py", line 4, in list_sum
-    add = sum(sumlist)
+  File "Deep.py", line 6, in list_sum
+    sum = sum + y
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
