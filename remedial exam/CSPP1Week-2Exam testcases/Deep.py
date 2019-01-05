@@ -1,10 +1,15 @@
 def list_sum(sumlist):
 	count = 0
 	for i in sumlist:
-		for number in i:
-			sum1 = sum1+int(number)
-			return sum1
-			print(sum1)
+		if isinstance(i,list):
+			count = count+list_sum(i)
+		else:
+			count = count+i
+	return count
+
+		
+
+			
 
 
 def list_count(count):
@@ -12,21 +17,29 @@ def list_count(count):
 	for i in count:
 		if "[" in i:
 			tot = tot+1
-			return tot
-			deduct = tot - 1
+	return tot
+	deduct = tot - 1
+	print(deduct)
 
-		# else:
-			
-
-
-
-
+def depth(d):
+    maxi = 0
+  
+    # traversal in the lists 
+    for x in list1: 
+        sum = 0 
+        # traversal in list of lists 
+        for y in x: 
+            sum+= y      
+        maxi = max(sum, maxi)  
+          
+    return maxi 
 
 
 def main():
-	store = eval(input())
-	print(list_sum(store))
-	print(list_count(store))
+	sumlist = eval(input())
+	list_sum(sumlist)
+	list_count(store)
+	depth(store)
 
 if __name__ == '__main__':
 	main()
