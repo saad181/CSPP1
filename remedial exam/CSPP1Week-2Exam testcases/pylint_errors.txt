@@ -6,7 +6,6 @@ Deep.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indenta
 Deep.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Deep.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:21:0: C0304: Final newline missing (missing-final-newline)
 Deep.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Deep.py:1:0: C0103: Module name "Deep" doesn't conform to snake_case naming style (invalid-name)
@@ -14,8 +13,7 @@ Deep.py:1:0: C0111: Missing module docstring (missing-docstring)
 Deep.py:1:0: C0111: Missing function docstring (missing-docstring)
 Deep.py:16:0: C0111: Missing function docstring (missing-docstring)
 Deep.py:17:9: W0123: Use of eval (eval-used)
-Deep.py:19:7: E0602: Undefined variable 'count' (undefined-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.67/10 (previous run: -3.33/10, -3.33)
+Your code has been rated at -2.73/10 (previous run: -6.67/10, +3.94)
 
