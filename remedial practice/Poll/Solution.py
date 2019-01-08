@@ -10,7 +10,8 @@ def equation(list_t):
             d[i] = 1
 
 		
-	
+	key = list(d.keys())
+    value = list(d.values())
 def main():
     ques = int(input())
     d = dict()
