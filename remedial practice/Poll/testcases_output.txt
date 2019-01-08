@@ -3,12 +3,10 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-Traceback (most recent call last):
-  File "Solution.py", line 46, in <module>
-    main()
-  File "Solution.py", line 30, in main
-    p = int(input())
-ValueError: invalid literal for int() with base 10: 'Rehana'
+  File "Solution.py", line 7
+    if i in d:
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -18,12 +16,10 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-Traceback (most recent call last):
-  File "Solution.py", line 46, in <module>
-    main()
-  File "Solution.py", line 30, in main
-    p = int(input())
-ValueError: invalid literal for int() with base 10: 'Rehana'
+  File "Solution.py", line 7
+    if i in d:
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -33,11 +29,9 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-Traceback (most recent call last):
-  File "Solution.py", line 46, in <module>
-    main()
-  File "Solution.py", line 30, in main
-    p = int(input())
-ValueError: invalid literal for int() with base 10: 'Rehana'
+  File "Solution.py", line 7
+    if i in d:
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
 ----------------------------------------
 

@@ -1,12 +1,16 @@
-def equation():
+def equation(list_t):
 	options = []
 	partcipant = []
 	d = {}
 
-	for i in inp:
+	for i in list_t:
+        if i in d:
+            d[i] = d[i]+1
+        else:
+            d[i] = 1
+
 		
-		for i in options:
-			options.append(i)
+	
 def main():
     ques = int(input())
     d = dict()
