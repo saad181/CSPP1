@@ -3,10 +3,10 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-  File "Solution.py", line 7
-    if i in di:
-              ^
-TabError: inconsistent use of tabs and spaces in indentation
+  File "Solution.py", line 5
+    for i in list_t:
+                   ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -16,10 +16,10 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-  File "Solution.py", line 7
-    if i in di:
-              ^
-TabError: inconsistent use of tabs and spaces in indentation
+  File "Solution.py", line 5
+    for i in list_t:
+                   ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -29,9 +29,9 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-  File "Solution.py", line 7
-    if i in di:
-              ^
-TabError: inconsistent use of tabs and spaces in indentation
+  File "Solution.py", line 5
+    for i in list_t:
+                   ^
+IndentationError: unindent does not match any outer indentation level
 ----------------------------------------
 

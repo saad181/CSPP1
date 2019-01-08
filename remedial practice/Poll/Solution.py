@@ -2,8 +2,7 @@ def equation(list_t):
 	options = []
 	partcipant = []
 	di = {}
-
-	for i in list_t:
+    for i in list_t:
         if i in di:
             di[i] = di[i]+1
         else:

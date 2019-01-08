@@ -1,2 +1,2 @@
 ************* Module Solution
-Solution.py:7:0: E0001: inconsistent use of tabs and spaces in indentation (<unknown>, line 7) (syntax-error)
+Solution.py:5:0: E0001: unindent does not match any outer indentation level (<unknown>, line 5) (syntax-error)
