@@ -3,7 +3,10 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-
+  File "Solution.py", line 33
+    for k in range(ques)
+                       ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -13,7 +16,10 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-
+  File "Solution.py", line 33
+    for k in range(ques)
+                       ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -23,6 +29,9 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-
+  File "Solution.py", line 33
+    for k in range(ques)
+                       ^
+SyntaxError: invalid syntax
 ----------------------------------------
 

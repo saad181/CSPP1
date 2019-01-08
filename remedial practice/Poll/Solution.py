@@ -22,7 +22,16 @@ def main():
     new1 = []
     dictionary = dict()
     optionslist = []
-    print("s..........................")
+    # print("s..........................")
+    n1 = []
+    num = int(input())
+    emptylist = []
+    for voters in range(0, num):
+        p = int(input())
+        new1.append(p)
+        optionslist = []
+        for k in range(ques)
+        b = input.split(" ")
 
 
 

@@ -1,35 +1,2 @@
 ************* Module Solution
-Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:13:16: C0326: Exactly one space required before assignment
-    questionlist= []
-                ^ (bad-whitespace)
-Solution.py:18:30: C0326: Exactly one space required after comma
-        for options in range(0,4):
-                              ^ (bad-whitespace)
-Solution.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:32:0: C0305: Trailing newlines (trailing-newlines)
-Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
-Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:4:1: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:6:10: E0602: Undefined variable 'inp' (undefined-variable)
-Solution.py:8:2: W0621: Redefining name 'i' from outer scope (line 6) (redefined-outer-name)
-Solution.py:3:1: W0612: Unused variable 'partcipant' (unused-variable)
-Solution.py:4:1: W0612: Unused variable 'd' (unused-variable)
-Solution.py:10:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:12:4: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:14:8: W0612: Unused variable 'qns' (unused-variable)
-Solution.py:18:12: W0612: Unused variable 'options' (unused-variable)
-Solution.py:22:4: W0612: Unused variable 'new1' (unused-variable)
-Solution.py:23:4: W0612: Unused variable 'dictionary' (unused-variable)
-Solution.py:24:4: W0612: Unused variable 'optionslist' (unused-variable)
-
--------------------------------------------------------------------
-Your code has been rated at -3.04/10 (previous run: 5.65/10, -8.70)
-
+Solution.py:33:0: E0001: invalid syntax (<unknown>, line 33) (syntax-error)
