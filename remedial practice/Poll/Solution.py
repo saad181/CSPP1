@@ -44,3 +44,5 @@ def main():
         print(onlyoneqn(flatten))
     else:
               pass
+if __name__ == '__main__':
+    main()
