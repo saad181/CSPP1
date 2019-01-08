@@ -4,8 +4,8 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
   File "Solution.py", line 7
-    if i in d:
-             ^
+    if i in di:
+              ^
 TabError: inconsistent use of tabs and spaces in indentation
 ----------------------------------------
 
@@ -17,8 +17,8 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
   File "Solution.py", line 7
-    if i in d:
-             ^
+    if i in di:
+              ^
 TabError: inconsistent use of tabs and spaces in indentation
 ----------------------------------------
 
@@ -30,8 +30,8 @@ Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
   File "Solution.py", line 7
-    if i in d:
-             ^
+    if i in di:
+              ^
 TabError: inconsistent use of tabs and spaces in indentation
 ----------------------------------------
 

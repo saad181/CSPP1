@@ -1,17 +1,17 @@
 def equation(list_t):
 	options = []
 	partcipant = []
-	d = {}
+	di = {}
 
 	for i in list_t:
-        if i in d:
-            d[i] = d[i]+1
+        if i in di:
+            di[i] = di[i]+1
         else:
-            d[i] = 1
+            di[i] = 1
 
 		
-	key = list(d.keys())
-    value = list(d.values())
+	partcipant = list(d.keys())
+    options = list(d.values())
 def main():
     ques = int(input())
     d = dict()
