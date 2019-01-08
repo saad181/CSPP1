@@ -6,7 +6,10 @@ def main():
 
 	for i in inp:
 		question = str(input())
-		print(question)
+		for i in options:
+			options.append(i)
+			print(options)
+
 		
 
 

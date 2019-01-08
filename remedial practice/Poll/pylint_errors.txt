@@ -6,18 +6,20 @@ Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:13:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:16:0: C0305: Trailing newlines (trailing-newlines)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:5:1: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:7:10: E1133: Non-iterable value inp is used in an iterating context (not-an-iterable)
-Solution.py:3:1: W0612: Unused variable 'options' (unused-variable)
+Solution.py:9:2: W0621: Redefining name 'i' from outer scope (line 7) (redefined-outer-name)
 Solution.py:4:1: W0612: Unused variable 'partcipant' (unused-variable)
 Solution.py:5:1: W0612: Unused variable 'd' (unused-variable)
-Solution.py:7:5: W0612: Unused variable 'i' (unused-variable)
+Solution.py:8:2: W0612: Unused variable 'question' (unused-variable)
 
--------------------------------------
-Your code has been rated at -17.50/10
+----------------------------------------------------------------------
+Your code has been rated at -14.00/10 (previous run: -17.50/10, +3.50)
 
