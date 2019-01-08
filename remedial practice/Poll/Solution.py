@@ -8,7 +8,7 @@ def main():
 		question = str(input())
 		for i in options:
 			options.append(i)
-			print(options)
+			
 
 		
 
