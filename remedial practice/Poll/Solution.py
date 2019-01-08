@@ -30,8 +30,20 @@ def main():
         p = int(input())
         new1.append(p)
         optionslist = []
-        for k in range(ques)
-        b = input.split(" ")
+        for k in range(ques):
+            b = input.split(" ")
+            optionslist.append(b[len(b) - 1])
+        dictionary[p] = optionslist
+        n1.append(optionslist)
+    for items in n1:
+        for j in items:
+            emptylist.append(j)
+    if len(emptylist) == 3:
+        print(equation(emptylist))
+    else:
+        pass
+if __name__ == '__main__':
+    main()
 
 
 

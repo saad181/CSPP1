@@ -3,10 +3,12 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-  File "Solution.py", line 33
-    for k in range(ques)
-                       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Solution.py", line 46, in <module>
+    main()
+  File "Solution.py", line 30, in main
+    p = int(input())
+ValueError: invalid literal for int() with base 10: 'Rehana'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -16,10 +18,12 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-  File "Solution.py", line 33
-    for k in range(ques)
-                       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Solution.py", line 46, in <module>
+    main()
+  File "Solution.py", line 30, in main
+    p = int(input())
+ValueError: invalid literal for int() with base 10: 'Rehana'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -29,9 +33,11 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-  File "Solution.py", line 33
-    for k in range(ques)
-                       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Solution.py", line 46, in <module>
+    main()
+  File "Solution.py", line 30, in main
+    p = int(input())
+ValueError: invalid literal for int() with base 10: 'Rehana'
 ----------------------------------------
 

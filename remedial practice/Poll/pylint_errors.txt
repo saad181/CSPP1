@@ -1,2 +1,40 @@
 ************* Module Solution
-Solution.py:33:0: E0001: invalid syntax (<unknown>, line 33) (syntax-error)
+Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:13:16: C0326: Exactly one space required before assignment
+    questionlist= []
+                ^ (bad-whitespace)
+Solution.py:18:30: C0326: Exactly one space required after comma
+        for options in range(0,4):
+                              ^ (bad-whitespace)
+Solution.py:50:0: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:53:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:4:1: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:6:10: E0602: Undefined variable 'inp' (undefined-variable)
+Solution.py:8:2: W0621: Redefining name 'i' from outer scope (line 6) (redefined-outer-name)
+Solution.py:3:1: W0612: Unused variable 'partcipant' (unused-variable)
+Solution.py:4:1: W0612: Unused variable 'd' (unused-variable)
+Solution.py:10:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:10:0: R0914: Too many local variables (20/15) (too-many-locals)
+Solution.py:12:4: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:26:4: C0103: Variable name "n1" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:30:8: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:34:12: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:34:16: E1101: Function 'input' has no 'split' member (no-member)
+Solution.py:42:14: E1121: Too many positional arguments for function call (too-many-function-args)
+Solution.py:14:8: W0612: Unused variable 'qns' (unused-variable)
+Solution.py:18:12: W0612: Unused variable 'options' (unused-variable)
+Solution.py:29:8: W0612: Unused variable 'voters' (unused-variable)
+Solution.py:33:12: W0612: Unused variable 'k' (unused-variable)
+
+--------------------------------------------------------------------
+Your code has been rated at -0.24/10 (previous run: -3.04/10, +2.81)
+
