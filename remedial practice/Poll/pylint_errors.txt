@@ -1,25 +1,25 @@
 ************* Module Solution
-Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:18:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:12:0: C0301: Line too long (115/100) (line-too-long)
+Solution.py:22:28: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:46:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:46:0: W0311: Bad indentation. Found 14 spaces, expected 8 (bad-indentation)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:5:1: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:7:10: E1133: Non-iterable value inp is used in an iterating context (not-an-iterable)
-Solution.py:9:2: W0621: Redefining name 'i' from outer scope (line 7) (redefined-outer-name)
-Solution.py:4:1: W0612: Unused variable 'partcipant' (unused-variable)
-Solution.py:5:1: W0612: Unused variable 'd' (unused-variable)
-Solution.py:8:2: W0612: Unused variable 'question' (unused-variable)
+Solution.py:2:4: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:4:4: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:11:4: C0103: Variable name "v" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:13:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:13:0: R0914: Too many local variables (20/15) (too-many-locals)
+Solution.py:15:4: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:25:4: C0103: Variable name "nl" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:32:8: C0103: Variable name "p" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:36:12: C0103: Variable name "b" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:17:8: W0612: Unused variable 'qns' (unused-variable)
+Solution.py:21:12: W0612: Unused variable 'options' (unused-variable)
+Solution.py:31:8: W0612: Unused variable 'voters' (unused-variable)
+Solution.py:35:12: W0612: Unused variable 'k' (unused-variable)
 
-----------------------------------------------------------------------
-Your code has been rated at -11.82/10 (previous run: -11.82/10, +0.00)
+---------------------------------------------------------------------
+Your code has been rated at 5.45/10 (previous run: -11.82/10, +17.27)
 
