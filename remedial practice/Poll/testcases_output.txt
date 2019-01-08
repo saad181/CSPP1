@@ -3,7 +3,12 @@ Expected Output:
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()
+  File "Solution.py", line 7, in main
+    for i in inp:
+TypeError: 'int' object is not iterable
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -13,7 +18,12 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()
+  File "Solution.py", line 7, in main
+    for i in inp:
+TypeError: 'int' object is not iterable
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -23,6 +33,11 @@ Highest number of votes for question : Who will be the next cm for Telangana? : 
 Highest number of votes for question : Who will be the next cm for AP? : CBN
 
 Your Output: 
-
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()
+  File "Solution.py", line 7, in main
+    for i in inp:
+TypeError: 'int' object is not iterable
 ----------------------------------------
 

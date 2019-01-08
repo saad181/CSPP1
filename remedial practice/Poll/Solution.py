@@ -8,7 +8,9 @@ def main():
 		question = str(input())
 		for i in options:
 			options.append(i)
-			
+if __name__ == '__main__':
+	main()
+
 
 		
 

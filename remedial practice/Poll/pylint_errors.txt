@@ -7,9 +7,9 @@ Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:11:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:16:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:18:0: C0305: Trailing newlines (trailing-newlines)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -21,5 +21,5 @@ Solution.py:5:1: W0612: Unused variable 'd' (unused-variable)
 Solution.py:8:2: W0612: Unused variable 'question' (unused-variable)
 
 ----------------------------------------------------------------------
-Your code has been rated at -16.67/10 (previous run: -14.00/10, -2.67)
+Your code has been rated at -11.82/10 (previous run: -16.67/10, +4.85)
 
