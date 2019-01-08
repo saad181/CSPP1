@@ -10,8 +10,8 @@ def equation(list_t):
             di[i] = 1
 
 		
-	partcipant = list(d.keys())
-    options = list(d.values())
+	partcipant = list(di.keys())
+    options = list(di.values())
 def main():
     ques = int(input())
     d = dict()
