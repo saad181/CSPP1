@@ -8,9 +8,7 @@ def equation(list_t):
             di[i] = di[i]+1
         else:
             di[i] = 1
-
-		
-	partcipant = list(di.keys())
+    partcipant = list(di.keys())
     options = list(di.values())
 def main():
     ques = int(input())
