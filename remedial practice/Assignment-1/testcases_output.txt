@@ -41,9 +41,12 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	question text 2(2)
-choice 1	choice 2	choice 3	choice 4	question text 3(3)
-choice 1	choice 2	choice 3	choice 4	question text 4(4)
+choice 1	choice 2	choice 3	choice 4	
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4	
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4	
+question text 4(4)
 choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
@@ -90,9 +93,12 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	question text 2(2)
-choice 1	choice 2	choice 3	choice 4	question text 3(3)
-choice 1	choice 2	choice 3	choice 4	question text 4(4)
+choice 1	choice 2	choice 3	choice 4	
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4	
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4	
+question text 4(4)
 choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
@@ -139,9 +145,12 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	question text 2(2)
-choice 1	choice 2	choice 3	choice 4	question text 3(3)
-choice 1	choice 2	choice 3	choice 4	question text 4(4)
+choice 1	choice 2	choice 3	choice 4	
+question text 2(2)
+choice 1	choice 2	choice 3	choice 4	
+question text 3(3)
+choice 1	choice 2	choice 3	choice 4	
+question text 4(4)
 choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
@@ -218,7 +227,7 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
+  File "Solution.py", line 33, in <module>
     main()
   File "Solution.py", line 31, in main
     fuckme(st)
@@ -461,7 +470,7 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
+  File "Solution.py", line 33, in <module>
     main()
   File "Solution.py", line 31, in main
     fuckme(st)

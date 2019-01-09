@@ -29,4 +29,5 @@ def main():
 	for i in range(0,sp):
 		st = input()
 		fuckme(st)
+		print()
 main()

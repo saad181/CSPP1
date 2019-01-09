@@ -30,6 +30,7 @@ Solution.py:29:17: C0326: Exactly one space required after comma
                  ^ (bad-whitespace)
 Solution.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
@@ -46,5 +47,5 @@ Solution.py:30:2: C0103: Variable name "st" doesn't conform to snake_case naming
 Solution.py:29:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.44/10 (previous run: -3.12/10, -0.31)
+Your code has been rated at -3.33/10 (previous run: -3.44/10, +0.10)
 
