@@ -79,7 +79,7 @@ def main():
         print(print3()+convert(ans3))
     else:
         for i in newl:
-            ans1.append(i[1])
+            ans1.append(i[0])
             ans2.append(i[1])
             ans3.append(i[2])
         convert(ans1)
