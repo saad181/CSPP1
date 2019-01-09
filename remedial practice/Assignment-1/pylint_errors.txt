@@ -35,6 +35,7 @@ Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:7:1: C0103: Variable name "ql" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:11:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 Solution.py:4:1: W0612: Unused variable 'correctchoice' (unused-variable)
 Solution.py:5:1: W0612: Unused variable 'maxmarks' (unused-variable)
 Solution.py:6:1: W0612: Unused variable 'penalty' (unused-variable)
@@ -45,5 +46,5 @@ Solution.py:30:2: C0103: Variable name "st" doesn't conform to snake_case naming
 Solution.py:29:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.12/10 (previous run: -3.12/10, +0.00)
+Your code has been rated at -3.44/10 (previous run: -3.12/10, -0.31)
 

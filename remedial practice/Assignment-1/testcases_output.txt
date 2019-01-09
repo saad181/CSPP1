@@ -41,16 +41,10 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 1	choice 2	choice 3	choice 4	question text 2(2)
+choice 1	choice 2	choice 3	choice 4	question text 3(3)
+choice 1	choice 2	choice 3	choice 4	question text 4(4)
+choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -96,16 +90,10 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 1	choice 2	choice 3	choice 4	question text 2(2)
+choice 1	choice 2	choice 3	choice 4	question text 3(3)
+choice 1	choice 2	choice 3	choice 4	question text 4(4)
+choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -151,16 +139,10 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 1	choice 2	choice 3	choice 4	question text 2(2)
+choice 1	choice 2	choice 3	choice 4	question text 3(3)
+choice 1	choice 2	choice 3	choice 4	question text 4(4)
+choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -275,16 +257,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -332,16 +305,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -366,16 +330,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question text 1(1)
-choice 1	choice 2	choice 3	choice 4	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -400,16 +355,7 @@ Your Output:
 | Start Quiz |
 |------------|
 trick question ()
-choice 4	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 4
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -440,16 +386,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(sony)
-choice 4	choice 2	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 4	choice 2
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -474,16 +411,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(sony)
-choice 4	choice 2	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 4	choice 2
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -508,16 +436,7 @@ Your Output:
 | Start Quiz |
 |------------|
 question about sony(sony)
-choice 4	choice 2	Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 12, in lickme
-    print(temp[i], end="\t")
-IndexError: list index out of range
+choice 4	choice 2
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
