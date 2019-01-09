@@ -4,11 +4,11 @@ Highest number of votes for question : Who should be the next Prime Minister? : 
 
 Your Output: 
 Traceback (most recent call last):
-  File "Solution.py", line 91, in <module>
+  File "Solution.py", line 92, in <module>
     main()
   File "Solution.py", line 68, in main
-    print(onlyoneqn(flatten))
-  File "Solution.py", line 36, in onlyoneqn
+    print(equation(emptylist))
+  File "Solution.py", line 36, in equation
     return "Highest number of votes for question : Who should be the next Prime Minister? :"+" "+participant[options.index(max(v))]
 NameError: name 'v' is not defined
 ----------------------------------------

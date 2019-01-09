@@ -22,7 +22,7 @@ def print2():
     return "Highest number of votes for question : Who will be the next cm for Telangana? : "
 def print3():
     return "Highest number of votes for question : Who will be the next cm for AP? : " 
-def onlyoneqn(listt):
+def equation(listt):
     a = {}
     participant = []
     options = []
@@ -35,38 +35,38 @@ def onlyoneqn(listt):
     options = list(a.values())
     return "Highest number of votes for question : Who should be the next Prime Minister? :"+" "+participant[options.index(max(v))]
 def main():
-    numberofquestions = int(input())
+    ques = int(input())
     d = dict()
-    qnslist = []
-    for qns in range(0, numberofquestions):
-        qntext = input()
-        qnslist.append(qntext)
-        newlist = []
+    questionlist = []
+    for qns in range(0, ques):
+        questiontext = input()
+        questionlist.append(questiontext)
+        new = []
         for options in range(0, 4):
-            string = input()  
-            newlist.append(string)
-        d[qntext] = newlist
+            choice = input()  
+            new.append(choice)
+        d[questiontext] = new
     nl = []
     dictt = dict()
     optionslist = []
     newl = []
     num = int(input())
-    flatten = []
+    emptylist = []
     for voters in range(num):
         p = input()
         nl.append(p)
         optionslist = []
-        for participant in range(numberofquestions):
+        for participant in range(ques):
             b = input().split(" ")
             optionslist.append(b[len(b) - 1])
         dictt[p] = optionslist
         newl.append(optionslist)
     for items in newl:
         for j in items:
-            flatten.append(j)
-    if len(flatten) == 3:
-        print(onlyoneqn(flatten))
-    elif len(flatten) == 9:
+            emptylist.append(j)
+    if len(emptylist) == 3:
+        print(equation(emptylist))
+    elif len(emptylist) == 9:
         for i in newl:
             ans1.append(i[0])
             ans2.append(i[1])
@@ -88,4 +88,5 @@ def main():
         print(print1()+convert(ans1))
         print(print2()+convert(ans2))
         print(print3()+convert(ans3))
-main()
+if __name__ == '__main__':
+    main()
