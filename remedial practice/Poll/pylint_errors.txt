@@ -1,6 +1,6 @@
 ************* Module Solution
 Solution.py:24:86: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:36:0: C0301: Line too long (141/100) (line-too-long)
+Solution.py:36:0: C0301: Line too long (137/100) (line-too-long)
 Solution.py:46:28: C0303: Trailing whitespace (trailing-whitespace)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -24,7 +24,6 @@ Solution.py:21:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:23:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:25:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:26:4: C0103: Variable name "a" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:36:127: E0602: Undefined variable 'optionslist' (undefined-variable)
 Solution.py:37:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:60:12: W0621: Redefining name 'b' from outer scope (line 2) (redefined-outer-name)
 Solution.py:37:0: R0914: Too many local variables (21/15) (too-many-locals)
@@ -38,5 +37,5 @@ Solution.py:55:8: W0612: Unused variable 'voters' (unused-variable)
 Solution.py:59:12: W0612: Unused variable 'participant' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.39/10 (previous run: 5.39/10, +0.00)
+Your code has been rated at 5.96/10 (previous run: 5.39/10, +0.56)
 
