@@ -1,6 +1,6 @@
 ************* Module Solution
 Solution.py:24:86: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:36:0: C0301: Line too long (115/100) (line-too-long)
+Solution.py:36:0: C0301: Line too long (125/100) (line-too-long)
 Solution.py:46:28: C0303: Trailing whitespace (trailing-whitespace)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
@@ -37,7 +37,7 @@ Solution.py:60:12: C0103: Variable name "b" doesn't conform to snake_case naming
 Solution.py:41:8: W0612: Unused variable 'qns' (unused-variable)
 Solution.py:45:12: W0612: Unused variable 'options' (unused-variable)
 Solution.py:55:8: W0612: Unused variable 'voters' (unused-variable)
-Solution.py:59:12: W0612: Unused variable 'k' (unused-variable)
+Solution.py:59:12: W0612: Unused variable 'participant' (unused-variable)
 
 ------------------------------------------------------------------
 Your code has been rated at 5.57/10 (previous run: 5.57/10, +0.00)
