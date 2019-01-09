@@ -15,7 +15,7 @@ def convert(l):
             d[j] = 1
     participant = list(d.keys())
     options = list(d.values())
-    return participant[v.index(max(v))]
+    return participant[options.index(max(options))]
 def print1():
     return "Highest number of votes for question : Who should be the next Prime Minister? : "
 def print2():

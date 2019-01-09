@@ -19,9 +19,6 @@ Solution.py:8:0: C0103: Constant name "ans3" doesn't conform to UPPER_CASE namin
 Solution.py:9:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:9:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:10:4: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:18:23: E0602: Undefined variable 'v' (undefined-variable)
-Solution.py:18:35: E0602: Undefined variable 'v' (undefined-variable)
-Solution.py:17:4: W0612: Unused variable 'options' (unused-variable)
 Solution.py:19:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:21:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:23:0: C0111: Missing function docstring (missing-docstring)
@@ -41,5 +38,5 @@ Solution.py:55:8: W0612: Unused variable 'voters' (unused-variable)
 Solution.py:59:12: W0612: Unused variable 'participant' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.09/10 (previous run: 5.57/10, -1.48)
+Your code has been rated at 5.34/10 (previous run: 4.09/10, +1.25)
 
