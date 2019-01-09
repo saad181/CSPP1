@@ -73,7 +73,7 @@ def main():
             ans3.append(i[2])
         convert(ans1)
         convert(ans2)
-        convert(ans2)
+        convert(ans3)
         print(print1()+convert(ans1))
         print(print2()+convert(ans2))
         print(print3()+convert(ans3))
