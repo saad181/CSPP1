@@ -8,8 +8,8 @@ def lickme(l):
 	srno = ql[2]
 	print(qns+"("+srno+")")
 	temp = choices.split(",")
-	for i in temp:
-		print(i, end="\t")
+	for i in range(0, len(temp)+1):
+		print(temp[i], end="\t")
 		if i == 'choice 4':
 			print(i, end="")
 def fuckme(strings):

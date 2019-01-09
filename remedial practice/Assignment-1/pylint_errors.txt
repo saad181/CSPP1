@@ -45,5 +45,5 @@ Solution.py:30:2: C0103: Variable name "st" doesn't conform to snake_case naming
 Solution.py:29:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.12/10 (previous run: -5.00/10, +1.88)
+Your code has been rated at -3.12/10 (previous run: -3.12/10, +0.00)
 
