@@ -78,15 +78,16 @@ def main():
         print(print2()+convert(ans2))
         print(print3()+convert(ans3))
     else:
-        for i in newl:
-            ans1.append(i[0])
-            ans2.append(i[1])
-            ans3.append(i[2])
-        convert(ans1)
-        convert(ans2)
-        convert(ans2)
-        print(print1()+convert(ans1))
-        print(print2()+convert(ans2))
-        print(print3()+convert(ans3))
+        pass
+        # for i in newl:
+        #     ans1.append(i[0])
+        #     ans2.append(i[1])
+        #     ans3.append(i[2])
+        # convert(ans1)
+        # convert(ans2)
+        # convert(ans2)
+        # print(print1()+convert(ans1))
+        # print(print2()+convert(ans2))
+        # print(print3()+convert(ans3))
 if __name__ == '__main__':
     main()
