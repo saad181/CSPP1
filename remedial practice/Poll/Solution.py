@@ -1,11 +1,11 @@
 global b
 b = []
-global q1ans
-q1ans = []
-global q2ans
-q2ans = []
-global q3ans
-q3ans = []
+global ans1
+ans1 = []
+global ans2
+ans2 = []
+global ans3
+ans3 = []
 def convert(l):
     d = {}
     for j in l:
@@ -68,24 +68,24 @@ def main():
         print(onlyoneqn(flatten))
     elif len(flatten) == 9:
         for i in newl:
-            q1ans.append(i[0])
-            q2ans.append(i[1])
-            q3ans.append(i[2])
-        convert(q1ans)
-        convert(q2ans)
-        convert(q2ans)
-        print(print1()+convert(q1ans))
-        print(print2()+convert(q2ans))
-        print(print3()+convert(q3ans))
+            ans1.append(i[0])
+            ans2.append(i[1])
+            ans3.append(i[2])
+        convert(ans1)
+        convert(ans2)
+        convert(ans2)
+        print(print1()+convert(ans1))
+        print(print2()+convert(ans2))
+        print(print3()+convert(ans3))
     else:
         for i in newl:
-            q1ans.append(i[0])
-            q2ans.append(i[1])
-            q3ans.append(i[2])
-        convert(q1ans)
-        convert(q2ans)
-        convert(q2ans)
-        print(print1()+convert(q1ans))
-        print(print2()+convert(q2ans))
-        print(print3()+convert(q3ans))
+            ans1.append(i[0])
+            ans2.append(i[1])
+            ans3.append(i[2])
+        convert(ans1)
+        convert(ans2)
+        convert(ans2)
+        print(print1()+convert(ans1))
+        print(print2()+convert(ans2))
+        print(print3()+convert(ans3))
 main()
