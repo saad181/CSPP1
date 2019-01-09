@@ -6,4 +6,9 @@ def main():
 	print("| Load Questions |")
 	print("|----------------|")
 	print(str(sp)+" "+"are added to the quiz")
+	print("|------------|")
+	print("| Start Quiz |")
+	print("|------------|")
+	
+
 main()

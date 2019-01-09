@@ -37,6 +37,9 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -78,6 +81,9 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -119,6 +125,9 @@ Your Output:
 | Load Questions |
 |----------------|
 4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -190,6 +199,9 @@ Your Output:
 | Load Questions |
 |----------------|
 10 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -216,6 +228,9 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -236,6 +251,9 @@ Your Output:
 | Load Questions |
 |----------------|
 0 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -256,6 +274,9 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -276,6 +297,9 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -296,6 +320,9 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -322,6 +349,9 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -342,6 +372,9 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -362,6 +395,9 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -382,5 +418,8 @@ Your Output:
 | Load Questions |
 |----------------|
 1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
