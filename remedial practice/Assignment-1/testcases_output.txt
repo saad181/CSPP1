@@ -33,10 +33,10 @@ question text 4
 Total Score: 10
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -74,10 +74,10 @@ question text 4
 Total Score: -10
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -115,10 +115,10 @@ question text 4
 Total Score: -5
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+4 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -186,10 +186,10 @@ question j
 Total Score: 3
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+10 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -212,10 +212,10 @@ question text 1
 Total Score: -4
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -232,10 +232,10 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+0 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -252,10 +252,10 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -272,10 +272,10 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -292,10 +292,10 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -318,10 +318,10 @@ question about sony
 Total Score: 1
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -338,10 +338,10 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -358,10 +358,10 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -378,9 +378,9 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-  File "Solution.py", line 8
-    print(str(sp) " " + "are added to the quiz")
-                    ^
-SyntaxError: invalid syntax
+|----------------|
+| Load Questions |
+|----------------|
+1 are added to the quiz
 ----------------------------------------
 
