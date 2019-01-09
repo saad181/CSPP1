@@ -40,16 +40,11 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 2(2)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 3(3)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 4(4)
+choice 1	choice 2	choice 3	choice 4	choice 4
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -94,16 +89,11 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 2(2)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 3(3)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 4(4)
+choice 1	choice 2	choice 3	choice 4	choice 4
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -148,16 +138,11 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 2(2)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 3(3)
+choice 1	choice 2	choice 3	choice 4	choice 4question text 4(4)
+choice 1	choice 2	choice 3	choice 4	choice 4
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -240,8 +225,8 @@ Traceback (most recent call last):
   File "Solution.py", line 17, in fuckme
     lickme(listt)
   File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+    srno = ql[2]
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -271,16 +256,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4	choice 4
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -327,16 +304,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4	choice 4
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -360,16 +329,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question text 1(1)
+choice 1	choice 2	choice 3	choice 4	choice 4
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -393,16 +354,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+trick question ()
+choice 4	choice 4
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -432,16 +385,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question about sony(sony)
+choice 4	choice 4choice 2
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -465,16 +410,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question about sony(sony)
+choice 4	choice 4choice 2
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -498,16 +435,8 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-Traceback (most recent call last):
-  File "Solution.py", line 32, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+question about sony(sony)
+choice 4	choice 4choice 2
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -539,7 +468,7 @@ Traceback (most recent call last):
   File "Solution.py", line 17, in fuckme
     lickme(listt)
   File "Solution.py", line 8, in lickme
-    srno = q1[2]
-NameError: name 'q1' is not defined
+    srno = ql[2]
+IndexError: list index out of range
 ----------------------------------------
 

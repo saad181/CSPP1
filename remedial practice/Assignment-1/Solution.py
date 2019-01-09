@@ -5,7 +5,7 @@ def lickme(l):
 	maxmarks = l[3]
 	penalty = l[4]
 	ql = qns.split(" ")
-	srno = q1[2]
+	srno = ql[2]
 	print(qns+"("+srno+")")
 	temp = choices.split(",")
 	for i in temp:
