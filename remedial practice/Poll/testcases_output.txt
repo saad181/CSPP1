@@ -1,9 +1,16 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
 
 Your Output: 
-Highest number of votes for question : Who should be the next Prime Minister? : NarendraModi
+Traceback (most recent call last):
+  File "Solution.py", line 92, in <module>
+    main()
+  File "Solution.py", line 68, in main
+    print(equation(emptylist))
+  File "Solution.py", line 36, in equation
+    return "Highest number of votes for question : Who should be the next Prime Minister? :"+" "+participant[options.index(max(optionslist))]
+NameError: name 'optionslist' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
