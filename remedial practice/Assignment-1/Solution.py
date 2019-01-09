@@ -4,10 +4,14 @@ def lickme(l):
 	correctchoice = l[2]
 	maxmarks = l[3]
 	penalty = l[4]
-	print(qns)
-	print(choices)
-	print(correctchoice)
-	print(penalty)
+	ql = qns.split(" ")
+	srno = q1[2]
+	print(qns+"("+srno+")")
+	temp = choices.split(",")
+	for i in temp:
+		print(i, end="\t")
+		if i == 'choice 4':
+			print(i, end="")
 def fuckme(strings):
 	listt = strings.split(":")
 	lickme(listt)
