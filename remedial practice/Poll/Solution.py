@@ -33,7 +33,7 @@ def equation(listt):
             a[i] = 1
     participant = list(a.keys())
     options = list(a.values())
-    return "Highest number of votes for question : Who should be the next Prime Minister? :"+" "+participant[options.index(max(v))]
+    return "Highest number of votes for question : Who should be the next Prime Minister? :"+" "+participant[options.index(max(options))]
 def main():
     ques = int(input())
     d = dict()
