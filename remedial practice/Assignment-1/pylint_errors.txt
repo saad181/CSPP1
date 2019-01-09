@@ -8,13 +8,35 @@ Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:25:17: C0326: Exactly one space required after comma
+	for i in range(0,sp):
+                 ^ (bad-whitespace)
+Solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+Solution.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:4:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:5:1: W0612: Unused variable 'maxmarks' (unused-variable)
+Solution.py:11:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:14:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:17:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:26:2: C0103: Variable name "st" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:25:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.50/10 (previous run: -2.22/10, -0.28)
+Your code has been rated at -2.50/10 (previous run: -2.50/10, +0.00)
 
