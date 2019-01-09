@@ -38,5 +38,5 @@ Solution.py:55:8: W0612: Unused variable 'voters' (unused-variable)
 Solution.py:59:12: W0612: Unused variable 'participant' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.39/10 (previous run: 5.96/10, -0.56)
+Your code has been rated at 5.39/10 (previous run: 5.39/10, +0.00)
 
