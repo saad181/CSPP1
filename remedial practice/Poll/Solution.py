@@ -14,7 +14,7 @@ def convert(l):
         else:
             d[j] = 1
     participant = list(d.keys())
-    v = list(d.values())
+    options = list(d.values())
     return participant[v.index(max(v))]
 def print1():
     return "Highest number of votes for question : Who should be the next Prime Minister? : "
@@ -25,15 +25,15 @@ def print3():
 def onlyoneqn(listt):
     a = {}
     participant = []
-    v = []
+    options = []
     for i in listt:
         if i in a:
             a[i] += 1
         else:
             a[i] = 1
     participant = list(a.keys())
-    v = list(a.values())
-    return "Highest number of votes for question : Who should be the next Prime Minister? :"+" "+participant[v.index(max(v))]
+    options = list(a.values())
+    return "Highest number of votes for question : Who should be the next Prime Minister? :"+" "+participant[options.index(max(v))]
 def main():
     numberofquestions = int(input())
     d = dict()
