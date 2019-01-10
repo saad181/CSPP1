@@ -33,21 +33,7 @@ question text 4
 Total Score: 10
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4	
-question text 2(2)
-choice 1	choice 2	choice 3	choice 4	
-question text 3(3)
-choice 1	choice 2	choice 3	choice 4	
-question text 4(4)
-choice 1	choice 2	choice 3	choice 4
+
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -85,21 +71,7 @@ question text 4
 Total Score: -10
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4	
-question text 2(2)
-choice 1	choice 2	choice 3	choice 4	
-question text 3(3)
-choice 1	choice 2	choice 3	choice 4	
-question text 4(4)
-choice 1	choice 2	choice 3	choice 4
+
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -137,21 +109,7 @@ question text 4
 Total Score: -5
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-4 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4	
-question text 2(2)
-choice 1	choice 2	choice 3	choice 4	
-question text 3(3)
-choice 1	choice 2	choice 3	choice 4	
-question text 4(4)
-choice 1	choice 2	choice 3	choice 4
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -219,23 +177,7 @@ question j
 Total Score: 3
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-10 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-Traceback (most recent call last):
-  File "Solution.py", line 33, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = ql[2]
-IndexError: list index out of range
+
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -258,15 +200,7 @@ question text 1
 Total Score: -4
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
+
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -283,13 +217,7 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-0 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
+
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -306,15 +234,7 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
+
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -331,15 +251,7 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
+
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -356,15 +268,7 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-trick question ()
-choice 4
+
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -387,15 +291,7 @@ question about sony
 Total Score: 1
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony(sony)
-choice 4	choice 2
+
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -412,15 +308,7 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony(sony)
-choice 4	choice 2
+
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -437,15 +325,7 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-question about sony(sony)
-choice 4	choice 2
+
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -462,22 +342,6 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-|----------------|
-| Load Questions |
-|----------------|
-1 are added to the quiz
-|------------|
-| Start Quiz |
-|------------|
-Traceback (most recent call last):
-  File "Solution.py", line 33, in <module>
-    main()
-  File "Solution.py", line 31, in main
-    fuckme(st)
-  File "Solution.py", line 17, in fuckme
-    lickme(listt)
-  File "Solution.py", line 8, in lickme
-    srno = ql[2]
-IndexError: list index out of range
+
 ----------------------------------------
 
