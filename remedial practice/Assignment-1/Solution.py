@@ -7,7 +7,8 @@ def loading(question):
 	penalty = splitting[4]
 	qns_1 = qns.split(" ")
 	print(qns+"("+str(qns_1[2])+")")
-	print(choice)
+	choice_1 = choice.replace(",","	")
+	print(choice_1)
 
 
 

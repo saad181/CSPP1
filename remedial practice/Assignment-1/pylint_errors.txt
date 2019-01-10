@@ -8,7 +8,10 @@ Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:10:30: C0326: Exactly one space required after comma
+	choice_1 = choice.replace(",","	")
+                              ^ (bad-whitespace)
+Solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -19,23 +22,24 @@ Solution.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:32:17: C0326: Exactly one space required after comma
+Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:33:17: C0326: Exactly one space required after comma
 	for i in range(0,sp):
                  ^ (bad-whitespace)
-Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:37:6: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:40:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:38:6: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:41:0: C0305: Trailing newlines (trailing-newlines)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:5:1: W0612: Unused variable 'correct_ans' (unused-variable)
 Solution.py:6:1: W0612: Unused variable 'max_marks' (unused-variable)
 Solution.py:7:1: W0612: Unused variable 'penalty' (unused-variable)
-Solution.py:21:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:24:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:32:5: W0612: Unused variable 'i' (unused-variable)
+Solution.py:22:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:25:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:33:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.60/10 (previous run: -4.17/10, +0.57)
+Your code has been rated at -3.85/10 (previous run: -3.60/10, -0.25)
 
