@@ -1,7 +1,9 @@
 global qns
 qns = splitting[0]
+global splitting
+splitting = question.split(":")
 def loading(question):
-	splitting = question.split(":")
+	# splitting = question.split(":")
 	# qns = splitting[0]
 	choice = splitting[1]
 	correct_ans = splitting[2]
