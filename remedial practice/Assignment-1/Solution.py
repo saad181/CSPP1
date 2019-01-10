@@ -10,6 +10,11 @@ def loading(question):
 	choice_1 = choice.replace(",","	")
 	print(choice_1)
 
+# def score():
+# 	print("|--------------|")
+# 	print("| Score Report |")
+# 	print("|--------------|")
+
 def main():
 	inp = input()
 	token = inp.split(" ")
@@ -25,9 +30,10 @@ def main():
 		ques = input()
 		loading(ques)
 		print()
-		print("|--------------|")
-		print("| Score Report |")
-		print("|--------------|")
+	print("|--------------|")
+	print("| Score Report |")
+	print("|--------------|")
+		
 main()	
 
 
