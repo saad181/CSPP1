@@ -40,6 +40,10 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1
+question text 2
+question text 3
+question text 4
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -84,6 +88,10 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1
+question text 2
+question text 3
+question text 4
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -128,6 +136,10 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1
+question text 2
+question text 3
+question text 4
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -202,6 +214,16 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question a
+question b
+question c
+question d
+question e
+question f
+question g
+question h
+question i
+question j
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -231,6 +253,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -277,6 +300,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -300,6 +324,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question text 1
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -323,6 +348,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+trick question
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -352,6 +378,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question about sony
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -375,6 +402,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question about sony
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -398,6 +426,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+question about sony
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
