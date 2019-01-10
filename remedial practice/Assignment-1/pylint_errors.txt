@@ -7,7 +7,6 @@ Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
 Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -38,5 +37,5 @@ Solution.py:22:1: C0103: Variable name "sp" doesn't conform to snake_case naming
 Solution.py:30:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.58/10 (previous run: -4.35/10, -0.24)
+Your code has been rated at -4.17/10 (previous run: -4.58/10, +0.42)
 

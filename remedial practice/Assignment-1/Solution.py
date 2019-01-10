@@ -6,8 +6,8 @@ def loading(question):
 	max_marks = splitting[3]
 	penalty = splitting[4]
 	qns_1 = qns.split(" ")
-	print(qns+"("+qns_1+")")
-	
+	print(qns+"("+str(qns_1)+")")
+
 
 
 
