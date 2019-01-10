@@ -17,5 +17,5 @@ Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:4:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.33/10 (previous run: -4.55/10, +1.21)
+Your code has been rated at -3.33/10 (previous run: -3.33/10, +0.00)
 

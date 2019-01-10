@@ -36,12 +36,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -82,12 +80,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -128,12 +124,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+4 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -204,12 +198,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+10 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -235,12 +227,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -260,12 +250,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+0 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -285,12 +273,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -310,12 +296,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -335,12 +319,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -366,12 +348,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -391,12 +371,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -416,12 +394,10 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -441,11 +417,9 @@ Your Output:
 |----------------|
 | Load Questions |
 |----------------|
-Traceback (most recent call last):
-  File "Solution.py", line 12, in <module>
-    main()	
-  File "Solution.py", line 8, in main
-    print(sp+" "+"are added to the quiz")
-TypeError: unsupported operand type(s) for +: 'int' and 'str'
+1 are added to the quiz
+|------------|
+| Start Quiz |
+|------------|
 ----------------------------------------
 

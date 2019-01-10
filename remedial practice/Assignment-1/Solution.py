@@ -5,7 +5,7 @@ def main():
 	print("|----------------|")
 	print("| Load Questions |")
 	print("|----------------|")
-	print(sp+" "+"are added to the quiz")
+	print(str(sp)+" "+"are added to the quiz")
 	print("|------------|")
 	print("| Start Quiz |")
 	print("|------------|")
