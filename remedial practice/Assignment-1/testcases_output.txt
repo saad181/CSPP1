@@ -42,10 +42,13 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
+
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
+
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
@@ -94,10 +97,13 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
+
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
+
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
@@ -146,10 +152,13 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
+
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
+
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
 ----------------------------------------
@@ -227,9 +236,9 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 38, in <module>
+  File "Solution.py", line 28, in <module>
     main()	
-  File "Solution.py", line 35, in main
+  File "Solution.py", line 26, in main
     loading(ques)
   File "Solution.py", line 9, in loading
     print(qns+"("+str(qns_1[2])+")")
@@ -468,9 +477,9 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 38, in <module>
+  File "Solution.py", line 28, in <module>
     main()	
-  File "Solution.py", line 35, in main
+  File "Solution.py", line 26, in main
     loading(ques)
   File "Solution.py", line 9, in loading
     print(qns+"("+str(qns_1[2])+")")

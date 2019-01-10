@@ -10,15 +10,6 @@ def loading(question):
 	choice_1 = choice.replace(",","	")
 	print(choice_1)
 
-
-
-
-
-
-
-
-
-
 def main():
 	inp = input()
 	token = inp.split(" ")
@@ -33,8 +24,7 @@ def main():
 	for i in range(0,sp):
 		ques = input()
 		loading(ques)
-
-
+		print()
 main()	
 
 
