@@ -1,7 +1,8 @@
-global qns
-qns = splitting[0]
 global splitting
 splitting = question.split(":")
+global qns
+qns = splitting[0]
+
 def loading(question):
 	# splitting = question.split(":")
 	# qns = splitting[0]
