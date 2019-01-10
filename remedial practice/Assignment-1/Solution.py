@@ -25,6 +25,9 @@ def main():
 		ques = input()
 		loading(ques)
 		print()
+		print("|--------------|")
+		print("| Score Report |")
+		print("|--------------|")
 main()	
 
 

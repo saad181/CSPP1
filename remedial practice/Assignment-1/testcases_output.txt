@@ -43,14 +43,27 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -98,14 +111,27 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -153,14 +179,27 @@ Your Output:
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 2(2)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 3(3)
 choice 1	choice 2	choice 3	choice 4
 
+|--------------|
+| Score Report |
+|--------------|
 question text 4(4)
 choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -236,7 +275,7 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 28, in <module>
+  File "Solution.py", line 31, in <module>
     main()	
   File "Solution.py", line 26, in main
     loading(ques)
@@ -274,6 +313,10 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -322,6 +365,10 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -347,6 +394,10 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -372,6 +423,10 @@ Your Output:
 |------------|
 trick question ()
 choice 4
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -403,6 +458,10 @@ Your Output:
 |------------|
 question about sony(sony)
 choice 4	choice 2
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -428,6 +487,10 @@ Your Output:
 |------------|
 question about sony(sony)
 choice 4	choice 2
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -453,6 +516,10 @@ Your Output:
 |------------|
 question about sony(sony)
 choice 4	choice 2
+
+|--------------|
+| Score Report |
+|--------------|
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -477,7 +544,7 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 28, in <module>
+  File "Solution.py", line 31, in <module>
     main()	
   File "Solution.py", line 26, in main
     loading(ques)

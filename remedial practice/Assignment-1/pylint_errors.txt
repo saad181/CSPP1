@@ -29,8 +29,11 @@ Solution.py:24:17: C0326: Exactly one space required after comma
 Solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:28:6: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:31:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:31:6: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:34:0: C0305: Trailing newlines (trailing-newlines)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -42,5 +45,5 @@ Solution.py:16:1: C0103: Variable name "sp" doesn't conform to snake_case naming
 Solution.py:24:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.70/10 (previous run: -3.85/10, +0.14)
+Your code has been rated at -3.33/10 (previous run: -3.70/10, +0.37)
 
