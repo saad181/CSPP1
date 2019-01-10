@@ -9,5 +9,7 @@ def main():
 	print("|------------|")
 	print("| Start Quiz |")
 	print("|------------|")
-	
+main()	
+
+
 

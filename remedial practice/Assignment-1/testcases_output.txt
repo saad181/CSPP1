@@ -33,7 +33,15 @@ question text 4
 Total Score: 10
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -71,7 +79,15 @@ question text 4
 Total Score: -10
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -109,7 +125,15 @@ question text 4
 Total Score: -5
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -177,7 +201,15 @@ question j
 Total Score: 3
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -200,7 +232,15 @@ question text 1
 Total Score: -4
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -217,7 +257,15 @@ Quiz does not have questions
 |--------------|
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -234,7 +282,15 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -251,7 +307,15 @@ Error! Correct answer choice number is out of range for question text 1
 |--------------|
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -268,7 +332,15 @@ trick question  does not have enough answer choices
 |--------------|
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -291,7 +363,15 @@ question about sony
 Total Score: 1
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -308,7 +388,15 @@ Invalid max marks for question about sony
 |--------------|
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -325,7 +413,15 @@ Invalid penalty for question about sony
 |--------------|
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -342,6 +438,14 @@ Error! Malformed question
 |--------------|
 
 Your Output: 
-
+|----------------|
+| Load Questions |
+|----------------|
+Traceback (most recent call last):
+  File "Solution.py", line 12, in <module>
+    main()	
+  File "Solution.py", line 8, in main
+    print(sp+" "+"are added to the quiz")
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
