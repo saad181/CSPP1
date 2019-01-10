@@ -1,19 +1,16 @@
 ************* Module Solution
-Solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:10:30: C0326: Exactly one space required after comma
+Solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:12:30: C0326: Exactly one space required after comma
 	choice_1 = choice.replace(",","	")
                               ^ (bad-whitespace)
-Solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -23,11 +20,11 @@ Solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:29:17: C0326: Exactly one space required after comma
-	for i in range(0,sp):
-                 ^ (bad-whitespace)
 Solution.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:31:17: C0326: Exactly one space required after comma
+	for i in range(0,sp):
+                 ^ (bad-whitespace)
 Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -36,22 +33,27 @@ Solution.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:42:6: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:45:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:43:0: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:44:6: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:47:0: C0305: Trailing newlines (trailing-newlines)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
-Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:5:1: W0612: Unused variable 'correct_ans' (unused-variable)
-Solution.py:6:1: W0612: Unused variable 'max_marks' (unused-variable)
-Solution.py:7:1: W0612: Unused variable 'penalty' (unused-variable)
-Solution.py:18:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:21:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:38:1: C0103: Variable name "qu" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:39:7: E0602: Undefined variable 'qns' (undefined-variable)
-Solution.py:29:5: W0612: Unused variable 'i' (unused-variable)
-Solution.py:38:1: W0612: Unused variable 'qu' (unused-variable)
+Solution.py:1:0: C0103: Constant name "qns" doesn't conform to UPPER_CASE naming style (invalid-name)
+Solution.py:1:0: W0604: Using the global statement at the module level (global-at-module-level)
+Solution.py:2:0: C0103: Constant name "qns" doesn't conform to UPPER_CASE naming style (invalid-name)
+Solution.py:2:6: E0602: Undefined variable 'splitting' (undefined-variable)
+Solution.py:3:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:7:1: W0612: Unused variable 'correct_ans' (unused-variable)
+Solution.py:8:1: W0612: Unused variable 'max_marks' (unused-variable)
+Solution.py:9:1: W0612: Unused variable 'penalty' (unused-variable)
+Solution.py:20:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:23:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:40:1: C0103: Variable name "qu" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:31:5: W0612: Unused variable 'i' (unused-variable)
+Solution.py:40:1: W0612: Unused variable 'qu' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.29/10 (previous run: -3.67/10, -1.63)
+Your code has been rated at -5.43/10 (previous run: -5.29/10, -0.13)
 

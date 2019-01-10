@@ -1,6 +1,8 @@
+global qns
+qns = splitting[0]
 def loading(question):
 	splitting = question.split(":")
-	qns = splitting[0]
+	# qns = splitting[0]
 	choice = splitting[1]
 	correct_ans = splitting[2]
 	max_marks = splitting[3]
