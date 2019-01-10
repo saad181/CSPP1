@@ -40,10 +40,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
-question text 2
-question text 3
-question text 4
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -88,10 +92,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
-question text 2
-question text 3
-question text 4
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -136,10 +144,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
-question text 2
-question text 3
-question text 4
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -214,16 +226,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question a
-question b
-question c
-question d
-question e
-question f
-question g
-question h
-question i
-question j
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -253,7 +263,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -300,7 +317,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -324,7 +348,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -348,7 +379,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-trick question
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -378,7 +416,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -402,7 +447,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -426,7 +478,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -450,5 +509,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
+Traceback (most recent call last):
+  File "Solution.py", line 35, in <module>
+    main()	
+  File "Solution.py", line 32, in main
+    loading(ques)
+  File "Solution.py", line 9, in loading
+    print(qns+"("+qns_1+")")
+TypeError: must be str, not list
 ----------------------------------------
 
