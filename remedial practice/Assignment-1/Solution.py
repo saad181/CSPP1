@@ -33,6 +33,11 @@ def main():
 	print("|--------------|")
 	print("| Score Report |")
 	print("|--------------|")
+	start = input()
+	quiz_token = start.split(" ")
+	qu = quiz_token[1]
+	print(qns)
+
 		
 main()	
 

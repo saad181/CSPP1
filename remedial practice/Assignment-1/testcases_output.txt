@@ -55,6 +55,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -114,6 +120,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -173,6 +185,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -248,7 +266,7 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 37, in <module>
+  File "Solution.py", line 42, in <module>
     main()	
   File "Solution.py", line 31, in main
     loading(ques)
@@ -290,6 +308,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -316,6 +340,12 @@ Your Output:
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -345,6 +375,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -374,6 +410,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -403,6 +445,12 @@ choice 4
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -438,6 +486,12 @@ choice 4	choice 2
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -467,6 +521,12 @@ choice 4	choice 2
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -496,6 +556,12 @@ choice 4	choice 2
 |--------------|
 | Score Report |
 |--------------|
+Traceback (most recent call last):
+  File "Solution.py", line 42, in <module>
+    main()	
+  File "Solution.py", line 39, in main
+    print(qns)
+NameError: name 'qns' is not defined
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -520,7 +586,7 @@ Your Output:
 | Start Quiz |
 |------------|
 Traceback (most recent call last):
-  File "Solution.py", line 37, in <module>
+  File "Solution.py", line 42, in <module>
     main()	
   File "Solution.py", line 31, in main
     loading(ques)

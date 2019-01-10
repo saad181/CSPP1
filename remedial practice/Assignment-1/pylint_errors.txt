@@ -32,9 +32,13 @@ Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:37:6: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:40:0: C0305: Trailing newlines (trailing-newlines)
+Solution.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:42:6: C0303: Trailing whitespace (trailing-whitespace)
+Solution.py:45:0: C0305: Trailing newlines (trailing-newlines)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -43,8 +47,11 @@ Solution.py:6:1: W0612: Unused variable 'max_marks' (unused-variable)
 Solution.py:7:1: W0612: Unused variable 'penalty' (unused-variable)
 Solution.py:18:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:21:1: C0103: Variable name "sp" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:38:1: C0103: Variable name "qu" doesn't conform to snake_case naming style (invalid-name)
+Solution.py:39:7: E0602: Undefined variable 'qns' (undefined-variable)
 Solution.py:29:5: W0612: Unused variable 'i' (unused-variable)
+Solution.py:38:1: W0612: Unused variable 'qu' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.67/10 (previous run: -3.33/10, -0.33)
+Your code has been rated at -5.29/10 (previous run: -3.67/10, -1.63)
 
