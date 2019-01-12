@@ -13,7 +13,7 @@ def quiz(l):
 	if response == answer:
 		count = count+ points
 		total_score = (points/count)*100
-	print(stu_id+":"+" "+int(total_score))
+	print(int(stu_id)+":"+" "+int(total_score))
 	# else:
 	# 	deduct = (points)
 
