@@ -6,22 +6,17 @@ def quiz(l):
 	answer = token[3]
 	points = int(token[4])
 	count = 0
-	# d = dict()
-	# # t = tuple(response, answer, points)
-	# st = d.keys()
-	# options = d.values()
-	if response == answer:
-		count = count+ points
-		total_score = (points/count)*100
-	print(int(stu_id)+":"+" "+int(total_score))
+	d = dict()
+	t = tuple(response, answer, points)
+	k = d.keys()
+	v = d.values(t)
+	for k,v in sorted(d):
+		if response == answer:
+			count = count+ points
+			total_score = (points/count)*100
+	print((stu_id)+":"+" "+int(total_score))
 	# else:
 	# 	deduct = (points)
-
-
-
-
-
-
 
 
 
