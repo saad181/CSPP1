@@ -4,8 +4,10 @@ def quiz(l):
 	ques = token[1]
 	response = token[2]
 	answer = token[3]
-	points = token[4]
-	print(stu_id)
+	points = int(token[4])
+	count = 0
+	if response == answer:
+		count = count+ points
 	
 
 
