@@ -43,5 +43,5 @@ Quiz.py:23:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:25:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.65/10 (previous run: -3.33/10, -2.32)
+Your code has been rated at -5.65/10 (previous run: -5.65/10, +0.00)
 

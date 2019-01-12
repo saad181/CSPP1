@@ -10,7 +10,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 27, in main
     quiz(line)
   File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
+    t = tuple('response', 'answer', 'points')
 TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
@@ -29,7 +29,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 27, in main
     quiz(line)
   File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
+    t = tuple('response', 'answer', 'points')
 TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
@@ -44,7 +44,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 27, in main
     quiz(line)
   File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
+    t = tuple('response', 'answer', 'points')
 TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
@@ -67,7 +67,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 27, in main
     quiz(line)
   File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
+    t = tuple('response', 'answer', 'points')
 TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
@@ -84,7 +84,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 27, in main
     quiz(line)
   File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
+    t = tuple('response', 'answer', 'points')
 TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
@@ -99,7 +99,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 27, in main
     quiz(line)
   File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
+    t = tuple('response', 'answer', 'points')
 TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
