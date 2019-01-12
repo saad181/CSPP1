@@ -1,2 +1,43 @@
 ************* Module Quiz
-Quiz.py:17:0: E0001: invalid syntax (<unknown>, line 17) (syntax-error)
+Quiz.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:3:9: C0326: Exactly one space required before assignment
+	stu_id  = int(token[0])
+         ^ (bad-whitespace)
+Quiz.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:30:17: C0326: Exactly one space required after comma
+	for i in range(0,inp):
+                 ^ (bad-whitespace)
+Quiz.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
+Quiz.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:9:1: C0103: Variable name "d" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:10:1: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:11:1: C0103: Variable name "st" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:4:1: W0612: Unused variable 'ques' (unused-variable)
+Quiz.py:11:1: W0612: Unused variable 'st' (unused-variable)
+Quiz.py:12:1: W0612: Unused variable 'options' (unused-variable)
+Quiz.py:15:2: W0612: Unused variable 'total_score' (unused-variable)
+Quiz.py:28:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:30:5: W0612: Unused variable 'i' (unused-variable)
+
+--------------------------------------------------------------------
+Your code has been rated at -5.45/10 (previous run: -5.00/10, -0.45)
+

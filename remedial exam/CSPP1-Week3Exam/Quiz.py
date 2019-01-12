@@ -14,8 +14,8 @@ def quiz(l):
 		count = count+ points
 		total_score = (points/count)*100
 	return count
-	else:
-		deduct = (points)
+	# else:
+	# 	deduct = (points)
 
 
 

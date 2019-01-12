@@ -4,10 +4,14 @@ Expected Output:
 1235: 100.0%
 
 Your Output: 
-  File "Quiz.py", line 17
-    else:
-       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Quiz.py", line 33, in <module>
+    main()
+  File "Quiz.py", line 32, in main
+    quiz(line)
+  File "Quiz.py", line 10, in quiz
+    t = tuple(response, answer, points)
+TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -19,10 +23,14 @@ Expected Output:
 1239: 0.0%
 
 Your Output: 
-  File "Quiz.py", line 17
-    else:
-       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Quiz.py", line 33, in <module>
+    main()
+  File "Quiz.py", line 32, in main
+    quiz(line)
+  File "Quiz.py", line 10, in quiz
+    t = tuple(response, answer, points)
+TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -30,10 +38,14 @@ Expected Output:
 Invalid Points
 
 Your Output: 
-  File "Quiz.py", line 17
-    else:
-       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Quiz.py", line 33, in <module>
+    main()
+  File "Quiz.py", line 32, in main
+    quiz(line)
+  File "Quiz.py", line 10, in quiz
+    t = tuple(response, answer, points)
+TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -49,10 +61,14 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-  File "Quiz.py", line 17
-    else:
-       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Quiz.py", line 33, in <module>
+    main()
+  File "Quiz.py", line 32, in main
+    quiz(line)
+  File "Quiz.py", line 10, in quiz
+    t = tuple(response, answer, points)
+TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -62,10 +78,14 @@ Expected Output:
 12349: 50.0%
 
 Your Output: 
-  File "Quiz.py", line 17
-    else:
-       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Quiz.py", line 33, in <module>
+    main()
+  File "Quiz.py", line 32, in main
+    quiz(line)
+  File "Quiz.py", line 10, in quiz
+    t = tuple(response, answer, points)
+TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -73,9 +93,13 @@ Expected Output:
 12345: 100.0%
 
 Your Output: 
-  File "Quiz.py", line 17
-    else:
-       ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "Quiz.py", line 33, in <module>
+    main()
+  File "Quiz.py", line 32, in main
+    quiz(line)
+  File "Quiz.py", line 10, in quiz
+    t = tuple(response, answer, points)
+TypeError: tuple() takes at most 1 argument (3 given)
 ----------------------------------------
 
