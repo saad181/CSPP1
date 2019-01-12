@@ -7,9 +7,9 @@ def quiz(l):
 	points = int(token[4])
 	count = 0
 	d = dict()
-	t = tuple('response', 'answer', 'points')
+	li = list(response, answer, points)
 	k = d.keys()
-	v = d.values(t)
+	v = d.values(li)
 	for k,v in sorted(d):
 		if response == answer:
 			count = count+ points
