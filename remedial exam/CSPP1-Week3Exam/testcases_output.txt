@@ -9,9 +9,9 @@ Traceback (most recent call last):
     main()
   File "Quiz.py", line 32, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
-TypeError: tuple() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    st = d.keys(stu_id)
+TypeError: keys() takes no arguments (1 given)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -28,9 +28,9 @@ Traceback (most recent call last):
     main()
   File "Quiz.py", line 32, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
-TypeError: tuple() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    st = d.keys(stu_id)
+TypeError: keys() takes no arguments (1 given)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -43,9 +43,9 @@ Traceback (most recent call last):
     main()
   File "Quiz.py", line 32, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
-TypeError: tuple() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    st = d.keys(stu_id)
+TypeError: keys() takes no arguments (1 given)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -66,9 +66,9 @@ Traceback (most recent call last):
     main()
   File "Quiz.py", line 32, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
-TypeError: tuple() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    st = d.keys(stu_id)
+TypeError: keys() takes no arguments (1 given)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -83,9 +83,9 @@ Traceback (most recent call last):
     main()
   File "Quiz.py", line 32, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
-TypeError: tuple() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    st = d.keys(stu_id)
+TypeError: keys() takes no arguments (1 given)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -98,8 +98,8 @@ Traceback (most recent call last):
     main()
   File "Quiz.py", line 32, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    t = tuple(response, answer, points)
-TypeError: tuple() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    st = d.keys(stu_id)
+TypeError: keys() takes no arguments (1 given)
 ----------------------------------------
 

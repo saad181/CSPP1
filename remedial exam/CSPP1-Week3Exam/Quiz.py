@@ -7,9 +7,9 @@ def quiz(l):
 	points = int(token[4])
 	count = 0
 	d = dict()
-	t = tuple(response, answer, points)
+	# t = tuple(response, answer, points)
 	st = d.keys(stu_id)
-	options = d.values(t)
+	options = d.values()
 	if response == answer:
 		count = count+ points
 		total_score = (points/count)*100
