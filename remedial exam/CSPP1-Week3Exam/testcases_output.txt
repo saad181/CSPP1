@@ -5,13 +5,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Quiz.py", line 28, in <module>
+  File "Quiz.py", line 29, in <module>
     main()
-  File "Quiz.py", line 27, in main
+  File "Quiz.py", line 28, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    li = list(response, answer, points)
-TypeError: list() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    li.append(response,answer,points)
+TypeError: append() takes exactly one argument (3 given)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -24,13 +24,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Quiz.py", line 28, in <module>
+  File "Quiz.py", line 29, in <module>
     main()
-  File "Quiz.py", line 27, in main
+  File "Quiz.py", line 28, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    li = list(response, answer, points)
-TypeError: list() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    li.append(response,answer,points)
+TypeError: append() takes exactly one argument (3 given)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -39,13 +39,13 @@ Invalid Points
 
 Your Output: 
 Traceback (most recent call last):
-  File "Quiz.py", line 28, in <module>
+  File "Quiz.py", line 29, in <module>
     main()
-  File "Quiz.py", line 27, in main
+  File "Quiz.py", line 28, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    li = list(response, answer, points)
-TypeError: list() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    li.append(response,answer,points)
+TypeError: append() takes exactly one argument (3 given)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -62,13 +62,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Quiz.py", line 28, in <module>
+  File "Quiz.py", line 29, in <module>
     main()
-  File "Quiz.py", line 27, in main
+  File "Quiz.py", line 28, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    li = list(response, answer, points)
-TypeError: list() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    li.append(response,answer,points)
+TypeError: append() takes exactly one argument (3 given)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -79,13 +79,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Quiz.py", line 28, in <module>
+  File "Quiz.py", line 29, in <module>
     main()
-  File "Quiz.py", line 27, in main
+  File "Quiz.py", line 28, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    li = list(response, answer, points)
-TypeError: list() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    li.append(response,answer,points)
+TypeError: append() takes exactly one argument (3 given)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -94,12 +94,12 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "Quiz.py", line 28, in <module>
+  File "Quiz.py", line 29, in <module>
     main()
-  File "Quiz.py", line 27, in main
+  File "Quiz.py", line 28, in main
     quiz(line)
-  File "Quiz.py", line 10, in quiz
-    li = list(response, answer, points)
-TypeError: list() takes at most 1 argument (3 given)
+  File "Quiz.py", line 11, in quiz
+    li.append(response,answer,points)
+TypeError: append() takes exactly one argument (3 given)
 ----------------------------------------
 
