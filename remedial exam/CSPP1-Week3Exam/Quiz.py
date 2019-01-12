@@ -1,6 +1,6 @@
 def quiz(l):
 	token = l.split("|")
-	stu_id  = token[0]
+	stu_id  = int(token[0])
 	ques = token[1]
 	response = token[2]
 	answer = token[3]
