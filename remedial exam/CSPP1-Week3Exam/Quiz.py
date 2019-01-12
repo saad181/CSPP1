@@ -6,9 +6,16 @@ def quiz(l):
 	answer = token[3]
 	points = int(token[4])
 	count = 0
+	d = dict()
+	t = tuple(response, answer, points)
+	st = d.keys(stu_id)
+	options = d.values(t)
 	if response == answer:
 		count = count+ points
-	
+		total_score = (points/count)*100
+	return count
+	else:
+		deduct = (points)
 
 
 
