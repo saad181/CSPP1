@@ -10,7 +10,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 32, in main
     quiz(line)
   File "Quiz.py", line 16, in quiz
-    print(stu_id+":"+" "+total_score)
+    print(stu_id+":"+" "+int(total_score))
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -29,7 +29,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 32, in main
     quiz(line)
   File "Quiz.py", line 16, in quiz
-    print(stu_id+":"+" "+total_score)
+    print(stu_id+":"+" "+int(total_score))
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -44,7 +44,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 32, in main
     quiz(line)
   File "Quiz.py", line 16, in quiz
-    print(stu_id+":"+" "+total_score)
+    print(stu_id+":"+" "+int(total_score))
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -67,7 +67,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 32, in main
     quiz(line)
   File "Quiz.py", line 16, in quiz
-    print(stu_id+":"+" "+total_score)
+    print(stu_id+":"+" "+int(total_score))
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -84,7 +84,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 32, in main
     quiz(line)
   File "Quiz.py", line 16, in quiz
-    print(stu_id+":"+" "+total_score)
+    print(stu_id+":"+" "+int(total_score))
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
@@ -99,7 +99,7 @@ Traceback (most recent call last):
   File "Quiz.py", line 32, in main
     quiz(line)
   File "Quiz.py", line 16, in quiz
-    print(stu_id+":"+" "+total_score)
+    print(stu_id+":"+" "+int(total_score))
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
