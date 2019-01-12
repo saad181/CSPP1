@@ -5,9 +5,8 @@ def quiz(l):
 	response = token[2]
 	answer = token[3]
 	points = token[4]
-	li = []
-	li.append(stu_id)
-	print(li)
+	print(stu_id)
+	
 
 
 
