@@ -20,10 +20,10 @@ def quiz(l):
                 marksobtained[stu_id] += int(points)
             else:
                 marksobtained[stu_id] -= int(points)
-        for keys in sorted(total):
-            for each in sorted(marksobtained):
+        for keys in sorted(marksobtained):
+            for each in sorted(total):
                 if keys == each:
-                    score = int(marksobtained[each]/total[keys] * 100)
+                    score = int(marksobtained[keys]/total[each] * 100)
                     if score <=0:
                         score = 0.0
                         print(each + ": "+ str(score)+"%")
@@ -31,8 +31,6 @@ def quiz(l):
                         print(each + ": "+ str(float(score))+ "%")
     except Exception as e:
         print(e)
-
-    
 def main():
     inp = int(input())
     for i in range(0,inp):
