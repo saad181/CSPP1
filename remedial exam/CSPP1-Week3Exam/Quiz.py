@@ -4,7 +4,7 @@ def quiz(l):
 	ques = token[1]
 	response = token[2]
 	answer = token[3]
-	points = (token[4])
+	points = int(token[4])
 	total = dict()
 	marksobtained = dict()
 	try:
@@ -43,5 +43,3 @@ def main():
 		line = input()
 		quiz(line)
 main()
-
-
