@@ -4,7 +4,7 @@ def quiz(l):
     ques = token[1]
     response = token[2]
     answer = token[3]
-    points = int(token[4])
+    points = token[4]
     total = dict()
     marksobtained = dict()
     try:
@@ -15,11 +15,11 @@ def quiz(l):
                 total[stu_id] = int(points)
                 marksobtained[stu_id] = int(0)
             else:
-                total[stu_id] = total[stu_id]+ points
+                total[stu_id] = total[stu_id]+ int(points)
             if response == answer:
-                marksobtained[stu_id] += points
+                marksobtained[stu_id] += int(points)
             else:
-                marksobtained[stu_id] -= points
+                marksobtained[stu_id] -= int(points)
         for keys in sorted(total):
             for each in sorted(marksobtained):
                 if keys == each:

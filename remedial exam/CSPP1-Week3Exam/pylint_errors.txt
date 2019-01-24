@@ -20,6 +20,6 @@ Quiz.py:4:4: W0612: Unused variable 'ques' (unused-variable)
 Quiz.py:36:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:38:8: W0612: Unused variable 'i' (unused-variable)
 
---------------------------------------------------------------------
-Your code has been rated at 6.00/10 (previous run: -4.29/10, +10.29)
+------------------------------------------------------------------
+Your code has been rated at 6.00/10 (previous run: 6.00/10, +0.00)
 

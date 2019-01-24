@@ -55,14 +55,29 @@ Invalid Points
 Your Output: 
 1234: 0.0%
 1234: 0.0%
-Traceback (most recent call last):
-  File "Quiz.py", line 41, in <module>
-    main()
-  File "Quiz.py", line 40, in main
-    quiz(line)
-  File "Quiz.py", line 7, in quiz
-    points = int(token[4])
-ValueError: invalid literal for int() with base 10: 'a'
+invalid points
+1233: 100.0%
+1234: 0.0%
+1234: 100.0%
+1235: 0.0%
+invalid points
+1234: 0.0%
+1233: 100.0%
+1234: 0.0%
+1234: 100.0%
+invalid literal for int() with base 10: 'd'
+1234: 0.0%
+1236: 0.0%
+1236: 100.0%
+1234: 0.0%
+1234: 100.0%
+1239: 0.0%
+1234: 0.0%
+1234: 0.0%
+1234: 0.0%
+1234: 0.0%
+1234: 0.0%
+1234: 0.0%
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
