@@ -4,14 +4,12 @@ Expected Output:
 1235: 100.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 29, in <module>
-    main()
-  File "Quiz.py", line 28, in main
-    quiz(line)
-  File "Quiz.py", line 11, in quiz
-    li.append(response,answer,points)
-TypeError: append() takes exactly one argument (3 given)
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -23,14 +21,31 @@ Expected Output:
 1239: 0.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 29, in <module>
-    main()
-  File "Quiz.py", line 28, in main
-    quiz(line)
-  File "Quiz.py", line 11, in quiz
-    li.append(response,answer,points)
-TypeError: append() takes exactly one argument (3 given)
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -38,14 +53,16 @@ Expected Output:
 Invalid Points
 
 Your Output: 
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
 Traceback (most recent call last):
-  File "Quiz.py", line 29, in <module>
+  File "Quiz.py", line 45, in <module>
     main()
-  File "Quiz.py", line 28, in main
+  File "Quiz.py", line 44, in main
     quiz(line)
-  File "Quiz.py", line 11, in quiz
-    li.append(response,answer,points)
-TypeError: append() takes exactly one argument (3 given)
+  File "Quiz.py", line 7, in quiz
+    points = int(token[4])
+ValueError: invalid literal for int() with base 10: 'a'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -61,14 +78,66 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 29, in <module>
-    main()
-  File "Quiz.py", line 28, in main
-    quiz(line)
-  File "Quiz.py", line 11, in quiz
-    li.append(response,answer,points)
-TypeError: append() takes exactly one argument (3 given)
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -78,14 +147,15 @@ Expected Output:
 12349: 50.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 29, in <module>
-    main()
-  File "Quiz.py", line 28, in main
-    quiz(line)
-  File "Quiz.py", line 11, in quiz
-    li.append(response,answer,points)
-TypeError: append() takes exactly one argument (3 given)
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -93,13 +163,16 @@ Expected Output:
 12345: 100.0%
 
 Your Output: 
-Traceback (most recent call last):
-  File "Quiz.py", line 29, in <module>
-    main()
-  File "Quiz.py", line 28, in main
-    quiz(line)
-  File "Quiz.py", line 11, in quiz
-    li.append(response,answer,points)
-TypeError: append() takes exactly one argument (3 given)
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
+unsupported operand type(s) for +: 'int' and 'str'
 ----------------------------------------
 
