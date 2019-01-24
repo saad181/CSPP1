@@ -20,10 +20,6 @@ def quiz(l):
 				marksobtained[stu_id] += points
 			else:
 				marksobtained[stu_id] -= points
-				if marksobtained[stu_id] < 0:
-					marksobtained[stu_id] += points
-				else:
-					marksobtained[stu_id]
 		for keys in sorted(marksobtained):
 			for each in sorted(total):
 				if keys == each:

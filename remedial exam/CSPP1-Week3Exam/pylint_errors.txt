@@ -28,40 +28,34 @@ Quiz.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indent
 Quiz.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:27:14: C0326: Exactly one space required after comparison
+					if score <=0:
+              ^^ (bad-whitespace)
 Quiz.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:31:14: C0326: Exactly one space required after comparison
-					if score <=0:
-              ^^ (bad-whitespace)
 Quiz.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
 Quiz.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:39:0: C0303: Trailing whitespace (trailing-whitespace)
-Quiz.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:42:17: C0326: Exactly one space required after comma
+Quiz.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:38:17: C0326: Exactly one space required after comma
 	for i in range(0,inp):
                  ^ (bad-whitespace)
-Quiz.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:45:0: C0304: Final newline missing (missing-final-newline)
+Quiz.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Quiz.py:41:0: C0304: Final newline missing (missing-final-newline)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:36:8: W0703: Catching too general exception Exception (broad-except)
-Quiz.py:26:5: W0104: Statement seems to have no effect (pointless-statement)
-Quiz.py:36:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+Quiz.py:32:8: W0703: Catching too general exception Exception (broad-except)
+Quiz.py:32:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:4:1: W0612: Unused variable 'ques' (unused-variable)
-Quiz.py:1:0: R0912: Too many branches (14/12) (too-many-branches)
-Quiz.py:40:0: C0111: Missing function docstring (missing-docstring)
-Quiz.py:42:5: W0612: Unused variable 'i' (unused-variable)
+Quiz.py:36:0: C0111: Missing function docstring (missing-docstring)
+Quiz.py:38:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.74/10 (previous run: -4.74/10, +0.00)
+Your code has been rated at -4.29/10 (previous run: -4.74/10, +0.45)
 

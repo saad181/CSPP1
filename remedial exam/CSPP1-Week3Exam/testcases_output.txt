@@ -56,9 +56,9 @@ Your Output:
 1234: 0.0%
 1234: 0.0%
 Traceback (most recent call last):
-  File "Quiz.py", line 45, in <module>
+  File "Quiz.py", line 41, in <module>
     main()
-  File "Quiz.py", line 44, in main
+  File "Quiz.py", line 40, in main
     quiz(line)
   File "Quiz.py", line 7, in quiz
     points = int(token[4])
