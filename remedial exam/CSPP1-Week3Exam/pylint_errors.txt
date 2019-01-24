@@ -2,7 +2,7 @@
 Quiz.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:3:9: C0326: Exactly one space required before assignment
-	stu_id  = int(token[0])
+	stu_id  = token[0]
          ^ (bad-whitespace)
 Quiz.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -49,7 +49,7 @@ Quiz.py:42:17: C0326: Exactly one space required after comma
                  ^ (bad-whitespace)
 Quiz.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Quiz.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Quiz.py:48:0: C0305: Trailing newlines (trailing-newlines)
+Quiz.py:47:0: C0305: Trailing newlines (trailing-newlines)
 Quiz.py:1:0: C0103: Module name "Quiz" doesn't conform to snake_case naming style (invalid-name)
 Quiz.py:1:0: C0111: Missing module docstring (missing-docstring)
 Quiz.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
@@ -63,5 +63,5 @@ Quiz.py:40:0: C0111: Missing function docstring (missing-docstring)
 Quiz.py:42:5: W0612: Unused variable 'i' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.74/10 (previous run: -6.25/10, +1.51)
+Your code has been rated at -4.74/10 (previous run: -4.74/10, +0.00)
 

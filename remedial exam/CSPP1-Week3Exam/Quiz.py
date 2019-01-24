@@ -1,10 +1,10 @@
 def quiz(l):
 	token = l.split("|")
-	stu_id  = int(token[0])
+	stu_id  = token[0]
 	ques = token[1]
 	response = token[2]
 	answer = token[3]
-	points = int(token[4])
+	points = (token[4])
 	total = dict()
 	marksobtained = dict()
 	try:
@@ -43,6 +43,5 @@ def main():
 		line = input()
 		quiz(line)
 main()
-
 
 
