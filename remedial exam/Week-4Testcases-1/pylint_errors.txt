@@ -1,0 +1,35 @@
+************* Module Fitbyte
+Fitbyte.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:10:0: C0325: Unnecessary parens after 'while' keyword (superfluous-parens)
+Fitbyte.py:10:8: C0326: Exactly one space required around comparison
+	while(i<inp):
+        ^ (bad-whitespace)
+Fitbyte.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:19:17: C0326: Exactly one space required after comma
+	for i in range(0,inp):
+                 ^ (bad-whitespace)
+Fitbyte.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Fitbyte.py:1:0: C0103: Module name "Fitbyte" doesn't conform to snake_case naming style (invalid-name)
+Fitbyte.py:1:0: C0111: Missing module docstring (missing-docstring)
+Fitbyte.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
+Fitbyte.py:1:0: C0111: Missing function docstring (missing-docstring)
+Fitbyte.py:10:9: E0602: Undefined variable 'inp' (undefined-variable)
+Fitbyte.py:6:1: W0612: Unused variable 'time' (unused-variable)
+Fitbyte.py:17:0: C0111: Missing function docstring (missing-docstring)
+Fitbyte.py:19:5: W0612: Unused variable 'i' (unused-variable)
+
+------------------------------------
+Your code has been rated at -6.67/10
+
